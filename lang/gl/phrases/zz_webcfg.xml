@@ -1,0 +1,1005 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE phrases SYSTEM "entities.dtd">
+<epp:phrases xmlns="http://www.w3.org/1999/xhtml" xmlns:epp="http://eprints.org/ep3/phrase" xmlns:epc="http://eprints.org/ep3/control">
+
+  <!-- This file is used to add phrases from the phrase editor screen -->
+
+    <epp:phrase id="eprint_optdetails_type_arquivo_atropoloxico">Arquivo antropolóxico</epp:phrase>
+
+    <epp:phrase id="eprint_typename_arquivo_atropoloxico">Arquivo antropolóxico</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_compilador_id">Info</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_compilador">Compiladores</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_compilador">---</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_tipo_soporte_papel">Papel</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_tipo_soporte_otros">Outros</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_tipo_soporte_fotografia">Fotografía</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_tipo_soporte_cinta">Cinta Magnetofónica</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_tipo_soporte">Tipo de soporte</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_tipo_soporte">Axuda tipo de soporte</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_autor_ficha_id">Email</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_autor_ficha">Autor da ficha inicial</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_autor_ficha">Axuda autor da ficha inicial</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_title">Título da peza</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_autor_recolla">Autor material da recolla</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_autor_recolla_id">Email</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_estudada">Estudada</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_informantes">Informantes / Intérpretes</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_informantes_id">Email</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_ref_soporte">Referencia do soporte orixinal</epp:phrase>
+
+    <epp:phrase id="eprint_radio_estudada">Peza estudada</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_date">Data da recolla</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_autor_recolla">Axuda autor da recolla</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_estudada">Axuda Estudada</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_texto_peza">Transcripción da peza</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_coleccion">Axuda colección</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_informantes">Axuda informantes</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_ref_soporte">Axuda referencia do soporte</epp:phrase>
+
+    <epp:phrase id="bin/generate_views:indextitleprefix">Explorar por </epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_date">Data no que o evento foi recollido</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_coleccion">Colección</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_tipo_peza">Tipo de peza</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_tipo_peza_coleccions">Colección</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_tipo_peza_entrevista">Entrevista</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_tipo_peza_relato">Relato</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_tipo_peza_rexistro">Gravación en vivo</epp:phrase>
+
+    <epp:phrase id="eprint_typename_other">Outro</epp:phrase>
+
+    <epp:phrase id="lib/metafield:day">Día:</epp:phrase>
+
+    <epp:phrase id="lib/metafield:family_names">Apelidos</epp:phrase>
+
+    <epp:phrase id="lib/metafield:given_names">Nome</epp:phrase>
+
+    <epp:phrase id="lib/metafield:month">Mes:</epp:phrase>
+
+    <epp:phrase id="lib/metafield:unspecified">SEN ESPECIFICAR</epp:phrase>
+
+    <epp:phrase id="lib/metafield:more_spaces">Mais liñas</epp:phrase>
+
+    <epp:phrase id="lib/metafield:year">Ano:</epp:phrase>
+
+    <epp:phrase id="cgi/advsearch:preamble"><p> Non teñas medo! deixa os campos nos que non queras buscar en branco. <a href="simple">Click aquí para a busca sinxela.</a></p></epp:phrase>
+
+    <epp:phrase id="cgi/advsearch:adv_search">Busca avanzada</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_compilador_nombre">Compilador Borrar</epp:phrase>
+
+    <epp:phrase id="eprint_optdetails_type_estudo_antropoloxico">Estudo antropolóxico xeral</epp:phrase>
+
+    <epp:phrase id="eprint_typename_estudo_antropoloxico">Estudo antropolóxico</epp:phrase>
+
+    <epp:phrase id="Plugin/InputForm/Component/Upload:title">Engadir un novo documento</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_informantes_nombre">Informantes</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_subjects">Áreas de coñecemento</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_contexto_etnografico">Contexto etnográfico</epp:phrase>
+
+    <epp:phrase id="lib/metafield:join_name"> e </epp:phrase>
+
+    <epp:phrase id="Plugin/InputForm/Component/Field/Subject:add">Engadir</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_informe">Informe etnográfico</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_creators">Compilador</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_localizacion">Lugar da recolla</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_localizacion_lugar">Lugar da recolla</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_localizacion_tipo">División xeográfica</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_localizacion_url">Xeo google</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_localizacion_tipo_comarca">Comarca: </epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_localizacion_tipo_Comunidade">Comunidade Autónoma: </epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_localizacion_tipo_concello">Concello: </epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_localizacion_tipo_lugar">Lugar: </epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_localizacion_tipo_parroquia">Parroquia: </epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_localizacion_tipo_provincia">Provincia: </epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_informantes_url">url</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_creators_id">Id</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_creators_name">Compilador</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_data_type">Tipo de dato</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_lastmod">Última modificación</epp:phrase>
+
+    <epp:phrase id="cgi/users/edit_eprint:loading">Cargando...</epp:phrase>
+
+    <epp:phrase id="document_fieldname_format">Tipo</epp:phrase>
+
+    <epp:phrase id="document_fieldname_language">Linguaxe</epp:phrase>
+
+    <epp:phrase id="cgi/users/edit_eprint:item_is_in_archive">Este obxeto atópase no repositorio coa URL<br/><epc:pin name="link"><epc:pin name="url"/></epc:pin></epp:phrase>
+
+    <epp:phrase id="document_typename_text">Texto</epp:phrase>
+
+    <epp:phrase id="document_typename_image">Imaxe</epp:phrase>
+
+    <epp:phrase id="document_fieldname_security">Visible para</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_date_type">Tipo de dato</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_datestamp">Data de depósito</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_eprint_status">Estado do obxeto</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_eprintid">ID do obxeto</epp:phrase>
+
+    <epp:phrase id="lib/searchexpression:action_search">Atopar</epp:phrase>
+
+    <epp:phrase id="lib/session:edit_phrases">Editar as frases da páxina</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin:admin_actions_system">Ferramentas do sistema</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_type">Tipo de obxeto</epp:phrase>
+
+    <epp:phrase id="metapage_title_files">Subir</epp:phrase>
+
+    <epp:phrase id="metapage_title_type">Tipo</epp:phrase>
+
+    <epp:phrase id="lib/utils:month_12">Decembro</epp:phrase>
+
+    <epp:phrase id="lib/utils:month_05">Maio</epp:phrase>
+
+    <epp:phrase id="lib/utils:month_short_05">Maio</epp:phrase>
+
+    <epp:phrase id="lib/utils:month_short_06">Junio</epp:phrase>
+    
+    <epp:phrase id="video5">data-setup='{}'</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_abstract">Resumo / Descripción</epp:phrase>
+
+    <epp:phrase id="lib/document:preview">Vista previa</epp:phrase>
+
+    <epp:phrase id="lib/searchfield:set_any">Calquera</epp:phrase>
+
+    <epp:phrase id="lib/searchfield:set_all">Todos</epp:phrase>
+
+    <epp:phrase id="lib/searchfield:text_any">Calquera de</epp:phrase>
+
+    <epp:phrase id="lib/searchfield:text_all">Todos de</epp:phrase>
+
+    <epp:phrase id="lib/searchexpression:must_fulfill">Os resultados deberán cumprir</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_compilador_url">Url</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_creators_url">Url</epp:phrase>
+
+    <epp:phrase id="lib/utils:month_00">Sen especificar</epp:phrase>
+
+    <epp:phrase id="lib/utils:month_01">Xaneiro</epp:phrase>
+
+    <epp:phrase id="lib/utils:month_02">Febreiro</epp:phrase>
+
+    <epp:phrase id="lib/utils:month_03">Marzo</epp:phrase>
+
+    <epp:phrase id="lib/utils:month_04">Abril</epp:phrase>
+
+    <epp:phrase id="lib/utils:month_06">Xuño</epp:phrase>
+
+    <epp:phrase id="lib/utils:month_07">Xullo</epp:phrase>
+
+    <epp:phrase id="lib/utils:month_08">Agosto</epp:phrase>
+
+    <epp:phrase id="lib/utils:month_09">Septembro</epp:phrase>
+
+    <epp:phrase id="lib/utils:month_10">Outubro</epp:phrase>
+
+    <epp:phrase id="lib/utils:month_11">Novembro</epp:phrase>
+    
+    <epp:phrase id="template/navigation:home">Inicio</epp:phrase>
+	
+	<epp:phrase id="template/navigation:about">Información</epp:phrase>
+	
+	<epp:phrase id="template/navigation:browse">Explorar</epp:phrase>
+
+    <epp:phrase id="lib/searchexpression:least_one">É preciso cubrir cando menos un campo</epp:phrase>
+
+    <epp:phrase id="lib/searchexpression:action_reset">Limpar o formulario</epp:phrase>
+
+    <epp:phrase id="document_typename_archive">Arquivo</epp:phrase>
+
+    <epp:phrase id="document_typename_other">Outro</epp:phrase>
+
+    <epp:phrase id="lib/searchexpression:all">todas estas condicións</epp:phrase>
+
+    <epp:phrase id="lib/searchexpression:any">algunha de estas condicións</epp:phrase>
+
+    <epp:phrase id="ordername_eprint_byname">por nome de autor</epp:phrase>
+
+    <epp:phrase id="ordername_eprint_bytitle">por título</epp:phrase>
+
+  
+    <epp:phrase id="general:frontpage_link"><p xmlns:epc="http://eprints.org/ep3/control"><a href="{$config{frontpage}}">Ir a páxina principal do <epc:phrase ref="archive_name"/></a></p></epp:phrase>
+
+    <epp:phrase id="lib/searchfield:help_date">Introduza una data ou un intervalo. 
+<br/>Exemplos:  "<span class="ep_form_example">1985-</span>", 
+"<span class="ep_form_example">2001-05-17-2002-05-16</span>",
+"<span class="ep_form_example">-11-1980</span>"
+</epp:phrase>
+
+    <epp:phrase id="lib/searchexpression:order_results">Ordenar os resultados</epp:phrase>
+
+    <epp:phrase id="lib/searchfield:help_subject">Select one or more values from the list, and whether you want to search for records with any one or all of those values. Default is (Any).
+Seleccione unha ou varias opcións da lista. A opción por defecto e (calquera)</epp:phrase>
+
+    <epp:phrase id="lib/searchexpression:export_button">Exportar</epp:phrase>
+
+    <epp:phrase id="archive_name">Arquivo Dixital do Museo do Pobo Galego</epp:phrase>
+
+    <epp:phrase id="lib/searchexpression:new">Nova Búsqueda</epp:phrase>
+
+    <epp:phrase id="lib/searchexpression:refine">Refinar Búsqueda</epp:phrase>
+
+    <epp:phrase id="lib/searchexpression:reorder_button">Reordear</epp:phrase>
+
+    <epp:phrase id="lib/searchexpression:savesearch">Gardar Búsqueda</epp:phrase>
+
+    <epp:phrase id="ordername_eprint_byyear">por ano (o mais recente primeiro)</epp:phrase>
+
+    <epp:phrase id="ordername_eprint_byyearoldest">por ano (o mais antigo primeiro)</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin:title">Administrar</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Login:title:logged_in">Rexistrado como <epc:pin name="user"/></epp:phrase>
+
+    <epp:phrase id="lib/searchexpression:export_section">
+<table xmlns:epc="http://eprints.org/ep3/control" width="100%"><tr>
+  <td align="left">Exportar <epc:pin name="count"/> resultados como <epc:pin name="menu"/><epc:pin name="button"/></td>
+  <td align="right"><epc:pin name="feeds"/></td>
+</tr>
+<tr>
+  <td align="left" colspan="2">
+    <epc:pin name="tools"/>
+  </td>
+</tr>
+</table>
+
+</epp:phrase>
+
+    <epp:phrase id="lib/searchexpression:results">Amosando resultados <epc:pin name="from"/> ó <epc:pin name="to"/> de <epc:pin name="n"/>.</epp:phrase>
+
+    <epp:phrase id="ordername_eprint_byrelevance">por relevancia</epp:phrase>
+
+    <epp:phrase id="cgi/search:simple_search">Búsqueda sinxela</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_localizacion">--</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_texto_peza">--</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_tipo_peza">--</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Items:title">Xestionar depósitos</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Import:import_section">
+<table xmlns:epc="http://eprints.org/ep3/control" width="100%"><tr>
+  <td align="center">Importar dende <epc:pin name="menu"/><epc:pin name="button"/></td>
+</tr>
+<tr>
+  <td align="center">
+    <epc:pin name="tools"/>
+  </td>
+</tr>
+</table></epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/NewEPrint:action:create:title">Novo elemento</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Import:action:import_from:title">Importar</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/User/SavedSearches:title">Búsquedas salvadas</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/DataSets:title">Xestionar rexistros</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Details:title">Detalles</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/User/View:title">Perfil</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_userid">Usuario depositante</epp:phrase>
+
+    <epp:phrase id="lib/paginate:add_column">Engadir columna</epp:phrase>
+
+    <epp:phrase id="lib/paginate:no_items">Non hay elementos</epp:phrase>
+
+    <epp:phrase id="lib/paginate:move_right">Mover a dereita</epp:phrase>
+
+    <epp:phrase id="lib/paginate:move_left">Mover a esquerda</epp:phrase>
+
+    <epp:phrase id="lib/paginate:remove_column">Eliminar columna</epp:phrase>
+
+    <epp:phrase id="lib/searchexpression:action_filter">Filtro</epp:phrase>
+
+    <epp:phrase id="lib/searchexpression:noresults">A búsqueda non tivo resultados.</epp:phrase>
+
+    <epp:phrase id="datasetname_event_queue">Tarefas</epp:phrase>
+
+    <epp:phrase id="datasetname_file">Arquivos</epp:phrase>
+
+    <epp:phrase id="datasetname_import">Importacións</epp:phrase>
+
+    <epp:phrase id="datasetname_saved_search">Búsquedas salvadas</epp:phrase>
+
+    <epp:phrase id="datasetname_user">Usuarios</epp:phrase>
+
+    <epp:phrase id="lib/submissionform:action_cancel">Cancelar</epp:phrase>
+
+    <epp:phrase id="lib/submissionform:action_remove">Eliminar</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Remove:title">Eliminar elemento</epp:phrase>
+
+    <epp:phrase id="datasetname_subject">Áreas de coñecemento</epp:phrase>
+
+    <epp:phrase id="datasethelp_subject">Usado para almacenar a xerarquía da árbore de áreas de coñecemento.</epp:phrase>
+
+    <epp:phrase id="datasethelp_saved_search">Usado para almacenar as búsquedas que fan os usuarios e a frecuencia dos emails de alerta.</epp:phrase>
+
+    <epp:phrase id="datasethelp_import">Almacena os detalles de unha importación.</epp:phrase>
+
+    <epp:phrase id="datasethelp_event_queue">Tarefas programadas para o proceso de indexación.</epp:phrase>
+
+    <epp:phrase id="datasethelp_eprint">Usada para almacenar rexistros eprints.</epp:phrase>
+
+    <epp:phrase id="datasethelp_file">Datos técnicos en arquivos almacenados.</epp:phrase>
+
+    <epp:phrase id="datasethelp_user">Usada para almacenar información nos usuarios eprints.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Workflow/View:title">Ver</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Workflow/Edit:title">Editar</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Workflow/Destroy:title">Eliminar</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_succeeds">Última versión de</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_rev_number">Revisión</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_relation">Relacións</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_relation_type">Tipo de relación</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_longitude">Lonxitude</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_files">Arquivos</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_fileinfo">Enlaces aos arquivos</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_edit_lock_user">Pechado por</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_edit_lock_until">Pechado ata</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_edit_lock_since">Pechado dende</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_edit_lock">Pechar</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_documents">Documentos</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_contact_email">Dirección de email de contacto</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Listing:page_title">Xestionar <epc:pin name="dataset"/></epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_commentary">Commentario en</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_importid">Importar Colección</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_item_issues_comment">Comentarios</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_item_issues_description">Descripción</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_item_issues_reported_by">Reportado por</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_item_issues_resolved_by">Resolto por</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_status_changed">Último cambio de estado</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_source">Fonte</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_relation_uri">Identificador de obxectivo</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_official_url">URL oficial</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_item_issues_status">Estado</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_item_issues_type">Tipo de evento</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_item_issues_id">ID de evento</epp:phrase>
+
+    <epp:phrase id="lib/session:show_help"><epc:pin xmlns="http://www.w3.org/1999/xhtml" name="link"><img alt="+" title="Amosar axuda" src="{$config{rel_path}}/style/images/help.gif" border="0"/></epc:pin></epp:phrase>
+
+    <epp:phrase id="lib/session:hide_help"><epc:pin xmlns="http://www.w3.org/1999/xhtml" name="link"><img alt="-" title="Ocultar axuda" src="{$config{rel_path}}/style/images/minus.png" border="0"/></epc:pin></epp:phrase>
+
+    <epp:phrase id="lib/searchfield:help_subobject">Inserir un termo/s para buscar por el/eles.</epp:phrase>
+
+    <epp:phrase id="lib/searchfield:help_int">Inserir un único número (ex. 93), ou un rango de números, ex. `17-23', `17-' ou -23'.</epp:phrase>
+
+    <epp:phrase id="lib/metafield:true">Si</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/User/History:title">Historial do usuario</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Workflow/Details:other">Outros campos definidos</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Workflow/Details:title">Detalles</epp:phrase>
+
+    <epp:phrase id="user:workflow:stage:default:title">Perfil</epp:phrase>
+
+    <epp:phrase id="user:workflow:stage:usertype:title">Conta de usuario</epp:phrase>
+
+    <epp:phrase id="user_fieldname_address">Dirección</epp:phrase>
+
+    <epp:phrase id="user_fieldname_country">País</epp:phrase>
+
+    <epp:phrase id="user_fieldname_dept">Departamento</epp:phrase>
+
+    <epp:phrase id="user_fieldname_editperms">Restricción de dereitos editoriais</epp:phrase>
+
+    <epp:phrase id="user_fieldname_email">Dirección de correo electrónico</epp:phrase>
+
+    <epp:phrase id="user_fieldname_hideemail">Ocultar email</epp:phrase>
+
+    <epp:phrase id="user_fieldname_lang">Linguaxe preferido</epp:phrase>
+
+    <epp:phrase id="user_fieldname_longitude">Lonxitude</epp:phrase>
+
+    <epp:phrase id="user_fieldname_joined">Data de rexistro do usuario</epp:phrase>
+
+    <epp:phrase id="user_fieldname_name">Nome</epp:phrase>
+
+    <epp:phrase id="user_fieldname_org">Organización</epp:phrase>
+
+    <epp:phrase id="user_fieldname_preference">Preferencias</epp:phrase>
+
+    <epp:phrase id="user_fieldname_saved_searches">Búsquedas salvadas</epp:phrase>
+
+    <epp:phrase id="user_fieldname_username">Nome de usuario</epp:phrase>
+
+    <epp:phrase id="user_fieldname_usertype">Tipo de usuario</epp:phrase>
+
+    <epp:phrase id="user_fieldopt_frequency_never">Nunca</epp:phrase>
+
+    <epp:phrase id="user_fieldname_userid">Número de ID de usuario</epp:phrase>
+
+    <epp:phrase id="user_section_account">Detalles da conta</epp:phrase>
+
+    <epp:phrase id="user_section_personal">Detalles persoáis</epp:phrase>
+
+    <epp:phrase id="user_typename_admin">Administrador do repositorio</epp:phrase>
+
+    <epp:phrase id="lib/dataobj:unspecified">Campos se especificar</epp:phrase>
+
+    <epp:phrase id="lib/searchfield:help_id">Inserir un termo exacto para buscar.</epp:phrase>
+
+    <epp:phrase id="user_fieldname_newemail">Dirección de correo electrónico</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/MetaField/Details:title">Detalles</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_item_issues">Eventos</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_item_issues_count">Número de eventos</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_ispublished">Estado</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_full_text_status">Texto completo de estado</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_metadata_visibility">Visibilidade de metadatos</epp:phrase>
+
+    <epp:phrase id="lib/submissionform:action_save">Gardar e voltar</epp:phrase>
+
+    <epp:phrase id="lib/submissionform:action_stop">Cancelar</epp:phrase>
+
+    <epp:phrase id="Plugin/InputForm/Surround/Default:hide_help"><epc:pin xmlns="http://www.w3.org/1999/xhtml" name="link"><img alt="-" title="Ocultar axuda" src="{$config{rel_path}}/style/images/minus.png" border="0"/></epc:pin></epp:phrase>
+
+    <epp:phrase id="lib/submissionform:action_next">Seguinte &gt;</epp:phrase>
+
+    <epp:phrase id="Plugin/InputForm/Surround/Default:show_help"><epc:pin xmlns="http://www.w3.org/1999/xhtml" name="link"><img alt="+" title="Amosar axuda" src="{$config{rel_path}}/style/images/help.gif" border="0"/></epc:pin></epp:phrase>
+
+    <epp:phrase id="user_typename_user">Usuario</epp:phrase>
+
+    <epp:phrase id="lib/searchfield:help_text">Inserir un termo ou termos para bucar.</epp:phrase>
+
+    <epp:phrase id="saved_search_fieldname_id">ID de búsqueda</epp:phrase>
+
+    <epp:phrase id="saved_search_fieldname_name">Nome de búsqueda</epp:phrase>
+
+    <epp:phrase id="saved_search_fieldname_public">Facer a búsqueda pública?</epp:phrase>
+
+    <epp:phrase id="saved_search_fieldname_spec">Condicións da búsqueda salvada</epp:phrase>
+
+    <epp:phrase id="saved_search_fieldname_userid">ID de usuario do propietario</epp:phrase>
+
+    <epp:phrase id="saved_search_fieldname_mailempty">Enviar resultados valeiros</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Listing:remove_column_confirm">Desexa eliminar esta columna do display?</epp:phrase>
+
+    <epp:phrase id="lib/searchfield:help_itemref">Seleccionar un único número de ID grabado (ex. 93), ou un rango de números, ex. `17-23', `17-' ou -23'.</epp:phrase>
+
+    <epp:phrase id="saved_search_fieldname_frequency">Frecuencia de correo electrónico de búsqueda salvada</epp:phrase>
+
+    <epp:phrase id="event_queue_fieldname_action">Acción</epp:phrase>
+
+    <epp:phrase id="event_queue_fieldname_description">Descripción</epp:phrase>
+
+    <epp:phrase id="event_queue_fieldname_end_time">Completado</epp:phrase>
+
+    <epp:phrase id="event_queue_fieldname_eventqueueid">ID</epp:phrase>
+
+    <epp:phrase id="event_queue_fieldname_params">Parámetros</epp:phrase>
+
+    <epp:phrase id="event_queue_fieldname_priority">Prioridade</epp:phrase>
+
+    <epp:phrase id="event_queue_fieldname_start_time">Hora de comezo</epp:phrase>
+
+    <epp:phrase id="event_queue_fieldname_status">Estado</epp:phrase>
+
+    <epp:phrase id="event_queue_fieldname_userid">Propietario</epp:phrase>
+
+    <epp:phrase id="lib/searchfield:help_set">Seleccionar un ou máis valores desde a lista, e se quere buscar rexistros con calquera ou todos daqueles valores. Default é (Calquera/Any).</epp:phrase>
+
+    <epp:phrase id="event_queue_fieldopt_status_waiting">Agardando</epp:phrase>
+
+    <epp:phrase id="event_queue_fieldopt_status_failed">Errado</epp:phrase>
+
+    <epp:phrase id="event_queue_fieldopt_status_success">Éxito</epp:phrase>
+
+    <epp:phrase id="event_queue_fieldname_cleanup">Eliminar en conclusión</epp:phrase>
+
+    <epp:phrase id="event_queue_fieldopt_status_inprogress">En progreso</epp:phrase>
+
+    <epp:phrase id="lib/searchfield:help_timestamp">Inserir unha data ou un rango de datas. 
+<br/>Examples:  "<span class="ep_form_example">1985-</span>", 
+"<span class="ep_form_example">2001-05-17-2002-05-16</span>",
+"<span class="ep_form_example">-11-1980</span>"
+</epp:phrase>
+
+    <epp:phrase id="file_fieldname_datasetid">ID do conxunto de datos do obxeto</epp:phrase>
+
+    <epp:phrase id="file_fieldname_fileid">ID único de arquivo</epp:phrase>
+
+    <epp:phrase id="file_fieldname_filename">Nome de arquivo</epp:phrase>
+
+    <epp:phrase id="file_fieldname_filesize">Tamaño de arquivo</epp:phrase>
+
+    <epp:phrase id="file_fieldname_hash">Checksum de arquivo</epp:phrase>
+
+    <epp:phrase id="file_fieldname_hash_type">Tipo de checksum</epp:phrase>
+
+    <epp:phrase id="file_fieldname_mtime">Tempo de modificación de arquivo</epp:phrase>
+
+    <epp:phrase id="file_fieldname_objectid">ID de obxeto</epp:phrase>
+
+    <epp:phrase id="lib/searchexpression:next">Seguinte</epp:phrase>
+
+    <epp:phrase id="lib/searchexpression:results_page_size">Amosar <epc:pin name="n_10"/>, <epc:pin name="n_25"/> or <epc:pin name="n_100"/> resultados por páxina.</epp:phrase>
+
+    <epp:phrase id="import_fieldname_datestamp">Data</epp:phrase>
+
+    <epp:phrase id="import_fieldname_description">Descripción</epp:phrase>
+
+    <epp:phrase id="import_fieldname_last_run">Última execución</epp:phrase>
+
+    <epp:phrase id="import_fieldname_last_success">Última importación exitosa</epp:phrase>
+
+    <epp:phrase id="import_fieldname_userid">ID de usuario</epp:phrase>
+
+    <epp:phrase id="subject_fieldname_name">Nome de área de coñecemento</epp:phrase>
+
+    <epp:phrase id="subject_fieldname_name_lang">Linguaxe</epp:phrase>
+
+    <epp:phrase id="subject_fieldname_name_name">Nome</epp:phrase>
+
+    <epp:phrase id="subject_fieldname_subjectid">Áreas de coñecemento ID String</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Review:title">Revisión</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Review:help_title">Axuda</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Review:remove_column_confirm">Desexa realmente eliminar esta columna do display?</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Review:help">
+<p>Esta páxina amosa items agardando revisión.</p>
+<p style="margin-bottom: 1px;">Click nun icono a dereita dun item para:</p>
+<table class="ep_icontable">
+  <tr><th><img src="{$config{rel_path}}/style/images/action_view.png" border="0" align="absmiddle" alt=""/></th><td>Ver item en detalle, incluíndo accións adicionáis</td></tr>
+  <tr><th><img src="{$config{rel_path}}/style/images/action_edit.png" border="0" align="absmiddle" alt=""/></th><td>Editar Item</td></tr>
+  <tr><th><img src="{$config{rel_path}}/style/images/action_bounce.png" border="0" align="absmiddle" alt=""/></th><td>Devolver item o Depositante (e notificar o usuario depositante)</td></tr>
+  <tr><th><img src="{$config{rel_path}}/style/images/action_reject.png" border="0" align="absmiddle" alt=""/></th><td>Eliminar item (notificándoo o usuario depositante)</td></tr>
+  <tr><th><img src="{$config{rel_path}}/style/images/action_approve.png" border="0" align="absmiddle" alt=""/></th><td>Mover Item o Repositorio</td></tr>
+</table>
+<p>Para reordear a lista de items, facer click no título da columna de "ordear por". Facendo click unha segunda vez revertirá a orde.</p>
+<p>Pode modificar as columnas amosadas. Engadir unha columna nova utilizando o menú no inferior da páxina.</p>
+
+<table class="ep_icontable">
+<tr><th style="padding: 4px;"><img title="Move Left" src="{$config{rel_path}}/style/images/left.png" alt="&lt;" align="absmiddle"/></th><td>Mover columna a esquerda</td></tr>
+<tr><th style="padding: 4px;"><img title="Remove Column" src="{$config{rel_path}}/style/images/delete.png" alt="X" align="absmiddle"/></th><td>Eliminar columna</td></tr>
+<tr><th style="padding: 4px;"><img title="Move Right" src="{$config{rel_path}}/style/images/right.png" alt="&lt;" align="absmiddle"/></th><td>Mover columna a dereita</td></tr>
+</table>
+</epp:phrase>
+
+    <epp:phrase id="lib/searchfield:help_namedset">Seleccionar un ou máis valores desde a lista, e se quere buscar rexistros con calquera ou todos os valores. Default é (Calquera/Any).</epp:phrase>
+
+    <epp:phrase id="lib/searchfield:help_time">Inserir unha data ou un rango de datas. 
+<br/>Exemplos:  "<span class="ep_form_example">1985-</span>", 
+"<span class="ep_form_example">2001-05-17-2002-05-16</span>",
+"<span class="ep_form_example">-11-1980</span>"
+</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Subject/Edit:title">Editar materias</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Subject/Edit:description">Modificar a árbore de coñecemento(s)</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Status:title">Estado</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Status:description">Información de estado do servidor.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Staff/UserSearch:title">Buscar usuarios</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Staff/UserSearch:description">Buscar usuarios deste repositorio.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Staff/IssueSearch:title">Buscar eventos</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Staff/IssueSearch:description">Buscar eventos descubertos nos rexistros actuáis.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Staff/HistorySearch:title">Buscar historia</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Staff/HistorySearch:description">Buscar acción que ocurriron nos items deste repositorio.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Staff/EPrintSearch:title">Buscar items</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Staff/EPrintSearch:description">Buscar items neste repositorio.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/NewUser:title">Crear usuario</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/NewUser:description">Crear unha nova conta de usuario</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/MetaField/Listing:title">Xestionar Metadatos</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/MetaField/Listing:description">Engadir ou eliminar campos de metadatos</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin:admin_actions_editorial">Ferramentas editoriais</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin:admin_actions_config">Ferramentas de configuración</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/UpdateDatabase:action:update:title">Actualizar base de datos</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/UpdateDatabase:action:update:description">Actualizar a base de datos para reflectir a actual configuración.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/TestEmail:title">Enviar email de proba</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/TestEmail:description">Probar a súa configuración de email enviando un email de proba.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/StorageManager:title">Xestor de almacenamento</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Reload:action:reload_config:title">Recargar configuración</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/StorageManager:description">Xestionar a configuración do almacenamento híbrido do repositorio, incluindo a migración de arquivos.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/RegenViews:action:regen_views:title">Rexenerar vistas</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Reload:action:reload_config:description">Fai que o repositorio relea os seus ficheiros de configuración. Usar con cautela!.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/IndexerControl:action:stop_indexer:title">Parar indexador</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/IndexerControl:action:stop_indexer:description">Parar indexador de texto completo.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/IndexerControl:action:force_start_indexer:title">Forzar o inicio do indexador</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config:title">Ver configuración</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config:description">Ver arquivos de configuración para este repositorio.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/EPM:description">Xestionar, actualizar e instalar add-ons dende o EPrints Bazaar.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/IndexerControl:action:force_start_indexer:description">Detención forzada e limpeza do indexador, entón o reinicia.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Phrases:description">Modificar as frases utilizadas no sistema.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Phrases:title">Editor de frases</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/RegenAbstracts:action:regen_abstracts:description">Fai que as páxinas abstractas se rexeneren  cando son as seguintes en ser solicitadas.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/RegenAbstracts:action:regen_abstracts:title">Rexenerar Abstracts</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/RegenViews:action:regen_views:description">Fai que as vistas de páxina se rexeneren cando son as seguintes en ser solicitadas.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/DatabaseSchema:description">Amosa o esquema da base de datosShow the database schema.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/DatabaseSchema:title">Esquema da base de datos</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/StorageManager:a_epm_disk_storage">a epm disk storage</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/StorageManager:a_epm_disk_storage_pic">a epm disk storage pic</epp:phrase>
+
+    <epp:phrase id="cgi/latest:yesterday">Onte</epp:phrase>
+
+    <epp:phrase id="cgi/latest:title">Novo contido do <epc:phrase ref="archive_name"/></epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Document/Files:title">Arquivos</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Document/MoveDown:title">Mover abaixo</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Document/MoveUp:title">Mover arriba</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Document/Remove:title">Borrar documento</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Edit:title">Editar elemento</epp:phrase>
+
+    <epp:phrase id="Plugin/InputForm/Component/Upload:new_from_url">Capturar dende URL: </epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/UploadMethod/File:title">Arquivo</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/UploadMethod/URL:title">Dende URL</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint:deposit">Depositar</epp:phrase>
+
+    <epp:phrase id="security_typename_public">Calquera</epp:phrase>
+
+    <epp:phrase id="security_typename_staffonly">Só equipo do repositorio</epp:phrase>
+
+    <epp:phrase id="security_typename_validuser">Só usuarios rexistrados</epp:phrase>
+
+    <epp:phrase id="document_fieldname_formatdesc">Descripcción</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_book_title">Título do libro</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_department">Departamento</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_dir">Directorio</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_divisions">Lugar da recolla</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_num_pieces">Número de pezas</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_note">Información adicional</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_number">Número</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_thesis_type">Tipo de tese</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_metadata_visibility_show">Amosar sempre</epp:phrase>
+
+    <epp:phrase id="metapage_title_core">Detalles</epp:phrase>
+
+    <epp:phrase id="metapage_title_subjects">Materias</epp:phrase>
+
+    <epp:phrase id="cgi/latest:none"><p>Nada novo nos últimos 7 días.</p></epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Remove:sure_delete"><p xmlns:epc="http://eprints.org/ep3/control">Está absolutamente seguro de que quere borrar este elemento? <epc:pin name="title"/></p></epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Deposit:title">Depositar elemento</epp:phrase>
+
+    <epp:phrase id="priv:action/eprint/deposit">Depositar elemento agora</epp:phrase>
+
+    <epp:phrase id="priv:action/eprint/deposit_later">Gardar para máis tarde</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Items:help">
+<p>Esta páxina amosa os items que non depositou, o que todavía están baixo revisión.</p>
+<p>Para comezar a depositar un item use o botón de "Novo item", e siga as instruccións.</p>
+<p>Se se detén antes de completar o depósito, ou un depósito é devolto para correccións, aparecerá na lista tal como na "Área de Usuario".</p>
+
+<p style="margin-bottom: 1px;">Click nun icono a dereita dun item para:</p>
+<table class="ep_icontable">
+  <tr><th><img src="{$config{rel_path}}/style/images/action_view.png" border="0" align="absmiddle" alt=""/></th><td>Ver item en detalle, incluíndo accións adicionáis</td></tr>
+  <tr><th><img src="{$config{rel_path}}/style/images/action_edit.png" border="0" align="absmiddle" alt=""/></th><td>Editar Item</td></tr>
+  <tr><th><img src="{$config{rel_path}}/style/images/action_reject.png" border="0" align="absmiddle" alt=""/></th><td>Eliminar item </td></tr>
+  <tr><th><img src="{$config{rel_path}}/style/images/action_approve.png" border="0" align="absmiddle" alt=""/></th><td>Depositar Item</td></tr>
+</table>
+<p>Para reordear a lista de items, facer click no título da columna de "ordear por". Facendo click unha segunda vez revertirá a orde.</p>
+<p>Pode modificar as columnas amosadas. Engadir unha columna nova utilizando o menú no inferior da páxina.</p>
+
+<table class="ep_icontable">
+<tr><th style="padding: 4px;"><img title="Move Left" src="{$config{rel_path}}/style/images/left.png" alt="&lt;" align="absmiddle"/></th><td>Mover columna a esquerda</td></tr>
+<tr><th style="padding: 4px;"><img title="Remove Column" src="{$config{rel_path}}/style/images/delete.png" alt="X" align="absmiddle"/></th><td>Eliminar columna</td></tr>
+<tr><th style="padding: 4px;"><img title="Move Right" src="{$config{rel_path}}/style/images/right.png" alt="&lt;" align="absmiddle"/></th><td>Mover columna a dereita</td></tr>
+</table>
+</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Items:help_title">Axuda</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Items:remove_column_confirm">Realmente desexa eliminar esta columna da visualización?</epp:phrase>
+
+    <epp:phrase id="Plugin/InputForm/Component/Documents:show_options">Amosar opcións</epp:phrase>
+
+    <epp:phrase id="Plugin/InputForm/Component/Documents:hide_options">Ocultar opcións</epp:phrase>
+
+    <epp:phrase id="cgi/set_lang:clear_cookie">Limpar cookie</epp:phrase>
+
+    <epp:phrase id="lib/searchexpressionaction_search">Atopar</epp:phrase>
+
+    <epp:phrase id="Plugin/Search/Xapian:results:title">Buscar resultados de <span xmlns:epc="http://eprints.org/ep3/control" class="search_desc"><epc:pin name="q"/></span></epp:phrase>
+
+    <epp:phrase id="Plugin/InputForm/Component/Documents:update">Actualizar metadato</epp:phrase>
+
+    <epp:phrase id="eprint_typename_rexistro_etnografico">Rexistro etnográfico</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_tempo">Tempo</epp:phrase>
+
+    <epp:phrase id="document_fieldname_creador_archivo">Autor da recolla</epp:phrase>
+
+    <epp:phrase id="document_fieldname_creador_archivo_tipo">Tipo</epp:phrase>
+
+    <epp:phrase id="document_fieldopt_creador_archivo_tipo_autor">Compilador</epp:phrase>
+
+    <epp:phrase id="document_fieldopt_creador_archivo_tipo_dixitalizador">Dixitalizador</epp:phrase>
+
+    <epp:phrase id="document_fieldopt_creador_archivo_tipo_transcriptor">Transcriptor</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_keywords">Palabras Clave</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_keywords">Palabras que describan o contido do rexitro
+Natural language terms to describe the content of the item</epp:phrase>
+
+
+
+    <epp:phrase id="content_typename_accepted">Arquivo principal</epp:phrase>
+
+    <epp:phrase id="content_typename_supplemental">Material adicional</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_tipo_peza_outros">Outros</epp:phrase>
+
+    <epp:phrase id="document_fieldhelp_dixitalizador">Dixitalizador</epp:phrase>
+
+    <epp:phrase id="document_fieldname_dixitalizador">Dixitalizador</epp:phrase>
+
+    <epp:phrase id="document_fieldname_transcriptor">Transcriptor</epp:phrase>
+
+    <epp:phrase id="document_fieldname_date_embargo">Data de embargo</epp:phrase>
+
+    <epp:phrase id="Plugin/InputForm/Component/Upload:help">Aquí pode subir arquivos ó repositorio</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_transcriptores">Transcriptores</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_transcriptores_id">id</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_dixitalizadores_id">id</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_dixitalizadores">Dixitalizadores</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_ambito_refran">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_cadencias_refran">--</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_compas_refran">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_dixitalizadores">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_escala_refran">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_forma_do_texto_refran">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_forma_musical_refran">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_incipit_do_texto_refran">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_incipit_melodico_refran">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_instrumentacion">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_instrumentos">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_modo_interpretacion">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_numero_de_silabas_refran">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_tempo">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_transcriptores">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_xenero">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_notas_dixitalizacion">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_notas_informante">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_notas_musica">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_notas_recolla">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_notas_transcripcion">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_notas_xerais">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_notas_dixitalizacion">Notas sobre a dixitalización</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_notas_informante">Notas sobre os informates</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_notas_musica">Notas sobre a música</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_notas_recolla">Notas da recolla</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_notas_transcripcion">Notas sobre a transcripción</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_notas_xerais">Notas xerais</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_loc_comunidade">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_loc_concello">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_loc_lugar">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_loc_pais">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_loc_parroquia">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_loc_comunidade">Comunidade Autónoma</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_loc_concello">Concello</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_loc_lugar">Lugar</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_loc_pais">Estado</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_loc_parroquia">Parroquia</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_transcriptores_name">Transcriptor</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_linguaxe_castelan">Castelán</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_linguaxe_galego">Galego</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_dixitalizadores_name">Dixitalizador</epp:phrase>
+
+    <epp:phrase id="lib/searchfield:desc:date_between">entre <epc:pin name="from"/> e <epc:pin name="to"/> inclusive</epp:phrase>
+
+    <epp:phrase id="lib/searchfield:desc_is"><epc:pin name="name"/> é <epc:pin name="value"/></epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_linguaxe">Linguaxe</epp:phrase>
+
+    <epp:phrase id="eprint:workflow:stage:subjects:title">Materias</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_linguaxe">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_referencia">Referencia administrativa</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_referencia">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname__loc_lugar">Lugar</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_informantes_name">Informates/Intérpretes</epp:phrase>
+
+    <epp:phrase id="page:more">mais...</epp:phrase>
+
+</epp:phrases>

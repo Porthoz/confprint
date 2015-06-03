@@ -1,0 +1,1207 @@
+<?xml version='1.0' encoding='utf-8'?>
+<subjects xmlns='http://eprints.org/ep2/data/2.0'>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/A'>
+    <subjectid>A</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>SABERES RELACIONADOS COA ACTIVIDADE AGRARIA</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>subjects</item>
+    </parents>
+    <depositable>FALSE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/AA'>
+    <subjectid>AA</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Criterios de valoración económica, social e afectiva da terra</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>A</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/AB'>
+    <subjectid>AB</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Metroloxía tradicional</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>A</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/AC'>
+    <subjectid>AC</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Os cultivos</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>A</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/AD'>
+    <subjectid>AD</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Aproveitamento do monte</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>A</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/AF'>
+    <subjectid>AF</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Gando</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>A</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/AG'>
+    <subjectid>AG</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Caza e pesca fluvial</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>A</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/B'>
+    <subjectid>B</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>SABERES RELACIONADOS COS OFICIOS</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>subjects</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/BA'>
+    <subjectid>BA</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Oficios do metal</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>B</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/BB'>
+    <subjectid>BB</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Oficios do barro</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>B</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/BC'>
+    <subjectid>BC</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Oficios da pedra</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>B</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/BD'>
+    <subjectid>BD</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Oficios da madeira</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>B</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/BE'>
+    <subjectid>BE</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Oficios do coiro</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>B</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/BF'>
+    <subjectid>BF</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Tecidos e vestimenta</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>B</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/BG'>
+    <subjectid>BG</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Outros oficios</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>B</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/C'>
+    <subjectid>C</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>SABERES RELACIONADOS COA ACTIVIDADE MARIÑEIRA</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>subjects</item>
+    </parents>
+    <depositable>FALSE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/CA'>
+    <subjectid>CA</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Embarcacións</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>C</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/CB'>
+    <subjectid>CB</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Artes de pesca</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>C</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/CC'>
+    <subjectid>CC</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Marisqueo</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>C</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/CD'>
+    <subjectid>CD</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Saberes sobre o mar e o peixe</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>C</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/CE'>
+    <subjectid>CE</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Navegación e transporte marítimo</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>C</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/D'>
+    <subjectid>D</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>SOCIEDADE</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>subjects</item>
+    </parents>
+    <depositable>FALSE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/DA'>
+    <subjectid>DA</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>A familia, casa e a herdanza</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>D</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/DB'>
+    <subjectid>DB</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Aldea e parroquia</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>D</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/DC'>
+    <subjectid>DC</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Relacións supralocais. As feiras</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>D</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/DD'>
+    <subjectid>DD</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>As idades da vida. Nacemento, casamento e morte</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>D</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/DE'>
+    <subjectid>DE</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Os roles de xénero. Mulleres e homes</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>D</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/DF'>
+    <subjectid>DF</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Emigración</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>D</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/DG'>
+    <subjectid>DG</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Vilas e cidades</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>D</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/E'>
+    <subjectid>E</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>FESTAS</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>subjects</item>
+    </parents>
+    <depositable>FALSE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/EA'>
+    <subjectid>EA</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Festas universais do ciclo anual</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>E</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/EAA'>
+    <subjectid>EAA</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Defuntos e magostos</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>EA</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/EAB'>
+    <subjectid>EAB</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Nadal</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>EA</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/EAC'>
+    <subjectid>EAC</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Entroido</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>EA</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/EAD'>
+    <subjectid>EAD</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Semana Santa</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>EA</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/EAE'>
+    <subjectid>EAE</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Maios</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>EA</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/EAF'>
+    <subjectid>EAF</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Corpus</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>EA</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/EAG'>
+    <subjectid>EAG</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>San Xoán</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>EA</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/EB'>
+    <subjectid>EB</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Romarías</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>E</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/EC'>
+    <subjectid>EC</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Festas patronais, de devoción local e sectoriais</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>E</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/ED'>
+    <subjectid>ED</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Festas laicas</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>E</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/EE'>
+    <subjectid>EE</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Outras celebracións de dimensión lúdico-festiva</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>E</item>
+    </parents>
+    <depositable>FALSE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/EEA'>
+    <subjectid>EEA</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>fiadeiros</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>EE</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/EEB'>
+    <subjectid>EEB</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>esfolladas</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>EE</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/EEC'>
+    <subjectid>EEC</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>polavilas</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>EE</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/F'>
+    <subjectid>F</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>CRENZAS, VALORES E SABERES VARIOS</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>subjects</item>
+    </parents>
+    <depositable>FALSE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/FA'>
+    <subjectid>FA</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Medicina e veterinaria populares</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>F</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/FB'>
+    <subjectid>FB</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Maxia e meiguería. Adiviñación</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>F</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/FC'>
+    <subjectid>FC</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Valoración e interpretación popular de personaxes e crenzas propias do sistema relixioso católico</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>F</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/FD'>
+    <subjectid>FD</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Relixiosidade ordinaria. Oracións</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>F</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/FE'>
+    <subjectid>FE</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Outras crenzas e cosmovisións populares</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>F</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/FF'>
+    <subjectid>FF</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Ciencia popular</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>F</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/G'>
+    <subjectid>G</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>LITERATURA E DITOS POPULARES</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>subjects</item>
+    </parents>
+    <depositable>FALSE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/GA'>
+    <subjectid>GA</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Cantigas</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>G</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/GB'>
+    <subjectid>GB</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Romances</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>G</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/GC'>
+    <subjectid>GC</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Narrativa popular</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>G</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/GCA'>
+    <subjectid>GCA</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Contos</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>GC</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/GCB'>
+    <subjectid>GCB</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Lendas</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>GC</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/GD'>
+    <subjectid>GD</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Teatro</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>G</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/GDA'>
+    <subjectid>GDA</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Teatro popular</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>GD</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/GE'>
+    <subjectid>GE</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Adiviñas, trabalinguas</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>G</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/GF'>
+    <subjectid>GF</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Refráns, frases sentenciosas e ditos</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>G</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/GG'>
+    <subjectid>GG</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Alcumes</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>G</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/H'>
+    <subjectid>H</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>XOGOS POPULARES E XOGUETES</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>subjects</item>
+    </parents>
+    <depositable>FALSE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/I'>
+    <subjectid>I</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>DANZAS</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>subjects</item>
+    </parents>
+    <depositable>FALSE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/divisions'>
+    <subjectid>divisions</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>University Structure</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>ROOT</item>
+    </parents>
+    <depositable>FALSE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/fac_eng'>
+    <subjectid>fac_eng</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Faculty of Engineering, Science and Mathematics</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>divisions</item>
+    </parents>
+    <depositable>FALSE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/fac_law'>
+    <subjectid>fac_law</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Faculty of Law, Arts and Social Sciences</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>divisions</item>
+    </parents>
+    <depositable>FALSE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/fac_med'>
+    <subjectid>fac_med</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>Faculty of Medicine, Health and Life Sciences</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>divisions</item>
+    </parents>
+    <depositable>FALSE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/sch_art'>
+    <subjectid>sch_art</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>School of Art</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>fac_law</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/sch_bio'>
+    <subjectid>sch_bio</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>School of Biological Sciences</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>fac_med</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/sch_che'>
+    <subjectid>sch_che</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>School of Chemistry</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>fac_eng</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/sch_civ'>
+    <subjectid>sch_civ</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>School of Civil Engineering and the Environment</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>fac_eng</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/sch_ecs'>
+    <subjectid>sch_ecs</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>School of Electronics and Computer Science</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>fac_eng</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/sch_edu'>
+    <subjectid>sch_edu</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>School of Education</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>fac_law</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/sch_eng'>
+    <subjectid>sch_eng</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>School of Engineering Sciences</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>fac_eng</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/sch_geo'>
+    <subjectid>sch_geo</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>School of Geography</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>fac_eng</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/sch_hum'>
+    <subjectid>sch_hum</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>School of Humanities</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>fac_law</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/sch_law'>
+    <subjectid>sch_law</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>School of Law</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>fac_law</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/sch_man'>
+    <subjectid>sch_man</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>School of Management</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>fac_law</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/sch_mat'>
+    <subjectid>sch_mat</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>School of Mathematics</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>fac_eng</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/sch_med'>
+    <subjectid>sch_med</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>School of Medicine</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>fac_med</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/sch_phy'>
+    <subjectid>sch_phy</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>School of Physics</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>fac_eng</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/sch_psy'>
+    <subjectid>sch_psy</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>School of Psychology</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>fac_med</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/sch_soc'>
+    <subjectid>sch_soc</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>School of Social Sciences</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>fac_law</item>
+    </parents>
+    <depositable>TRUE</depositable>
+  </subject>
+  <subject id='http://apoi4.porthoz.com:8080/id/subject/subjects'>
+    <subjectid>subjects</subjectid>
+    <rev_number>2</rev_number>
+    <name>
+      <item>
+        <name>AREA DE COÑECEMENTO ETNOGRÁFICO DA PEZA</name>
+        <lang>en</lang>
+      </item>
+    </name>
+    <parents>
+      <item>ROOT</item>
+    </parents>
+    <depositable>FALSE</depositable>
+  </subject>
+</subjects>

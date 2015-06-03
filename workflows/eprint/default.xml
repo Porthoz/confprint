@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+Action buttons (Previous/Save/Next) can be shown "top", "bottom" or "both":
+<stage name="type" action_buttons="both">
+  <component><field ref="type" required="yes" /></component>
+</stage>
+
+#######################################################
+#
+# Paxina de configuración do worckflow de rexistros Eprints
+#
+######################################################
+-->
+
+<!--Definición das etapas do Workflow-->
+
+<workflow xmlns="http://eprints.org/ep3/workflow" xmlns:epc="http://eprints.org/ep3/control">
+  <flow>
+    <stage ref="type"/>
+    <stage ref="files"/>
+    <stage ref="core"/>
+    <stage ref="subjects"/>
+  </flow>
+
+<!-- Etapa para seleccionar o tipo de obxeto-->
+
+<stage name="type">
+	<component><field ref="type" required="yes" /></component>
+</stage>
+
+<!--Etapa de subida de arquivos-->
+
+<stage name="files">
+	<component type="Upload" show_help="always" />
+	<component type="Documents">
+		<field ref="content" />
+		<field ref="format" />
+		<field ref="formatdesc" />
+		<field ref="security" />	
+		<field ref="license" />
+		<field ref="date_embargo" />
+	</component>
+</stage>
+
+<!--Etapa de datos xerais dos rexistros-->
+
+<stage name="core">
+
+	<!-- Metadatos non agrupados -->
+	<component><field ref="title" required="yes" input_lookup_url="{$config{rel_cgipath}}/users/lookup/title_duplicates" input_lookup_params="id={eprintid}&amp;dataset=eprint&amp;field=title" /></component>
+	<component><field ref="referencia"/> </component>    
+	<component><field ref="linguaxe"/> </component>
+	<component><field ref="abstract"/> </component>
+	 
+	<!-- Metadatos suscritos ó estudio etnográfico -->
+	<component type="Field::Multi">
+		<title>Datos etnográfico </title>
+		<field ref="estudada" />
+		<field ref="tipo_peza" />
+	</component>
+
+	<!-- Metadatos suscritos á compilación -->
+	<component type="Field::Multi" collapse="yes">
+		<title>Datos da compilación</title>
+		<field ref="date" />
+		<field ref="coleccion" />      
+		<field ref="creators" input_lookup_url="{$config{rel_cgipath}}/users/lookup/name" />
+    	<field ref="informantes"/>
+		<field ref="notas_recolla" />		
+		<field ref="notas_informante" />
+	</component>
+	
+	<!-- Metadatos Lugar da recolla -->
+    <component type="Field::Multi" collapse="yes" >
+		<title>Lugar de compilación </title>
+		<field ref="loc_pais" />		
+		<field ref="loc_comunidade" />
+		<field ref="loc_concello" />
+		<field ref="loc_parroquia" />
+		<field ref="loc_lugar" />
+		<field ref="divisions"/>
+	</component>
+
+	<!--Metadatos suscritos á transcripción   -->
+	<component type="Field::Multi" collapse="yes">
+		<title>Datos da transcrición </title>
+		<field ref="texto_peza"/>
+		<field ref="transcriptores"/> 
+		<field ref="notas_musica" />
+		<field ref="notas_transcripcion" />
+	</component>
+
+	<!-- Metadatos suscritos á dixitalización -->
+	<component type="Field::Multi">
+		<title>Datos Dixitalización</title>
+		<field ref="ref_soporte" />
+		<field ref="tipo_soporte" />
+		<field ref="dixitalizadores"/>
+		<field ref="notas_dixitalizacion" />
+	</component>
+
+	<!-- Metadatos suscritos as pezas musicais -->
+	 <epc:if test="type = 'peza_musical'">
+		<component type="Field::Multi" collapse="yes">
+			<title>Datos Musicais </title>
+			<field ref="tempo" />
+			<field ref="titulo_da_peza" />
+			<field ref="incipit_do_texto" />
+			<field ref="incipit_do_texto_refran" />
+			<field ref="ambito" />
+			<field ref="ambito_refran" />
+			<field ref="cadencias" />
+			<field ref="cadencias_refran" />
+			<field ref="escala" />
+			<field ref="escala_refran" />
+			<field ref="numero_de_silabas" />
+			<field ref="numero_de_silabas_refran" />
+			<field ref="forma_musical" />
+			<field ref="forma_musical_refran" />
+			<field ref="forma_do_texto" />
+			<field ref="forma_do_texto_refran" />
+			<field ref="incipit_melodico" />
+			<field ref="incipit_melodico_refran" />
+			<field ref="compas" />
+			<field ref="compas_refran" />
+			<field ref="instrumentacion" />
+			<field ref="xenero" />
+			<field ref="modo_interpretacion" />
+			<field ref="instrumentos" />
+			
+		</component>
+	</epc:if>
+	<field ref="notas_xerais" />
+    <field ref="keywords"/>
+  </stage>
+
+<!--Etapa de selección de materias-->
+
+  <stage name="subjects">
+    <component type="Field::Subject"><field ref="subjects" required="yes" /></component>
+  </stage>
+
+</workflow>

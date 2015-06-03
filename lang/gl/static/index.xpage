@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1"  standalone="no"  ?>
+<!DOCTYPE page SYSTEM "entities.dtd" >
+<xpage:page xmlns="http://www.w3.org/1999/xhtml" xmlns:xpage="http://eprints.org/ep3/xpage" xmlns:epc="http://eprints.org/ep3/control">
+<xpage:head>
+  <link rel="alternate" type="application/rss+xml" title="Items in {phrase('archive_name')}" href="{$config{http_cgiurl}}/latest_tool?output=RSS2"></link>
+  <link rel="alternate" type="application/atom+xml" title="Items in {phrase('archive_name')}" href="{$config{http_cgiurl}}/latest_tool?output=Atom"></link>
+  <link rel="alternate" type="application/rdf+xml" title="Repository Summary RDF+XML" href="{$config{http_cgiurl}}/export/repository/RDFXML/devel.rdf"></link>
+  <link rel="alternate" type="text/n3" title="Repository Summary RDF+N3" href="{$config{http_cgiurl}}/export/repository/RDFN3/devel.n3"></link>
+</xpage:head>
+<xpage:title> </xpage:title>
+<xpage:body>
+
+
+<br />
+
+<div style="font-size:150%">
+<form method="get" accept-charset="utf-8" action="{$config{http_cgiurl}}/search" style="display:inline">
+              <input class="ep_tm_searchbarbox" size="50" type="text" name="q"/>
+              <input class="ep_tm_searchbarbutton" value="{phrase('lib/searchexpression:action_search')}" type="submit" name="_action_search"/>
+              <input type="hidden" name="_action_search" value="Search"/>
+              <input type="hidden" name="_order" value="bytitle"/>
+              <input type="hidden" name="basic_srchtype" value="ALL"/>
+              <input type="hidden" name="_satisfyall" value="ALL"/>
+            </form>
+			<a href="{$config{perl_url}}/search/advanced" style="font-size:50%">Busca por campos</a>
+</div>
+<br />
+
+<div class="ep_toolbox" ><div class="ep_toolbox_content" >
+ <h2> <a href="{$config{perl_url}}/latest">Novo contido</a></h2>
+  &Uacute;ltimos elementos engadidos &oacute; arquivo.  
+</div></div>
+
+<div class="ep_toolbox"><div class="ep_toolbox_content" >
+ <h2><a href="{$config{perl_url}}/search/advanced">Busca Avanzada</a></h2>
+ Buscar no arquivo empregando unha completa lista de campos. Para unha b&uacute;squeda mais sixela empregue o formulario da parte superior esquerda e prema atopar.
+</div></div>
+
+<div class="ep_toolbox"><div class="ep_toolbox_content" >
+ <h2><a href="{$config{base_url}}/view/subjects/">Listado de materias</a></h2>
+ Navega polas diversas materias do arquivo.
+</div></div>
+
+<div class="ep_toolbox"><div class="ep_toolbox_content" >
+ <h2><a href="{$config{base_url}}/information.html">Informaci&oacute;n</a></h2>
+ Informaci&oacute;n acerca de este arquivo.
+</div></div>
+
+<div class="ep_toolbox"><div class="ep_toolbox_content" >
+ <h2><a href="{$config{base_url}}/policies.html">Pol&iacute;ticas</a></h2>
+ Pol&iacute;ticas de uso do material de este arquivo.
+</div></div>
+
+
+
+</xpage:body>
+</xpage:page>
