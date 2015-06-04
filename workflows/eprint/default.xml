@@ -40,6 +40,7 @@ Action buttons (Previous/Save/Next) can be shown "top", "bottom" or "both":
 		<field ref="formatdesc" />
 		<field ref="security" />	
 		<field ref="license" />
+		<field ref="language" />
 		<field ref="date_embargo" />
 	</component>
 </stage>
@@ -80,7 +81,7 @@ Action buttons (Previous/Save/Next) can be shown "top", "bottom" or "both":
 		<field ref="loc_concello" />
 		<field ref="loc_parroquia" />
 		<field ref="loc_lugar" />
-		<field ref="divisions"/>
+		<!-- <field ref="divisions"/> -->
 	</component>
 
 	<!--Metadatos suscritos á transcripción   -->

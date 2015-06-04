@@ -16,14 +16,6 @@
 <epc:if test="security != 'public'">
   <br />Restricted to <epc:print expr="security"/><epc:if test="date_embargo"> until <epc:print expr="date_embargo"/>.</epc:if>
 </epc:if>
-<!--<epc:if test="is_set(transcriptor)">-->
-<!--	<br />-->
-<!--	<epc:phrase ref="document_fieldname_transcriptor" />: <epc:print expr="transcriptor" />-->
-<!--</epc:if>-->
-<!--<epc:if test="is_set(dixitalizador)">-->
-<!--	<br />-->
-<!--	<epc:phrase ref="document_fieldname_dixitalizador" />: <epc:print expr="dixitalizador" />-->
-<!--</epc:if>-->
 <epc:if test="license">
   <br /><epc:phrase ref="disponible_baixo_licencia"/> <epc:phrase ref="licenses_description_{license.as_string()}" />.
 </epc:if>

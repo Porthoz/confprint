@@ -46,12 +46,12 @@
             </li>
 
             <li>
-              <a href="{$config{http_url}}/view/divisions/">
+              <a href="{$config{http_url}}/view/concello/">
                 <epc:phrase ref="bin/generate_views:indextitleprefix"/>
-                <epc:phrase ref="viewname_eprint_divisions"/>
+                <epc:phrase ref="viewname_eprint_concello"/>
               </a>
             </li>
-
+            
             <li>
               <a href="{$config{http_url}}/view/creators/">
                 <epc:phrase ref="bin/generate_views:indextitleprefix"/>
