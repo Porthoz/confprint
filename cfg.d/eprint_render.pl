@@ -1,38 +1,6 @@
 
 $c->{summary_page_metadata} = [qw/
-	coleccion	
-	date
-	subjects
-	tipo_soporte
-	tipo_peza	
-	creators
-	informantes
-	transcriptores
-	dixitalizadores	
-	tempo
-	titulo_da_peza
-	incipit_do_texto
-	incipit_do_texto_refran
-	ambito
-	ambito_refran
-	cadencias
-	cadencias_refran
-	escala
-	escala_refran
-	numero_de_silabas
-	numero_de_silabas_refran
-	forma_musical
-	forma_musical_refran
-	forma_do_texto
-	forma_do_texto_refran
-	incipit_melodico
-	incipit_melodico_refran
-	compas
-	compas_refran
-	instrumentacion
-	xenero
-	modo_interpretacion
-	instrumentos
+	
 	datestamp
 /];
 

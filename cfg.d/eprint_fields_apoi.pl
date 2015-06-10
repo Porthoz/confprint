@@ -147,6 +147,12 @@ push @{$c->{fields}->{eprint}},
 			family_first => 1,
 		},
 		{
+			sub_name => 'id',
+			type => 'text',
+			input_cols => 5,
+			allow_null => 1,
+		},
+		{
 			sub_name => 'url',
 			type => 'url',
 			input_cols => 5,
@@ -162,7 +168,7 @@ push @{$c->{fields}->{eprint}},
 	type => 'text',
 },
 
-# Lugar da recolla / división territorial
+# Lugar da recolla / división territorial /Esto quítase
 {
 	name => 'divisions',
 	type => 'subject',
@@ -287,71 +293,85 @@ push @{$c->{fields}->{eprint}},
 {
 	name => 'ambito',
 	type => 'text',
+	render_quiet => 1,
 },
 
 {
 	name => 'ambito_refran',
 	type => 'text',
+	render_quiet => 1,
 },
 	
 {
 	name => 'cadencias',
 	type => 'text',
+	render_quiet => 1,
 
 },
 
 {
 	name => 'cadencias_refran',
 	type => 'text',
+	render_quiet => 1,
 },
 
 {
 	name => 'escala',
 	type => 'text',
+	render_quiet => 1,
 },
 
 {
 	name => 'escala_refran',
 	type => 'text',
+	render_quiet => 1,
 },
 
 {
 	name => 'numero_de_silabas',
 	type => 'text',
+	render_quiet => 1,
 },
 
 {
 	name => 'numero_de_silabas_refran',
 	type => 'text',
+	render_quiet => 1,
 },
 
 {
 	name => 'forma_musical',
 	type => 'text',
+	render_quiet => 1,
 },
 
 {
 	name => 'forma_musical_refran',
 	type => 'text',
+	render_quiet => 1,
 },
 
 {
 	name => 'forma_do_texto',
 	type => 'text',
+	render_quiet => 1,
 },
 
 {
 	name => 'forma_do_texto_refran',
 	type => 'text',
+	render_quiet => 1,
 },
 
 {
 	name => 'incipit_melodico',
 	type => 'text',
+	render_quiet => 1,
 },
 {
 	name => 'incipit_melodico_refran',
 	type => 'text',
+	render_quiet => 1,
 },
 
 {
@@ -362,27 +382,32 @@ push @{$c->{fields}->{eprint}},
 {
 	name => 'compas_refran',
 	type => 'text',
+	render_quiet => 1,
 },
 
 {
 	name => 'incipit_do_texto',
 	type => 'text',
+	render_quiet => 1,
 	
 },
 
 {
 	name => 'incipit_do_texto_refran',
 	type => 'text',
+	render_quiet => 1,
 },
 
 {
 	name => 'titulo_da_peza',
 	type => 'text',
+	render_quiet => 1,
 },
 
 {
 	name => 'tempo',
 	type => 'text',
+	render_quiet => 1,
 },
 
 {

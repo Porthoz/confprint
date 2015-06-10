@@ -29,7 +29,7 @@
 
     <epc:if test="length($docs) gt 0">
       <epc:phrase ref="page:fulltext" />
-      <table>
+      <table class="table">
         <epc:foreach expr="$docs" iterator="doc">
           <tr>
             <td valign="top" align="right"><epc:print expr="$doc.icon('HoverPreview','noNewWindow')}" /></td>
@@ -66,6 +66,7 @@
       </table>
     </epc:if>
   </epc:set>
+
   <epc:comment>Acabo renderizado documentos</epc:comment>
 
   <epc:if test="official_url">
@@ -74,6 +75,10 @@
     </div>
   </epc:if>
 
+  <epc:comment>
+    METADATO:Abstract
+  </epc:comment>
+  
   <epc:if test="abstract">
     <h2><epc:phrase ref="eprint_fieldname_abstract"/></h2>
     <p style="text-align: left; margin: 1em auto 0em auto"><epc:print expr="abstract" /></p>
@@ -82,34 +87,129 @@
   <epc:comment>
     Tabla de metadatos##########################################################33
   </epc:comment>
-  <table style="margin-bottom: 1em; margin-top: 1em;" cellpadding="3">
+  
+  <table class="table table-striped" style="margin-bottom: 1em; margin-top: 1em;" cellpadding="3">
+
+  <epc:comment>
+    METADATO:Tipo
+  </epc:comment>
     <tr>
       <th align="right"><epc:phrase ref="eprint_fieldname_type" />:</th>
       <td>
         <epc:print expr="type" />
       </td>
     </tr>
-    
-    <epc:if test="loc_concello">
+  
+  <epc:comment>
+    METADATO:Lugar de compilación
+  </epc:comment>
+  <epc:if test="loc_concello">
     <tr>
-      <th>Lugar de Compilación:</th>
+      <th align="right">Lugar de Compilación:</th>
       <td>
         <epc:if test="loc_concello"><epc:print expr="loc_concello" opts="dont_link=1"/></epc:if>
         <epc:if test="loc_parroquia">,&#160;<epc:print expr="loc_parroquia"/></epc:if>
         <epc:if test="loc_lugar">,&#160;<epc:print expr="loc_lugar"/></epc:if>
       </td> 
     </tr>
+  </epc:if>
+
+  <epc:comment>
+    METADATO:Compilador
+  </epc:comment>
+    <epc:if test="creators_name">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_creators" />:</th>
+        <td><epc:print expr="creators_name"/></td>
+      </tr>  
     </epc:if>
 
-    <ul>
-      <epc:foreach expr="$item{creators_name}" iterator="comp">
-        <li><epc:print expr="$comp"/></li>
-      </epc:foreach>
-    </ul> 
+    <epc:comment>
+    METADATO:Colección
+  </epc:comment>
+    <epc:if test="is_set(coleccion)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_coleccion" />:</th>
+        <td><epc:print expr="coleccion"/></td>
+      </tr>  
+    </epc:if>
+
+  <epc:comment>
+    METADATO:Data de compilación
+  </epc:comment>
+    <epc:if test="is_set(date)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_date" />:</th>
+        <td><epc:print expr="date"/></td>
+      </tr>  
+    </epc:if>
+
+    <epc:comment>
+    METADATO:Materias
+  </epc:comment>
+    <epc:if test="is_set(subjects)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_subjects" />:</th>
+        <td><epc:print expr="subjects"/></td>
+      </tr>  
+    </epc:if>
+
+    <epc:comment>
+    METADATO:Tipo de soporte
+  </epc:comment>
+    <epc:if test="is_set(tipo_soporte)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_tipo_soporte" />:</th>
+        <td><epc:print expr="tipo_soporte"/></td>
+      </tr>  
+    </epc:if>
+
+    <epc:comment>
+    METADATO:Tipo de peza
+  </epc:comment>
+    <epc:if test="is_set(tipo_peza)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_tipo_peza" />:</th>
+        <td><epc:print expr="tipo_peza"/></td>
+      </tr>  
+    </epc:if>
+
+    <epc:comment>
+    METADATO:Informantes
+  </epc:comment>
+    <epc:if test="is_set(informantes_name)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_informantes" />:</th>
+        <td><epc:print expr="informantes_name"/></td>
+      </tr>  
+    </epc:if>
+
+    <epc:comment>
+    METADATO:transcriptores
+  </epc:comment>
+    <epc:if test="is_set(transcriptores_name)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_transcriptores" />:</th>
+        <td><epc:print expr="transcriptores_name"/></td>
+      </tr>  
+    </epc:if>
+
+     <epc:comment>
+    METADATO:dixitalizadores
+  </epc:comment>
+    <epc:if test="is_set(dixitalizadores_name)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_dixitalizadores" />:</th>
+        <td><epc:print expr="dixitalizadores_name"/></td>
+      </tr>  
+    </epc:if>
     
-      <epc:comment> 
+  
+    
+    <epc:comment> 
        Metadatos actualizados automáticamente en eprints_render.pl
     </epc:comment>
+
     <epc:foreach expr="$config{summary_page_metadata}" iterator="fieldname">
       <epc:if test="is_set($item.property($fieldname))">
         <tr>
@@ -124,6 +224,183 @@
     </tr>
   </table>
 
+<epc:comment>
+    METADATOS MUSICAIS
+  </epc:comment>
+
+<epc:if test="type='peza_musical'">
+  <table class="table table-condensed table-striped">
+    <tr>
+      <th class="success" >Datos Musicais</th>
+      
+    </tr>
+
+  <epc:comment>
+    METADATO:Tempo
+  </epc:comment>
+    <epc:if test="is_set(tempo)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_tempo" />:</th>
+        <td><epc:print expr="tempo"/></td>
+      </tr>  
+    </epc:if>
+
+    <epc:comment>
+    METADATO:Título musical
+  </epc:comment>
+    <epc:if test="is_set(titulo_da_peza)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_titulo_da_peza" />:</th>
+        <td><epc:print expr="titulo_da_peza"/></td>
+      </tr>  
+    </epc:if>
+
+    <epc:comment>
+    METADATO:Instrumentación
+  </epc:comment>
+    <epc:if test="is_set(instrumentacion)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_instrumentacion" />:</th>
+        <td><epc:print expr="instrumentacion"/></td>
+      </tr>  
+    </epc:if>
+
+    <epc:comment>
+    METADATO:Xénero
+  </epc:comment>
+    <epc:if test="is_set(xenero)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_xenero" />:</th>
+        <td><epc:print expr="xenero"/></td>
+      </tr>  
+    </epc:if>
+
+    <epc:comment>
+    METADATO:Modo de interpretación
+  </epc:comment>
+    <epc:if test="is_set(modo_interpretacion)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_modo_interpretacion" />:</th>
+        <td><epc:print expr="modo_interpretacion"/></td>
+      </tr>  
+    </epc:if>
+
+    <epc:comment>
+    METADATO:instrumentos
+  </epc:comment>
+    <epc:if test="is_set(instrumentos)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_instrumentos" />:</th>
+        <td><epc:print expr="instrumentos"/></td>
+      </tr>  
+    </epc:if>
+    <tr class="success">
+      <td></td>
+      <th>Copla</th>
+      <th>Refrán</th>
+    </tr>
+    <epc:comment>
+    METADATO:incipit do texto
+  </epc:comment>
+    <epc:if test="is_set(incipit_do_texto)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_incipit_do_texto" />:</th>
+        <td><epc:print expr="incipit_do_texto"/></td>
+        <td><epc:print expr="incipit_do_texto_refran"/></td>
+      </tr>  
+    </epc:if>
+
+      <epc:comment>
+    METADATO:ambito
+  </epc:comment>
+    <epc:if test="is_set(incipit_do_texto)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_ambito" />:</th>
+        <td><epc:print expr="ambito"/></td>
+        <td><epc:print expr="ambito_refran"/></td>
+      </tr>  
+    </epc:if>
+
+    <epc:comment>
+    METADATO:cadencias
+  </epc:comment>
+    <epc:if test="is_set(cadencias)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_cadencias" />:</th>
+        <td><epc:print expr="cadencias"/></td>
+        <td><epc:print expr="cadencias_refran"/></td>
+      </tr>  
+    </epc:if>
+
+     <epc:comment>
+    METADATO:escala
+  </epc:comment>
+    <epc:if test="is_set(escala)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_escala" />:</th>
+        <td><epc:print expr="escala"/></td>
+        <td><epc:print expr="escala_refran"/></td>
+      </tr>  
+    </epc:if>
+
+     <epc:comment>
+    METADATO:Número de silabas
+  </epc:comment>
+    <epc:if test="is_set(numero_de_silabas)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_numero_de_silabas" />:</th>
+        <td><epc:print expr="numero_de_silabas"/></td>
+        <td><epc:print expr="numero_de_silabas_refran"/></td>
+      </tr>  
+    </epc:if>
+
+     <epc:comment>
+    METADATO:Forma musical
+  </epc:comment>
+    <epc:if test="is_set(forma_musical)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_forma_musical" />:</th>
+        <td><epc:print expr="forma_musical"/></td>
+        <td><epc:print expr="forma_musical_refran"/></td>
+      </tr>  
+    </epc:if>
+
+     <epc:comment>
+    METADATO:Forma do texto
+  </epc:comment>
+    <epc:if test="is_set(forma_do_texto)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_forma_do_texto" />:</th>
+        <td><epc:print expr="forma_do_texto"/></td>
+        <td><epc:print expr="forma_do_texto_refran"/></td>
+      </tr>  
+    </epc:if>
+
+     <epc:comment>
+    METADATO:Incipit melódico
+  </epc:comment>
+    <epc:if test="is_set(incipit_melodico)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_incipit_melodico" />:</th>
+        <td><epc:print expr="incipit_melodico"/></td>
+        <td><epc:print expr="incipit_melodico_refran"/></td>
+      </tr>  
+    </epc:if>
+
+     <epc:comment>
+    METADATO:cadencias
+  </epc:comment>
+    <epc:if test="is_set(compas)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_compas" />:</th>
+        <td><epc:print expr="compas"/></td>
+        <td><epc:print expr="compas_refran"/></td>
+      </tr>  
+    </epc:if>
+
+  </table>
+</epc:if>
+
 
 <epc:comment>Versiones</epc:comment>
   <epc:if test="$flags{has_multiple_versions}">
@@ -135,7 +412,8 @@
     <epc:print expr="$commentary_tree" />
   </epc:if>
 
-  <epc:if test="!$flags{preview}">
+<!-- Opcións de administración -->
+<!--   <epc:if test="!$flags{preview}">
     <h3>Actions (login required)</h3>
     <table class="ep_summary_page_actions">
     <epc:foreach expr="action_list('eprint_summary_page_actions',$item)" iterator="action">
@@ -145,7 +423,22 @@
       </tr>
     </epc:foreach>
     </table>
-  </epc:if>
+  </epc:if> -->
+
+<epc:if test="!$flags{preview}">
+  <table class="ep_summary_page_actions" style="
+    float: right;
+    font-size: 80%;
+">
+    <tr>
+        <td>Persoal do arquivo:</td>
+        <td><a href="{$config{http_cgiurl}}/users/home?screen=EPrint%3A%3AView&amp;eprintid={eprintid}">Editar elemento</a></td>
+    </tr>
+  </table>
+
+
+</epc:if>
+
 
 </cite:citation>
 

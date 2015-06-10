@@ -58,8 +58,8 @@ LightboxOptions = Object.extend({
 
 	// When grouping images this is used to write: Image # of #.
 	// Change it for non-english localization
-	labelImage: "Document",
-	labelOf: "of",
+	labelImage: "Documento",
+	labelOf: "de",
 
 	// Movie playback dimensions
 	movieWidth: 640,

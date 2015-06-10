@@ -41,7 +41,7 @@ Action buttons (Previous/Save/Next) can be shown "top", "bottom" or "both":
 		<field ref="security" />	
 		<field ref="license" />
 		<field ref="language" />
-		<field ref="date_embargo" />
+		<!-- <field ref="date_embargo" /> -->
 	</component>
 </stage>
 
@@ -68,7 +68,7 @@ Action buttons (Previous/Save/Next) can be shown "top", "bottom" or "both":
 		<field ref="date" />
 		<field ref="coleccion" />      
 		<field ref="creators" input_lookup_url="{$config{rel_cgipath}}/users/lookup/name" />
-    	<field ref="informantes"/>
+    	<field ref="informantes" input_lookup_url="{$config{rel_cgipath}}/users/lookup/name_informante"/>
 		<field ref="notas_recolla" />		
 		<field ref="notas_informante" />
 	</component>
@@ -140,7 +140,7 @@ Action buttons (Previous/Save/Next) can be shown "top", "bottom" or "both":
 <!--Etapa de selección de materias-->
 
   <stage name="subjects">
-    <component type="Field::Subject"><field ref="subjects" required="yes" /></component>
+    <component type="Field::Subject"><field ref="subjects" /></component>
   </stage>
 
 </workflow>
