@@ -181,18 +181,22 @@ push @{$c->{fields}->{eprint}},
 ##################################################
 {
 	name => 'loc_pais',
-	type => 'text',
+	type => 'namedset',
+	set_name => 'loc_estado',
+	input_rows =>4,
 },
 
 {
 	name => 'loc_comunidade',
-	type => 'text',
+	type => 'namedset',
+	set_name => 'loc_ccaa',
+	input_rows =>4,
 },
 
 {
 	name => 'loc_concello',
 	type => 'text',
-	browse_link =>'concello'
+	browse_link =>'concello',
 },
 
 {

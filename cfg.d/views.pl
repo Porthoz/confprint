@@ -5,7 +5,7 @@
 # subject or allowing null in this case.
 
 ###################################################
-#          Vistas por data da recolla
+#          Vista por data da recolla
 ##################################################
 $c->{browse_views} = [
         {
@@ -128,10 +128,10 @@ $c->{browse_views} = [
 		order => "-date/title",
 		variations => [
 			"loc_parroquia",
+			"DEFAULT",
 			"loc_lugar",
 			"creators_name;first_letter",
 			"date;truncate=4",
-			# "DEFAULT",
 		],
 	},
 ###################################################

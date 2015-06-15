@@ -31,7 +31,7 @@ select, input.ep_form_text, textarea {
 	border-width: 0px;
 	border-style: solid;
 	/*border-radius: 3px;*/
-	padding: 5px 20px;
+	/*padding: 5px 20px;*/
 	font-weight:bold;
 	cursor: pointer;
 }

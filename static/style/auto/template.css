@@ -7,7 +7,13 @@ hr.ep_tm_last {
 	background-color: #152d4e;
 }
 
+.ep_tm_menu li:hover {
+    background-color: rgb(2, 89, 158);
+}
 
+ul.ep_tm_menu a:hover {
+    text-decoration: none;
+}
 /* deprecated in 3.3 */
 .ep_tm_logo img {
 	float: right;
@@ -32,7 +38,7 @@ hr.ep_tm_last {
 
 /* Menu Bar */
 
-.ep_tm_menu, .ep_tm_key_tools {
+.ep_tm_menu {
 	clear: both;
 	list-style: none;
 	margin: 0px;
@@ -40,15 +46,17 @@ hr.ep_tm_last {
 }
 .ep_tm_key_tools {
 	display: block;
+	margin: 0px;
+	padding: 5px;
 }
 
 .ep_tm_menu {
-	height: 30px;
-	line-height: 30px;
+	height: 50px;
+	line-height: 50px;
 }
 
 .ep_tm_menu, .ep_tm_menu ul {
-/*	background-color: #204f76; */
+background-color: #003B6A;
 }
 
 .ep_tm_menu li {
@@ -145,8 +153,9 @@ hr.ep_tm_last {
 }
 
 .ep_tm_searchbar {
-        border-width:0;
+        border-width: 1px;
         width:100%;
+        border-style: none none solid none;
 }
 
 .ep_tm_searchbar td {

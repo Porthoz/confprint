@@ -65,7 +65,7 @@ h1, h2, h3, h4 {
 	color: #606060;
 }
 .ep_tm_searchbar, .ep_columns_title, td.ep_columns_alter {
-	background-color: #E4efff;
+	/*background-color: #E4efff;*/
 	/*background-image: url(images/bar_24px.png);*/
 	background-repeat: repeat-x;
 }
@@ -226,5 +226,5 @@ td.ep_columns_cell {
 ,.ep_view_group_by /* view.css */
 {
 	border-color: #cccccc;
-	background-image: url(images/bar_24px.png);
+	/*background-image: url(images/bar_24px.png);*/
 }

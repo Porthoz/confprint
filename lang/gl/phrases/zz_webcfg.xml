@@ -152,7 +152,7 @@
 
     <epp:phrase id="cgi/users/edit_eprint:loading">Cargando...</epp:phrase>
 
-    <epp:phrase id="document_fieldname_format">Tipo</epp:phrase>
+    <epp:phrase id="document_fieldname_format">Tipo de medio</epp:phrase>
 
     <epp:phrase id="document_fieldname_language">Linguaxe</epp:phrase>
 
@@ -1077,5 +1077,45 @@ Natural language terms to describe the content of the item</epp:phrase>
     <epp:phrase id="lib/searchfield:desc_any_in"><epc:pin name="name"/> corresponde con <epc:pin name="value"/></epp:phrase>
 
     <epp:phrase id="lib/searchexpression:desc_and"> <b>E</b> </epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Actions:title">Accións</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Actions/Editor:title">Accións editoriais</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Export:title">Exportar</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/History:title">Historia</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Move:action:move_buffer:description">Mover peza para revisión</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Move:action:move_buffer:title">Mover a revisión</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Move:action:move_deletion:description">Elimina esta peza do arquivo</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Move:action:move_deletion:title">Retirar peza</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Remove:description">Elimina esta peza do arquivo definitivamente</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Staff/ChangeOwner:action:changeowner:title">Cambiar propietario</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/UseAsTemplate:action:use_as_template:title">Usar como plantilla</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/View:title">Ver peza</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/NewVersion:action:new_version:title">Nova versión</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Issues:title">Problemas</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Staff/Reindex:action:reindex:description">Por en cola esta peza para reindexado</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Staff/Reindex:action:reindex:title">Reindexar peza</epp:phrase>
+
+    <epp:phrase id="loc_ccaa_typename_galicia">Galicia</epp:phrase>
+
+    <epp:phrase id="loc_estado_typename_espana">España</epp:phrase>
+
+    <epp:phrase id="cgi/login:title">Iniciar sesion</epp:phrase>
+
+    <epp:phrase id="lib/submissionform:action_staff_save">Gardar e voltar</epp:phrase>
 
 </epp:phrases>

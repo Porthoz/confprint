@@ -1,4 +1,3 @@
-
 $c->{search}->{simple} = 
 {
 	search_fields => [
@@ -19,7 +18,8 @@ $c->{search}->{simple} =
 				"coleccion",
 				"divisions",
 				"keywords",
-
+                "tempo",
+				"incipit_melodico",
 			]
 		},
 	],
