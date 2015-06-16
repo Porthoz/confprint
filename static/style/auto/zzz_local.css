@@ -30,3 +30,7 @@
      margin: 5px 15px 5px 5px;
     /*margin-right: 15px;*/
 }
+
+h2.bold {
+    font-weight: bold;
+}

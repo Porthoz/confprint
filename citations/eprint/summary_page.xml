@@ -80,7 +80,7 @@
   </epc:comment>
   
   <epc:if test="abstract">
-    <h2><epc:phrase ref="eprint_fieldname_abstract"/></h2>
+    <h2 class="bold"><epc:phrase ref="eprint_fieldname_abstract"/></h2>
     <p style="text-align: left; margin: 1em auto 0em auto"><epc:print expr="abstract" /></p>
   </epc:if>
 
@@ -223,6 +223,30 @@
       <td valign="top"><a href="{$item.uri()}"><epc:print expr="$item.uri()" /></a></td>
     </tr>
   </table>
+
+  <epc:comment>
+   NOTAS
+  <epc:if test="is_set(notas_recolla) or is_set(notas_informante) or is_set(notas_musica) or is_set(notas_dixitalizacion) or is_set(notas_transcripcion)">
+  <table class="table table-striped">
+    <tr>
+      <th class="info">Notas</th>
+    </tr>
+
+    <epc:comment>
+    METADATO:notas_recolla
+  </epc:comment>
+    <epc:if test="is_set(notas_recolla)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_notas_recolla" />:</th>
+        <td><epc:print expr="notas_recolla"/></td>
+      </tr>  
+    </epc:if>
+
+  </table>   
+  </epc:if>
+  </epc:comment>
+
+
 
 <epc:comment>
     METADATOS MUSICAIS
@@ -400,6 +424,60 @@
 
   </table>
 </epc:if>
+
+<epc:comment>
+    METADATO:notas_recolla
+  </epc:comment>
+  
+  <epc:if test="notas_recolla">
+    <h2 class="bold"><epc:phrase ref="eprint_fieldname_notas_recolla"/></h2>
+    <p style="text-align: left; margin: 1em auto 0em auto"><epc:print expr="notas_recolla" /></p>
+  </epc:if>
+
+  <epc:comment>
+    METADATO:notas_informante
+  </epc:comment>
+  
+  <epc:if test="notas_informante">
+    <h2 class="bold"><epc:phrase ref="eprint_fieldname_notas_informante"/></h2>
+    <p style="text-align: left; margin: 1em auto 0em auto"><epc:print expr="notas_informante" /></p>
+  </epc:if>
+
+  <epc:comment>
+    METADATO:notas_musica
+  </epc:comment>
+  
+  <epc:if test="notas_musica">
+    <h2 class="bold"><epc:phrase ref="eprint_fieldname_notas_musica"/></h2>
+    <p style="text-align: left; margin: 1em auto 0em auto"><epc:print expr="notas_musica" /></p>
+  </epc:if>
+
+  <epc:comment>
+    METADATO:notas_dixitalizacion
+  </epc:comment>
+  
+  <epc:if test="notas_dixitalizacion">
+    <h2 class="bold"><epc:phrase ref="eprint_fieldname_notas_dixitalizacion"/></h2>
+    <p style="text-align: left; margin: 1em auto 0em auto"><epc:print expr="notas_dixitalizacion" /></p>
+  </epc:if>
+
+    <epc:comment>
+    METADATO:notas_transcripcion
+  </epc:comment>
+  
+  <epc:if test="notas_transcripcion">
+    <h2 class="bold"><epc:phrase ref="eprint_fieldname_notas_transcripcion"/></h2>
+    <p style="text-align: left; margin: 1em auto 0em auto"><epc:print expr="notas_transcripcion" /></p>
+  </epc:if>
+
+    <epc:comment>
+    METADATO:notas_xerais
+  </epc:comment>
+  
+  <epc:if test="notas_xerais">
+    <h2 class="bold"><epc:phrase ref="eprint_fieldname_notas_xerais"/></h2>
+    <p style="text-align: left; margin: 1em auto 0em auto"><epc:print expr="notas_xeraris" /></p>
+  </epc:if>
 
 
 <epc:comment>Versiones</epc:comment>
