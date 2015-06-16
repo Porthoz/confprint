@@ -81,7 +81,7 @@
             </form>
             </div>
             <div class="idiomas">
-              <a href="http://probampg.amarouk.com:8080/cgi/set_lang?lang=gl" >Galego</a>
+              <a href="{$config{rel_path}}/cgi/set_lang?lang=gl" >Galego</a>
 <!--               <a href="http://probampg.amarouk.com:8080/cgi/set_lang?lang=es" >Español</a>  
  -->            </div> 
         </td>
