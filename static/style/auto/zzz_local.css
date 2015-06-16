@@ -12,4 +12,21 @@
  * 
 */
 
+.idiomas a {
+    color: #003B6A;
+    background-color: #E5E1E1;
+    padding: 5px;
+    font-size: 80%;
+    font-weight: bold;
+    margin: -2px;
+    border-style: none solid none none;
+}
 
+.buscar_form {
+    float: right;
+}
+.idiomas {
+    float: right;
+     margin: 5px 15px 5px 5px;
+    /*margin-right: 15px;*/
+}

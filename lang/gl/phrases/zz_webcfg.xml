@@ -178,7 +178,7 @@
 
     <epp:phrase id="Plugin/Screen/Admin:admin_actions_system">Ferramentas do sistema</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_type">Tipo de obxeto</epp:phrase>
+    <epp:phrase id="eprint_fieldname_type">Tipo de rexistro</epp:phrase>
 
     <epp:phrase id="metapage_title_files">Subir</epp:phrase>
 
@@ -1063,10 +1063,10 @@ Natural language terms to describe the content of the item</epp:phrase>
     <epp:phrase id="cgi/login:page_layout">
       <epc:pin name="problems"/>
       <div xmlns:epc="http://eprints.org/ep3/control" class="ep_block">
-        <p>Por favor introduza o seu nome de usuario e password. <epc:pin name="reset_link"/></p>
+        <p>Por favor introduza o seu nome de usuario e contrasinal. <epc:pin name="reset_link"/></p>
         <table style="margin:auto">
           <tr><td>Usuario:</td><td><epc:pin name="input_username"/></td></tr>
-          <tr><td>Password:</td><td><epc:pin name="input_password"/></td><td><epc:pin name="login_button"/></td></tr>
+          <tr><td>Contrasinal:</td><td><epc:pin name="input_password"/></td><td><epc:pin name="login_button"/></td></tr>
         </table>
         <p>Nota: Debe ter as cookies activadas</p>
       </div>
@@ -1117,5 +1117,7 @@ Natural language terms to describe the content of the item</epp:phrase>
     <epp:phrase id="cgi/login:title">Iniciar sesion</epp:phrase>
 
     <epp:phrase id="lib/submissionform:action_staff_save">Gardar e voltar</epp:phrase>
+
+    <epp:phrase id="subject_fieldname_name_sortvalue">Sort value</epp:phrase>
 
 </epp:phrases>

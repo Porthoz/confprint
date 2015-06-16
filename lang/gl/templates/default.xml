@@ -61,16 +61,17 @@
           </ul>
         </li>
       </ul>
+
       <table class="ep_tm_searchbar">
-        <tr>
+        <tbody>
+          <tr>
           <td align="left">
             <epc:pin ref="login_status"/>
           </td>
           <td align="right" style="white-space: nowrap">
             <!--<epc:pin ref="languages"/>-->
-            <a href="{$config{perl_url}}/set_lang?lang=en">In English</a>   	
-
-	<form method="get" accept-charset="utf-8" action="{$config{http_cgiurl}}/search" style="display:inline">
+            <div class="buscar_form">
+                <form method="get" accept-charset="utf-8" action="{$config{http_cgiurl}}/search" style="display:inline">
               <input class="ep_tm_searchbarbox" size="20" type="text" name="q"/>
               <input class="ep_tm_searchbarbutton" value="{phrase('lib/searchexpression:action_search')}" type="submit" name="_action_search"/>
               <input type="hidden" name="_action_search" value="Search"/>
@@ -78,9 +79,16 @@
               <input type="hidden" name="basic_srchtype" value="ALL"/>
               <input type="hidden" name="_satisfyall" value="ALL"/>
             </form>
-          </td>
+            </div>
+            <div class="idiomas">
+              <a href="http://probampg.amarouk.com:8080/cgi/set_lang?lang=en" >English</a>
+<!--               <a href="http://probampg.amarouk.com:8080/cgi/set_lang?lang=es" >Español</a>  
+ -->            </div> 
+        </td>
         </tr>
-      </table>
+      </tbody>
+    </table>
+  
     </div>
     <div>
       <div class="ep_tm_page_content">
@@ -91,6 +99,8 @@
       </div>
     </div>
     <div class="ep_tm_footer ep_noprint">
+
+
       <div class="ep_tm_eprints_logo">
         <a href="http://eprints.org/software/">
           <img alt="EPrints Logo" src="{$config{rel_path}}/images/eprintslogo.gif"/>

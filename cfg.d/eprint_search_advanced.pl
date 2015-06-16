@@ -2,7 +2,6 @@
 $c->{search}->{advanced} = 
 {
 	search_fields => [
-		{ meta_fields => [ $EPrints::Utils::FULLTEXT ] },
 		{ meta_fields => [ "type" ] },
 		{ meta_fields => [ "tipo_peza" ] },
 		{ meta_fields => [ "subjects" ] },
@@ -17,6 +16,7 @@ $c->{search}->{advanced} =
 		{ meta_fields => [ "texto_peza" ] },
 		# { meta_fields => [ "abstract" ] },
 		{ meta_fields => [ "linguaxe" ] },
+		{ meta_fields => [ $EPrints::Utils::FULLTEXT ] },
 		{ meta_fields => [ "documents.format" ] },
 	],
 	preamble_phrase => "cgi/advsearch:preamble",

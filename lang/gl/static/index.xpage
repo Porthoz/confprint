@@ -22,7 +22,7 @@
               <input type="hidden" name="basic_srchtype" value="ALL"/>
               <input type="hidden" name="_satisfyall" value="ALL"/>
             </form>
-			<a href="{$config{perl_url}}/search/advanced" style="font-size:50%">Busca por campos</a>
+			<a href="{$config{perl_url}}/search/advanced" style="font-size:70%">Busca avanzada</a>
 </div>
 <br />
 

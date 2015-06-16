@@ -190,13 +190,13 @@ td.ep_row {
 /* messages.css */
 
 .ep_msg_message_content, .ep_msg_warning_content, .ep_msg_error_content, .ep_msg_other_content {
-	background-image: url(images/bar_solid_48px.png);
-	background-repeat: repeat-x;
+	/*background-image: url(images/bar_solid_48px.png);*/
+	/*background-repeat: repeat-x;*/
 }
 
 .ep_msg_message_content {
-	background-color: #80ff80;
-	border-color: #80ff80;
+	background-color: #DFFCDF;
+	border-color: #23C723;
 }
 .ep_msg_error_content {
 	background-color: #ffc0c0;
@@ -204,7 +204,7 @@ td.ep_row {
 }
 
 .ep_msg_warning_content {
-	background-color: #ffc080;
+	background-color: #FFECD9;
 	border-color: #ffc080;
 }
 
@@ -228,3 +228,4 @@ td.ep_columns_cell {
 	border-color: #cccccc;
 	/*background-image: url(images/bar_24px.png);*/
 }
+

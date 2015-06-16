@@ -21,27 +21,29 @@ table.ep_multi tr:first-child td.ep_multi_help
 
 th.ep_multi_heading
 {
-	border-top: dashed #bbf 1px;
+	border-bottom: solid #FFFFFF 1px;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	padding-right: 0.5em;
+	color: #003B6A;
 	text-align: right;
+	background-color: #E4EFFF;
 }
 
 td.ep_multi_input
 {
-	border-top: dashed #bbf 1px;
+	border-top: solid #E4EFFF 1px;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	padding-left: 0.5em;
 	padding-right: 0.5em;
-	border-left: dashed #bbf 1px;
+	/* border-left: dashed #E4EFFF 1px; */
 }
 
 td.ep_multi_help
 {
 	white-space: nowrap;
-	border-top: dashed #bbf 1px;
+	border-top: solid #E4EFFF 1px;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	padding-left: 0.5em;

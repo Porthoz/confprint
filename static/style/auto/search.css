@@ -5,10 +5,10 @@
 
 /* buttons are on the form, controls on the results */
 .ep_search_buttons, .ep_search_controls, .ep_search_controls_bottom {
-	border-style: solid none;
-	border-width: 1px;
+	/*border-style: solid none;*/
+	/*border-width: 1px;*/
 	text-align: center;
-	padding: 4px 0px;
+	padding: 7px 0px;
 	margin: 4px 0px 12px 0px;
 }
 
@@ -55,6 +55,7 @@
 
 .ep_search_feed {
 	white-space: nowrap;
+		display:none;
 }
 .ep_search_feed img {
 	vertical-align: -2px;
@@ -96,10 +97,19 @@
 
 input.ep_form_search_advanced_link, input.ep_form_search_advanced_link:hover {
         border: none;
-        text-decoration: underline;
         background: none;
-        color: #00f;
         cursor: pointer;
+}
+
+/*añadido por mi*/
+input.ep_form_search_advanced_link {
+    color: rgb(0, 59, 106);
+    text-decoration:none;
+}
+
+input.ep_form_search_advanced_link:hover {
+    text-decoration: underline;
+    color: rgb(0, 59, 106);
 }
 
 span.search_desc {

@@ -13,6 +13,7 @@ hr.ep_tm_last {
 
 ul.ep_tm_menu a:hover {
     text-decoration: none;
+    color: white;
 }
 /* deprecated in 3.3 */
 .ep_tm_logo img {
