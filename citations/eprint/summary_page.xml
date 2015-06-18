@@ -124,6 +124,16 @@
       </tr>  
     </epc:if>
 
+      <epc:comment>
+    METADATO:realizador_recolla
+  </epc:comment>
+    <epc:if test="realizador_recolla_name">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_realizador_recolla" />:</th>
+        <td><epc:print expr="realizador_recolla_name"/></td>
+      </tr>  
+    </epc:if>
+
     <epc:comment>
     METADATO:Colección
   </epc:comment>
@@ -181,6 +191,16 @@
       <tr>
         <th align="right"><epc:phrase ref="eprint_fieldname_informantes" />:</th>
         <td><epc:print expr="informantes_name"/></td>
+      </tr>  
+    </epc:if>
+
+    <epc:comment>
+    METADATO:Grupo
+  </epc:comment>
+    <epc:if test="is_set(informante_grupo_nome)">
+      <tr>
+        <th align="right">Informantes&#32;/&#32;<epc:phrase ref="eprint_fieldname_informante_grupo_nome" />:</th>
+        <td><epc:print expr="informante_grupo_nome"/></td>
       </tr>  
     </epc:if>
 

@@ -68,7 +68,9 @@ Action buttons (Previous/Save/Next) can be shown "top", "bottom" or "both":
 		<field ref="date" />
 		<field ref="coleccion" />      
 		<field ref="creators" input_lookup_url="{$config{rel_cgipath}}/users/lookup/name" />
+		<field ref="realizador_recolla" /> 
     	<field ref="informantes" input_lookup_url="{$config{rel_cgipath}}/users/lookup/name_informante"/>
+    	<field ref="informante_grupo" />
 		<field ref="notas_recolla" />		
 		<field ref="notas_informante" />
 	</component>

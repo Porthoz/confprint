@@ -94,7 +94,7 @@
 
     <epp:phrase id="lib/metafield:year">Ano:</epp:phrase>
 
-    <epp:phrase id="cgi/advsearch:preamble"><p> Non teñas medo! deixa os campos nos que non queras buscar en branco. <a href="simple">Click aquí para a búsqueda sinxela.</a></p></epp:phrase>
+    <epp:phrase id="cgi/advsearch:preamble"><p> Tamén podes facer <a href="simple">click aquí para a búsqueda sinxela.</a></p></epp:phrase>
 
     <epp:phrase id="cgi/advsearch:adv_search">Busca avanzada</epp:phrase>
 
@@ -304,7 +304,7 @@ Seleccione unha ou varias opcións da lista. A opción por defecto e (calquera)<
 
 </epp:phrase>
 
-    <epp:phrase id="lib/searchexpression:results">Amosando resultados <epc:pin name="from"/> ó <epc:pin name="to"/> de <epc:pin name="n"/>.</epp:phrase>
+    <epp:phrase id="lib/searchexpression:results"><div xmlns:epc="http://eprints.org/ep3/control" class="sp_amosando"> Amosando resultados <epc:pin name="from"/> ó <epc:pin name="to"/> de <epc:pin name="n"/>.</div></epp:phrase>
 
     <epp:phrase id="ordername_eprint_byrelevance">por relevancia</epp:phrase>
 
@@ -1114,10 +1114,82 @@ Natural language terms to describe the content of the item</epp:phrase>
 
     <epp:phrase id="loc_estado_typename_espana">España</epp:phrase>
 
-    <epp:phrase id="cgi/login:title">Iniciar sesion</epp:phrase>
+    <epp:phrase id="cgi/login:title">Iniciar sesión</epp:phrase>
 
     <epp:phrase id="lib/submissionform:action_staff_save">Gardar e voltar</epp:phrase>
 
     <epp:phrase id="subject_fieldname_name_sortvalue">Sort value</epp:phrase>
+
+    <epp:phrase id="archive:workflow:stage:abstract:title">Resumo</epp:phrase>
+
+    <epp:phrase id="archive:workflow:stage:core:title">Detalles</epp:phrase>
+
+    <epp:phrase id="archive:workflow:stage:event:title">Eventos</epp:phrase>
+
+    <epp:phrase id="archive:workflow:stage:files:title">Subir</epp:phrase>
+
+    <epp:phrase id="archive:workflow:stage:local:title">Propios</epp:phrase>
+
+    <epp:phrase id="archive:workflow:stage:pubinfo:title">Publicación</epp:phrase>
+
+    <epp:phrase id="archive:workflow:stage:status:title">Estatus</epp:phrase>
+
+    <epp:phrase id="archive:workflow:stage:type:title">Tipo</epp:phrase>
+
+    <epp:phrase id="bin/generate_views:browseintro"><div class="ep_view_browse_intro"> As pezas poden ser visualizadas por os seguintes criterios: </div></epp:phrase>
+
+    <epp:phrase id="cachemap_fieldname_created">Data de creación</epp:phrase>
+
+    <epp:phrase id="cgi/confirm:bad_user"><p>Usuario non atopado. É posible que poida ser debido a un erro na base de datos, pero por favor revise os parametros na URL detidamente.</p></epp:phrase>
+
+    <epp:phrase id="cgi/confirm:err_title">Erro: Cambio de rexistro fallido</epp:phrase>
+
+    <epp:phrase id="cgi/confirm:go_login"><p><a href="{$config{userhome}}">Continuar</a></p></epp:phrase>
+
+    <epp:phrase id="cgi/confirm:title">Cornfirmacion de cambio de rexistro</epp:phrase>
+
+    <epp:phrase id="cgi/latest_tool:title">Últimos <epc:pin name="n"/> engadidos a <epc:phrase ref="archive_name"/></epp:phrase>
+
+    <epp:phrase id="cgi/latest_tool:title_matching">Últimos <epc:pin name="n"/> engadidos a <epc:phrase ref="archive_name"/> onde <epc:pin name="search"/></epp:phrase>
+
+    <epp:phrase id="bin/generate_views:browsetitle">Explorar o arquivo</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_informante_grupo">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_informante_grupo">Informante/Grupo</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_informante_grupo_id">ID</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_informante_grupo_nome">Grupo</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_realizador_recolla">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_realizador_recolla">Autor da recolla</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_realizador_recolla_id">id</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_realizador_recolla_url">url</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Subject/Edit:children">Fillo</epp:phrase>
+
+    <epp:phrase id="lib/session:edit_page">Editar páxina</epp:phrase>
+
+    <epp:phrase id="lib/searchexpression:seperator"/>
+
+    <epp:phrase id="Update/Views:export_section">
+<table xmlns:epc="http://eprints.org/ep3/control" width="100%"><tr>
+  <td align="left">Exportar como <epc:pin name="menu"/><epc:pin name="button"/></td>
+  <td align="right"><epc:pin name="feeds"/></td>
+</tr>
+<tr>
+  <td align="left" colspan="2">
+    <epc:pin name="tools"/>
+  </td>
+</tr>
+</table>
+
+</epp:phrase>
+
+    <epp:phrase id="Update/Views:up_a_level"><table xmlns:epc="http://eprints.org/ep3/control" class="ep_subir_nivel"><tr><td><epc:pin name="url">Subir un nivel </epc:pin></td><td><epc:pin name="url"><img src="{$config{rel_path}}/style/images/multi_up.png" border="0"/></epc:pin></td></tr></table></epp:phrase>
 
 </epp:phrases>

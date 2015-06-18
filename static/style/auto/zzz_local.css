@@ -34,3 +34,39 @@
 h2.bold {
     font-weight: bold;
 }
+
+span.ep_search_control a {
+    border-color: #1C3D68;
+    background-color: #1C3D68;
+    color: white;
+    padding: 4px;
+}
+
+span.ep_search_control a:hover {
+    border-color: #1C3D68;
+    background-color: #1C3D68;
+    color: white;
+    text-decoration:none;
+}
+
+.sp_amosando {
+    font-weight: bold;
+}
+
+.ep_exportar_form {
+    /*float: left;*/
+    margin: 10px 0px;
+}
+
+.ep_subir_nivel {
+    float: right;
+    margin-bottom: -25px
+}
+.ep_tm_pagetitle {
+
+    margin:25px 0px;
+}
+
+table.ep_subir_nivel td {
+    padding-left: 3px;
+}

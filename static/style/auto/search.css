@@ -36,8 +36,9 @@
 }
 
 .ep_search_reorder {
-	margin: 0.4em auto 0 auto;
+	margin: 10px;
 	text-align: center;
+
 }
 
 .ep_search_tool {
@@ -80,7 +81,7 @@
 .ep_search_result td
 {
 	padding: 4px;
-	border-bottom: dashed #bbf 1px;
+	border-bottom: solid #E5E1E1 1px;
 }
 
 .ep_paginate_list

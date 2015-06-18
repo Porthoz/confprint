@@ -87,6 +87,7 @@ $c->{browse_views} = [
 		order => "-date/title",
 		variations => [
 			"date;truncate=4",
+			"loc_concello",
 			"DEFAULT",
 		],
         },

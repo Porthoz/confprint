@@ -121,13 +121,19 @@ h1, h2, h3, h4 {
 
 .ep_summary_box_title, .ep_summary_box_body, .ep_sr_title_bar, .ep_sr_content, .ep_sr_collapse_bar
 ,.ep_tab_panel
-,.ep_toolbox_content /* toolbox.css */
 ,.ep_upload_doc /* upload.css */
-,.ep_search_buttons, .ep_search_controls, .ep_search_controls_bottom /* search.css */
+,.ep_search_buttons, .ep_search_controls_bottom /* search.css */
 ,.ep_view_group_by /* view.css */
 {
 	background-color: #E4efff;
 }
+
+.ep_search_controls, .ep_search_controls_bottom , .ep_toolbox_content {
+
+background-color: #F2F2F2;
+}
+
+
 .ep_summary_box_title, .ep_sr_title_bar, .ep_sr_collapse_bar {
 	/*background-image: url(images/bar_solid_12px.png);*/
 	background-repeat: repeat-x;
@@ -165,6 +171,7 @@ h1, h2, h3, h4 {
 .ep_tab_bar li.ep_tab_selected a {
 	background-color: #E4efff;
 	color: black;
+	font-weight: bold;
 }
 
 /* general.css */

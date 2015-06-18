@@ -69,6 +69,8 @@ push @{$c->{fields}->{eprint}},
 	type => 'subject',
 	multiple => 1,
 	top => 'subjects',
+	showtop =>0,
+	showall =>1,
 	browse_link => 'subjects',
 },
 
@@ -133,6 +135,35 @@ push @{$c->{fields}->{eprint}},
 
 # Informantes das pezas
 {
+	name => 'realizador_recolla',
+	type => 'compound',
+	multiple => 1,
+	fields => [
+		{
+			sub_name => 'name',
+			type => 'name',
+			hide_honourific => 1,
+			hide_lineage => 1,
+			family_first => 1,
+		},
+		{
+			sub_name => 'id',
+			type => 'text',
+			input_cols => 5,
+			allow_null => 1,
+		},
+		{
+			sub_name => 'url',
+			type => 'url',
+			input_cols => 5,
+		},
+
+		],
+	input_boxes => 2,
+},
+
+# Informantes das pezas
+{
 	name => 'informantes',
 	type => 'compound',
 	multiple => 1,
@@ -161,6 +192,28 @@ push @{$c->{fields}->{eprint}},
 		],
 	input_boxes => 2,
 },
+
+# Grupo de informantes
+{
+	name => 'informante_grupo',
+	type => 'compound',
+	fields => [
+
+		{
+			sub_name => 'nome',
+			type => 'text',
+		},
+		{
+			sub_name => 'id',
+			type => 'text',
+			input_cols => 5,
+			allow_null => 1,
+		},
+
+		],
+	input_boxes => 1,
+},
+
 
 # Colección
 {
