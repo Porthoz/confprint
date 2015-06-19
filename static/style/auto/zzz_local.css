@@ -70,3 +70,14 @@ span.ep_search_control a:hover {
 table.ep_subir_nivel td {
     padding-left: 3px;
 }
+
+.ep_view_browse_list {
+    margin: 10px 0px;
+    background-color: #f2f2f2;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.ep_view_intro {
+    margin: 10px 0px;
+}

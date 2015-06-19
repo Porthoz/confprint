@@ -32,7 +32,7 @@
 
     <epp:phrase id="eprint_fieldhelp_autor_ficha">Axuda autor da ficha inicial</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_title">Título da peza</epp:phrase>
+    <epp:phrase id="eprint_fieldname_title">Título descriptivo</epp:phrase>
 
     <epp:phrase id="eprint_fieldname_autor_recolla">Autor material da recolla</epp:phrase>
 
@@ -48,7 +48,7 @@
 
     <epp:phrase id="eprint_radio_estudada">Peza estudada</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_date">Data da recolla</epp:phrase>
+    <epp:phrase id="eprint_fieldname_date">Data de compilación</epp:phrase>
 
     <epp:phrase id="eprint_fieldhelp_autor_recolla">Axuda autor da recolla</epp:phrase>
 
@@ -68,7 +68,7 @@
 
     <epp:phrase id="eprint_fieldname_coleccion">Colección</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_tipo_peza">Tipo de peza</epp:phrase>
+    <epp:phrase id="eprint_fieldname_tipo_peza">Tipo de rexitro</epp:phrase>
 
     <epp:phrase id="eprint_fieldopt_tipo_peza_coleccions">Colección</epp:phrase>
 
@@ -178,7 +178,7 @@
 
     <epp:phrase id="Plugin/Screen/Admin:admin_actions_system">Ferramentas do sistema</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_type">Tipo de rexistro</epp:phrase>
+    <epp:phrase id="eprint_fieldname_type">Tipo</epp:phrase>
 
     <epp:phrase id="metapage_title_files">Subir</epp:phrase>
 

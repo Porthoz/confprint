@@ -91,19 +91,40 @@
   <table class="table table-striped" style="margin-bottom: 1em; margin-top: 1em;" cellpadding="3">
 
   <epc:comment>
-    METADATO:Tipo
-  </epc:comment>
+    METADATO:Tipo /non aparece
+ 
     <tr>
       <th align="right"><epc:phrase ref="eprint_fieldname_type" />:</th>
       <td>
         <epc:print expr="type" />
       </td>
     </tr>
-  
+   </epc:comment>
+
+    <epc:comment>
+    METADATO:Tipo de peza
+  </epc:comment>
+    <epc:if test="is_set(tipo_peza)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_tipo_peza" />:</th>
+        <td><epc:print expr="tipo_peza"/></td>
+      </tr>  
+    </epc:if>
+
+  <epc:comment>
+    METADATO:Compilador
+  </epc:comment>
+    <epc:if test="is_set(creators_name)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_creators" />:</th>
+        <td><epc:print expr="creators_name"/></td>
+      </tr>  
+    </epc:if>
+    
   <epc:comment>
     METADATO:Lugar de compilación
   </epc:comment>
-  <epc:if test="loc_concello">
+  <epc:if test="is_set(loc_concello)">
     <tr>
       <th align="right">Lugar de Compilación:</th>
       <td>
@@ -115,19 +136,19 @@
   </epc:if>
 
   <epc:comment>
-    METADATO:Compilador
+    METADATO:Data de compilación
   </epc:comment>
-    <epc:if test="creators_name">
+    <epc:if test="is_set(date)">
       <tr>
-        <th align="right"><epc:phrase ref="eprint_fieldname_creators" />:</th>
-        <td><epc:print expr="creators_name"/></td>
+        <th align="right"><epc:phrase ref="eprint_fieldname_date" />:</th>
+        <td><epc:print expr="date"/></td>
       </tr>  
     </epc:if>
 
       <epc:comment>
     METADATO:realizador_recolla
   </epc:comment>
-    <epc:if test="realizador_recolla_name">
+    <epc:if test="is_set(realizador_recolla_name)">
       <tr>
         <th align="right"><epc:phrase ref="eprint_fieldname_realizador_recolla" />:</th>
         <td><epc:print expr="realizador_recolla_name"/></td>
@@ -144,15 +165,6 @@
       </tr>  
     </epc:if>
 
-  <epc:comment>
-    METADATO:Data de compilación
-  </epc:comment>
-    <epc:if test="is_set(date)">
-      <tr>
-        <th align="right"><epc:phrase ref="eprint_fieldname_date" />:</th>
-        <td><epc:print expr="date"/></td>
-      </tr>  
-    </epc:if>
 
     <epc:comment>
     METADATO:Materias
@@ -174,15 +186,6 @@
       </tr>  
     </epc:if>
 
-    <epc:comment>
-    METADATO:Tipo de peza
-  </epc:comment>
-    <epc:if test="is_set(tipo_peza)">
-      <tr>
-        <th align="right"><epc:phrase ref="eprint_fieldname_tipo_peza" />:</th>
-        <td><epc:print expr="tipo_peza"/></td>
-      </tr>  
-    </epc:if>
 
     <epc:comment>
     METADATO:Informantes
@@ -223,8 +226,6 @@
         <td><epc:print expr="dixitalizadores_name"/></td>
       </tr>  
     </epc:if>
-    
-  
     
     <epc:comment> 
        Metadatos actualizados automáticamente en eprints_render.pl

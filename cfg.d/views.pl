@@ -4,26 +4,7 @@
 # Multiple fields may be specified for one view, but avoid
 # subject or allowing null in this case.
 
-###################################################
-#          Vista por data da recolla
-##################################################
 $c->{browse_views} = [
-        {
-                id => "year",
-                menus => [
-			{
-				fields => [ "date;res=year" ],
-				reverse_order => 1,
-                		allow_null => 1,
-				new_column_at => [10,10],
-			}
-		],
-                order => "creators_name/title",
-		variations => [
-			"creators_name;first_letter",
-			"type",
-			"DEFAULT" ],
-        },
 ###################################################
 #          POR MATERIA
 ##################################################
@@ -38,9 +19,30 @@ $c->{browse_views} = [
                 order => "creators_name/title",
                 include => 1,
 		variations => [
-			"creators_name;first_letter",
-			"type",
+			"DEFAULT",
+			"creators_name",
+			"tipo_peza",
 		],
+        },
+###################################################
+#          Vista por data da recolla
+##################################################
+        {
+                id => "year",
+                menus => [
+			{
+				fields => [ "date;res=year" ],
+				reverse_order => 1,
+                		allow_null => 1,
+				new_column_at => [10,10],
+			}
+		],
+                order => "creators_name/title",
+		variations => [
+			"DEFAULT", 
+			"creators_name",
+			"tipo_peza"
+			],
         },
 ###################################################
 #          POR DIVISIÓN TERRITORIAL
