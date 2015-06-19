@@ -7,13 +7,15 @@
   <link rel="alternate" type="application/rdf+xml" title="Repository Summary RDF+XML" href="{$config{http_cgiurl}}/export/repository/RDFXML/devel.rdf"></link>
   <link rel="alternate" type="text/n3" title="Repository Summary RDF+N3" href="{$config{http_cgiurl}}/export/repository/RDFN3/devel.n3"></link>
 </xpage:head>
-<xpage:title> </xpage:title>
+<xpage:title> <epc:phrase ref="archive_name" /> </xpage:title>
 <xpage:body>
 
-
+<p class="intro_ppal">
+  Benvidos o Arquivo Dixital do Museo do Pobo Galego. Neste arquivo podes <a href="{$config{perl_url}}/search/simple">buscar</a> pezas recopiladas no mesmo , ou facer unha <a href="{$config{perl_url}}/search/advanced">b&uacute;sca por campos</a>. Tam&eacute;n podes <a href="{$config{http_url}}/view/">explorar</a> o contido global do arquivo por distintos criterios.
+</p>
 <br />
-
-<div style="font-size:150%">
+<div class="ep_toolbox"><div class="ep_toolbox_content" >
+ <div style="font-size:150%">
 <form method="get" accept-charset="utf-8" action="{$config{http_cgiurl}}/search" style="display:inline">
               <input class="ep_tm_searchbarbox" size="50" type="text" name="q"/>
               <input class="ep_tm_searchbarbutton" value="{phrase('lib/searchexpression:action_search')}" type="submit" name="_action_search"/>
@@ -22,24 +24,17 @@
               <input type="hidden" name="basic_srchtype" value="ALL"/>
               <input type="hidden" name="_satisfyall" value="ALL"/>
             </form>
-			<a href="{$config{perl_url}}/search/advanced" style="font-size:70%">Busca avanzada</a>
+      <a href="{$config{perl_url}}/search/advanced" style="font-size:70%">Busca avanzada</a>
 </div>
-<br />
+</div></div>
 
 <div class="ep_toolbox" ><div class="ep_toolbox_content" >
  <h2> <a href="{$config{perl_url}}/latest">Novo contido</a></h2>
   &Uacute;ltimos elementos engadidos &oacute; arquivo.  
 </div></div>
 
-<div class="ep_toolbox"><div class="ep_toolbox_content" >
- <h2><a href="{$config{perl_url}}/search/advanced">Busca Avanzada</a></h2>
- Buscar no arquivo empregando unha completa lista de campos. Para unha b&uacute;squeda mais sixela empregue o formulario da parte superior esquerda e prema atopar.
-</div></div>
 
-<div class="ep_toolbox"><div class="ep_toolbox_content" >
- <h2><a href="{$config{base_url}}/view/subjects/">Listado de materias</a></h2>
- Navega polas diversas materias do arquivo.
-</div></div>
+
 
 <div class="ep_toolbox"><div class="ep_toolbox_content" >
  <h2><a href="{$config{base_url}}/information.html">Informaci&oacute;n</a></h2>

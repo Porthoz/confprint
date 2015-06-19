@@ -81,3 +81,7 @@ table.ep_subir_nivel td {
 .ep_view_intro {
     margin: 10px 0px;
 }
+
+.intro_ppal a {
+    font-weight: bold;
+}

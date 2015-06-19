@@ -358,7 +358,7 @@
       <epc:comment>
     METADATO:ambito
   </epc:comment>
-    <epc:if test="is_set(incipit_do_texto)">
+    <epc:if test="is_set(ambito)">
       <tr>
         <th align="right"><epc:phrase ref="eprint_fieldname_ambito" />:</th>
         <td><epc:print expr="ambito"/></td>
