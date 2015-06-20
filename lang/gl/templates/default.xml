@@ -28,37 +28,14 @@
           </a>
         </li>
         <li>
+          <a href="{$config{perl_url}}/search/advanced" menu="ep_tm_menu_browse">
+            Busca
+          </a>
+        </li>
+        <li>
           <a href="{$config{http_url}}/view/" menu="ep_tm_menu_browse">
             <epc:phrase ref="template/navigation:browse"/>
           </a>
-          <ul id="ep_tm_menu_browse" style="display:none;">
-            <li>
-              <a href="{$config{http_url}}/view/year/">
-                <epc:phrase ref="bin/generate_views:indextitleprefix"/>
-                <epc:phrase ref="viewname_eprint_year"/>
-              </a>
-            </li>
-            <li>
-              <a href="{$config{http_url}}/view/subjects/">
-                <epc:phrase ref="bin/generate_views:indextitleprefix"/>
-                <epc:phrase ref="viewname_eprint_subjects"/>
-              </a>
-            </li>
-
-            <li>
-              <a href="{$config{http_url}}/view/concello/">
-                <epc:phrase ref="bin/generate_views:indextitleprefix"/>
-                <epc:phrase ref="viewname_eprint_concello"/>
-              </a>
-            </li>
-
-            <li>
-              <a href="{$config{http_url}}/view/creators/">
-                <epc:phrase ref="bin/generate_views:indextitleprefix"/>
-                <epc:phrase ref="viewname_eprint_creators"/>
-              </a>
-            </li>
-          </ul>
         </li>
       </ul>
 
