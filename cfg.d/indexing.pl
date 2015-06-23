@@ -50,7 +50,7 @@ $c->{indexing}->{freetext_min_word_size} = 3;
 # Words to never index, despite their length.
 $c->{indexing}->{freetext_stop_words} = {
 	"this"=>1,	"are"=>1,	"which"=>1,	"with"=>1,
-	"that"=>1,	"can"=>1,	"from"=>1,	"these"=>1,
+	"that"=>1,	"from"=>1,	"these"=>1,
 	"those"=>1,	"the"=>1,	"you"=>1,	"for"=>1,
 	"been"=>1,	"have"=>1,	"were"=>1,	"what"=>1,
 	"where"=>1,	"is"=>1,	"and"=>1, 	"fnord"=>1,
