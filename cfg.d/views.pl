@@ -21,6 +21,7 @@ $c->{browse_views} = [
 		variations => [
 			"DEFAULT",
 			"creators_name",
+			"loc_concello",
 			"tipo_peza",
 		],
         },
@@ -39,7 +40,8 @@ $c->{browse_views} = [
 		],
                 order => "creators_name/title",
 		variations => [
-			"DEFAULT", 
+			"DEFAULT",
+			"loc_concello", 
 			"creators_name",
 			"tipo_peza"
 			],
@@ -88,9 +90,9 @@ $c->{browse_views} = [
 		],
 		order => "-date/title",
 		variations => [
+			"DEFAULT",
 			"date;truncate=4",
 			"loc_concello",
-			"DEFAULT",
 		],
         },
 ###################################################
@@ -107,9 +109,9 @@ $c->{browse_views} = [
 		],
 		order => "-date/title",
 		variations => [
-			"creators_name;first_letter",
-			"date;truncate=4",
 			"DEFAULT",
+			"date;truncate=4",
+			"loc_concello",
 		],
 	},
 ###################################################
@@ -130,11 +132,11 @@ $c->{browse_views} = [
 		],
 		order => "-date/title",
 		variations => [
-			"loc_parroquia",
 			"DEFAULT",
+			"loc_parroquia",
 			"loc_lugar",
-			"creators_name;first_letter",
 			"date;truncate=4",
+			"creators_name",
 		],
 	},
 ###################################################
@@ -151,9 +153,10 @@ $c->{browse_views} = [
 		],
 		order => "-date/title",
 		variations => [
-			"creators_name;first_letter",
-			"date;truncate=4",
 			"DEFAULT",
+			"loc_concello",
+			"date;truncate=4",
+			"creators_name",
 		],
 	},
 ################################################################################
