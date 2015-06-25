@@ -11,7 +11,7 @@
 <xpage:body>
 
 <p class="intro_ppal">
-  Benvidos o Arquivo Dixital do Museo do Pobo Galego. Neste arquivo podes <a href="{$config{perl_url}}/search/simple">buscar</a> pezas recopiladas no mesmo , ou facer unha <a href="{$config{perl_url}}/search/advanced">busca por campos</a>. Tam&eacute;n podes <a href="{$config{http_url}}/view/">explorar</a> o contido global do arquivo por distintos criterios.
+  Benvidos o Arquivo Dixital do Museo do Pobo Galego. Neste arquivo podes <a href="{$config{perl_url}}/search/simple">buscar</a> pezas recopiladas, ou facer unha <a href="{$config{perl_url}}/search/advanced">busca por campos</a>. Tam&eacute;n podes <a href="{$config{http_url}}/view/">explorar</a> o contido global do arquivo por distintos criterios.
 </p>
 <br />
 <div class="ep_toolbox"><div class="ep_toolbox_content" >
