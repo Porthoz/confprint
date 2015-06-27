@@ -56,8 +56,10 @@ h1, h2, h3, h4 {
 	border-bottom: 1px solid #fff;
 }
 .ep_tm_menu li:hover {
-	background-color: #279ae2;
+	background-color: #02599E;
+	transition: 0.7s;
 }
+
 .ep_tm_menu a, .ep_tm_menu a:visited {
 	color: white;
 }
