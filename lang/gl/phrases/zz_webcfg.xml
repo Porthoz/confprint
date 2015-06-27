@@ -1210,4 +1210,8 @@ Natural language terms to describe the content of the item</epp:phrase>
 
     <epp:phrase id="lib/session:phrase_edit_title">Editando phrases da páxina "<epc:pin name="page_title"/>"</epp:phrase>
 
+    <epp:phrase id="viewintro_localizacion">Seleccione un concello da lista para ver todos rexitros compilados</epp:phrase>
+
+    <epp:phrase id="viewintro_concello">Por favor seleccione un concello da lista para ver todos rexitros compilados</epp:phrase>
+
 </epp:phrases>

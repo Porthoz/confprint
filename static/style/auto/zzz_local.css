@@ -89,3 +89,7 @@ table.ep_subir_nivel td {
 table.ep_summary_page_actions {
     margin: 15px 0px 0px 0px;
 }
+
+ul.ep_action_list {
+    margin: 3px;
+}
