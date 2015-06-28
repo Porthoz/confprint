@@ -6,6 +6,55 @@
 
 $c->{browse_views} = [
 ###################################################
+#          POR COMPILADOR
+##################################################
+        {
+		id => "creators",
+		allow_null => 0,
+		hideempty => 1,
+		menus => [
+			{
+				fields => [ "creators_name" ],
+				#new_column_at => [1, 1],
+				# mode => "sections",
+				open_first_section => 1,
+				#group_range_function => "EPrints::Update::Views::cluster_ranges_30",
+				#grouping_function => "EPrints::Update::Views::group_by_a_to_z",
+			},
+		],
+		order => "-date/title",
+		variations => [
+			"DEFAULT",
+			"date;truncate=4",
+			"loc_concello",
+		],
+        },
+###################################################
+#          POR CONCELLO
+##################################################
+	{
+		id => "concello",
+		#allow_null => 0,
+		menus =>[
+			{
+				fields => ["loc_concello"],
+				hideempy => 1,
+			},
+			# {
+			# 	fields => ["loc_parroquia"],
+			# 	hideempy => 1,
+			# },		
+		],
+		order => "-date/title",
+		variations => [
+			"DEFAULT",
+			"loc_parroquia",
+			"loc_lugar",
+			"date;truncate=4",
+			"creators_name",
+		],
+	},
+###################################################
 #          POR MATERIA
 ##################################################
         {
@@ -25,6 +74,26 @@ $c->{browse_views} = [
 			"tipo_peza",
 		],
         },
+###################################################
+#          POR iNSTRUMENTOS
+##################################################
+	{
+		id => "instrumentos",
+		#allow_null => 0,
+		menus =>[
+			{
+				fields => ["instrumentos"],
+				hideempy => 1,
+			},		
+		],
+		order => "-date/title",
+		variations => [
+			"DEFAULT",
+			"loc_concello",
+			"date;truncate=4",
+			"creators_name",
+		],
+	},
 ###################################################
 #          Vista por data da recolla
 ##################################################
@@ -71,30 +140,7 @@ $c->{browse_views} = [
 # 			"DEFAULT",
 # 		],
 #         },
-###################################################
-#          POR COMPILADOR
-##################################################
-        {
-		id => "creators",
-		allow_null => 0,
-		hideempty => 1,
-		menus => [
-			{
-				fields => [ "creators_name" ],
-				#new_column_at => [1, 1],
-				# mode => "sections",
-				open_first_section => 1,
-				#group_range_function => "EPrints::Update::Views::cluster_ranges_30",
-				#grouping_function => "EPrints::Update::Views::group_by_a_to_z",
-			},
-		],
-		order => "-date/title",
-		variations => [
-			"DEFAULT",
-			"date;truncate=4",
-			"loc_concello",
-		],
-        },
+
 ###################################################
 #          POR COLECCIÓN
 ##################################################
@@ -114,51 +160,8 @@ $c->{browse_views} = [
 			"loc_concello",
 		],
 	},
-###################################################
-#          POR CONCELLO
-##################################################
-	{
-		id => "concello",
-		#allow_null => 0,
-		menus =>[
-			{
-				fields => ["loc_concello"],
-				hideempy => 1,
-			},
-			# {
-			# 	fields => ["loc_parroquia"],
-			# 	hideempy => 1,
-			# },		
-		],
-		order => "-date/title",
-		variations => [
-			"DEFAULT",
-			"loc_parroquia",
-			"loc_lugar",
-			"date;truncate=4",
-			"creators_name",
-		],
-	},
-###################################################
-#          POR iNSTRUMENTOS
-##################################################
-	{
-		id => "instrumentos",
-		#allow_null => 0,
-		menus =>[
-			{
-				fields => ["instrumentos"],
-				hideempy => 1,
-			},		
-		],
-		order => "-date/title",
-		variations => [
-			"DEFAULT",
-			"loc_concello",
-			"date;truncate=4",
-			"creators_name",
-		],
-	},
+
+
 ################################################################################
 		
 		

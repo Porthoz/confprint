@@ -11,10 +11,10 @@
 <xpage:body>
 
 <p class="intro_ppal">
-  Benvidos o Arquivo Dixital do Museo do Pobo Galego. Neste arquivo podes <a href="{$config{perl_url}}/search/simple">buscar</a> pezas recopiladas, ou facer unha <a href="{$config{perl_url}}/search/advanced">busca por campos</a>. Tam&eacute;n podes <a href="{$config{http_url}}/view/">explorar</a> o contido global do arquivo por distintos criterios.
+  Benvidos ao noso Arquivo dixital. Nel podes <a href="{$config{perl_url}}/search/advanced">buscar pezas recopiladas</a> ou <a href="{$config{http_url}}/view/">Navegar</a> porlo seu contido.
 </p>
 <br />
-<div class="ep_toolbox"><div class="ep_toolbox_content" >
+<!-- <div class="ep_toolbox"><div class="ep_toolbox_content" >
  <div style="font-size:150%">
 <form method="get" accept-charset="utf-8" action="{$config{http_cgiurl}}/search" style="display:inline">
               <input class="ep_tm_searchbarbox" size="50" type="text" name="q"/>
@@ -26,26 +26,43 @@
             </form>
       <a href="{$config{perl_url}}/search/advanced" style="font-size:70%">Busca avanzada</a>
 </div>
+</div></div> -->
+
+<div class="ep_toolbox" >
+  <div class="ep_toolbox_content" >
+    <span style="font-weight:bold;">Navegaci&oacute;n </span>
+<div class="ep_view_browse_list">
+  <ul>
+    <li><a href="view/creators/">Compilador</a></li>
+    <li><a href="view/concello/">Localizaci&oacute;n</a></li>
+    <li><a href="view/subjects/">Materia</a></li>
+    <li><a href="view/instrumentos/">Instrumentos</a></li>
+    <li><a href="view/year/">Data</a></li>
+    <li><a href="view/coleccion/">Coleccions</a></li>
+  </ul>
+  </div>
+ </div></div>
+
+ <div class="ep_toolbox"><div class="ep_toolbox_content" >
+ <a href="{$config{perl_url}}/search/advanced">Busca por campos</a><br /><br />
+Para buscar neste arquivo sobre unha selecci&oacute;n de campos. Use o campo parte superior esquerda para facer unha busca r&aacute;pida
 </div></div>
 
 <div class="ep_toolbox" ><div class="ep_toolbox_content" >
- <h2> <a href="{$config{perl_url}}/latest">Novo contido</a></h2>
-  &Uacute;ltimos elementos engadidos &oacute; arquivo.  
+ <a href="{$config{perl_url}}/latest">Novo contido</a><br /><br />
+  &Uacute;ltimos rexitros engadidos &oacute; noso arquivo na &uacute;ltimos sete dias.  
 </div></div>
 
-
-
-
 <div class="ep_toolbox"><div class="ep_toolbox_content" >
- <h2><a href="{$config{base_url}}/information.html">Informaci&oacute;n</a></h2>
+ <a href="{$config{base_url}}/information.html">Informaci&oacute;n</a><br /><br />
  Informaci&oacute;n acerca de este arquivo.
 </div></div>
 
-<div class="ep_toolbox"><div class="ep_toolbox_content" >
+<!-- <div class="ep_toolbox"><div class="ep_toolbox_content" >
  <h2><a href="{$config{base_url}}/policies.html">Pol&iacute;ticas</a></h2>
  Pol&iacute;ticas de uso do material de este arquivo.
 </div></div>
-
+ -->
 
 
 </xpage:body>

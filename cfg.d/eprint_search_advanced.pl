@@ -2,8 +2,7 @@
 $c->{search}->{advanced} = 
 {
 	search_fields => [
-		{ meta_fields => [ "title" ] },
-		# { meta_fields => [ "type" ] },
+		{ meta_fields => [ "type" ] },
 		{ meta_fields => [ "tipo_peza" ] },
 		{ meta_fields => [ "subjects" ] },
 		{ meta_fields => [ "creators_name" ] },
@@ -23,6 +22,7 @@ $c->{search}->{advanced} =
 		{ meta_fields => [ "instrumentacion" ] },
 		{ meta_fields => [ "instrumentos" ] },
 		#{ meta_fields => [ "tempo" ] },
+		{ meta_fields => [ "title" ] },
 		{ meta_fields => [ "texto_peza" ] },
 		{ meta_fields => [ $EPrints::Utils::FULLTEXT ] },
 		{ meta_fields => [ "documents.format" ] },

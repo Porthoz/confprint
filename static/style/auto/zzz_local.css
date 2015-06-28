@@ -93,3 +93,21 @@ table.ep_summary_page_actions {
 ul.ep_action_list {
     margin: 3px;
 }
+
+/************************Desactivados*/
+
+/*ayudas del formulario de busqueda*/
+
+td.ep_multi_help.ep_only_js_table_cell.ep_toggle {
+    display: none;
+}
+
+/*Menu de cambio de lenguaxes*/
+.idiomas {
+    display:none;
+}
+
+/*Enlace a busca avanzada*/
+input.ep_form_action_button.ep_form_search_advanced_link {
+    display: none;
+}

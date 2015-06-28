@@ -94,9 +94,9 @@
 
     <epp:phrase id="lib/metafield:year">Ano:</epp:phrase>
 
-    <epp:phrase id="cgi/advsearch:preamble"><p> Tamén podes facer <a href="simple">click aquí para a búsqueda sinxela.</a></p></epp:phrase>
+    <epp:phrase id="cgi/advsearch:preamble"><p> Tamén podes facer <a href="simple">click aquí para a búsqueda rápida.</a></p></epp:phrase>
 
-    <epp:phrase id="cgi/advsearch:adv_search">Busca avanzada</epp:phrase>
+    <epp:phrase id="cgi/advsearch:adv_search">Busca por campos</epp:phrase>
 
     <epp:phrase id="eprint_fieldname_compilador_nombre">Compilador Borrar</epp:phrase>
 
@@ -240,7 +240,7 @@
 	
 	<epp:phrase id="template/navigation:browse">Explorar</epp:phrase>
 
-    <epp:phrase id="lib/searchexpression:least_one">É preciso introducir algún dato</epp:phrase>
+    <epp:phrase id="lib/searchexpression:least_one">É preciso introducir polo menos un campo do formulario</epp:phrase>
 
     <epp:phrase id="lib/searchexpression:action_reset">Limpar o formulario</epp:phrase>
 
@@ -308,7 +308,7 @@ Seleccione unha ou varias opcións da lista. A opción por defecto e (calquera)<
 
     <epp:phrase id="ordername_eprint_byrelevance">por relevancia</epp:phrase>
 
-    <epp:phrase id="cgi/search:simple_search">Búsqueda sinxela</epp:phrase>
+    <epp:phrase id="cgi/search:simple_search">Búsqueda rápida</epp:phrase>
 
     <epp:phrase id="eprint_fieldhelp_localizacion">--</epp:phrase>
 
@@ -816,7 +816,7 @@ Seleccione unha ou varias opcións da lista. A opción por defecto e (calquera)<
     <epp:phrase id="priv:action/eprint/deposit_later">Gardar para máis tarde</epp:phrase>
 
     <epp:phrase id="Plugin/Screen/Items:help">
-<p>Esta páxina amosa os items que non depositou, o que todavía están baixo revisión.</p>
+<p>Esta páxina amosa os items que non depositou, ou que todavía están baixo revisión.</p>
 <p>Para comezar a depositar un item use o botón de "Novo item", e siga as instruccións.</p>
 <p>Se se detén antes de completar o depósito, ou un depósito é devolto para correccións, aparecerá na lista tal como na "Área de Usuario".</p>
 
@@ -1058,7 +1058,7 @@ Natural language terms to describe the content of the item</epp:phrase>
 
     <epp:phrase id="page:latest_version"><p><em>Esta é a última versión de esta peza.</em></p></epp:phrase>
 
-    <epp:phrase id="cgi/search:preamble"><p><a href="advsearch">Pincha aqui para a búsqueda avanzada</a></p></epp:phrase>
+    <epp:phrase id="cgi/search:preamble"><p><a href="advsearch">Lorem ipsum dolor sit amet.</a></p></epp:phrase>
 
     <epp:phrase id="cgi/login:page_layout">
       <epc:pin name="problems"/>
@@ -1213,5 +1213,13 @@ Natural language terms to describe the content of the item</epp:phrase>
     <epp:phrase id="viewintro_localizacion">Seleccione un concello da lista para ver todos rexitros compilados</epp:phrase>
 
     <epp:phrase id="viewintro_concello">Por favor seleccione un concello da lista para ver todos rexitros compilados</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Items:add">Engadir Columna</epp:phrase>
+
+    <epp:phrase id="lib/searchfield:desc:date_ormore"><epc:pin name="from"/> ou mais</epp:phrase>
+
+    <epp:phrase id="lib/searchfield:desc:date_orless"><epc:pin name="to"/> ou menos</epp:phrase>
+
+    <epp:phrase id="document_typename_slideshow">Presentación</epp:phrase>
 
 </epp:phrases>

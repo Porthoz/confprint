@@ -1,15 +1,22 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE page SYSTEM "entities.dtd" >
 <xpage:page xmlns="http://www.w3.org/1999/xhtml" xmlns:xpage="http://eprints.org/ep3/xpage" xmlns:epc="http://eprints.org/ep3/control">
-<xpage:title>Sobre o Repositorio</xpage:title>
+<xpage:title>Sobre este arquivo</xpage:title>
 <xpage:body>
 
-<p>Este Web site está potenciado por <a href="{$config{base_url}}/eprints/">EPrints 3</a>, desenrolado con software libre pola Universidade de Southampton.</p>
-
-<h2>Información de contacto</h2>
-
-<p>Calqueira comunicación acerca deste Repositorio específico deberá enviarse a: <a href="mailto:{$config{adminemail}}"><epc:print expr="$config{adminemail}" /></a>.</p>
-
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis pellentesque neque, non porttitor purus. Nam non nisi sed elit tincidunt pharetra sit amet nec erat. Integer aliquam leo eget luctus sollicitudin. Vivamus condimentum nisi id lacus luctus porta vel sit amet purus. Morbi euismod eget dolor eu vestibulum. Maecenas venenatis ex mauris, ac malesuada lectus pretium in. Aliquam consequat ipsum et mattis rhoncus. In euismod lobortis leo eget ullamcorper. Sed a egestas orci. Vivamus mollis cursus sem, ornare tincidunt mi sodales quis. Duis scelerisque dignissim imperdiet. Curabitur in ipsum vel lacus consequat blandit ultrices ut ligula.
+</p>
+<p>
+Vivamus at felis elementum leo iaculis porta sit amet vitae mauris. Curabitur sed quam non mi dictum molestie. Duis ipsum nibh, vehicula vitae sem sed, mollis semper odio. Maecenas pharetra rhoncus cursus. Donec non nunc quam. Vivamus porta magna lacinia, facilisis sem sit amet, dictum odio. Duis vehicula mauris accumsan tellus viverra molestie. Nulla non fermentum mi, eget porta justo. Nulla facilisi.
+</p>
+Donec nisl ligula, feugiat eget ante at, aliquet molestie metus. Proin sed quam id lorem imperdiet suscipit. Nullam mattis est quis magna consectetur vestibulum. Praesent vulputate diam efficitur pellentesque viverra. In at sapien pellentesque, eleifend enim sit amet, gravida eros. Fusce sit amet dui ullamcorper, tincidunt arcu vitae, aliquet neque. Vestibulum rutrum lectus id dolor malesuada volutpat. Phasellus imperdiet elit ut risus convallis feugiat. Donec finibus tincidunt tellus, vel congue risus consectetur luctus. Ut vulputate metus in eleifend consectetur.
+<p>
+Nullam fringilla congue lectus non efficitur. Phasellus pharetra, dolor et lobortis consequat, ante risus blandit velit, sit amet accumsan enim felis eget enim. Suspendisse vehicula lacus quis purus rutrum imperdiet. Pellentesque eget dignissim tortor. Maecenas rutrum interdum lacus in euismod. Quisque imperdiet arcu ipsum, quis auctor turpis rutrum aliquam. Nullam sollicitudin fringilla nisi quis lacinia. In commodo vestibulum metus eu fringilla. Donec posuere vehicula urna ut pellentesque. Nullam consectetur consequat lorem, sit amet fringilla quam tempus id. Morbi nibh libero, finibus sit amet auctor in, mattis non sapien.
+</p>
+<p>
+Quisque sed magna eget tellus mattis varius nec vitae lacus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec quis blandit magna. Aenean ut nibh eu dolor condimentum tincidunt. Duis sit amet iaculis ante. Nunc quis diam tellus. Aenean lacinia nunc vel quam pulvinar, id posuere quam lacinia.
+</p>
 
 </xpage:body>
 </xpage:page>
