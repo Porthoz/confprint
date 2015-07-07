@@ -37,13 +37,14 @@ $c->{browse_views} = [
 		#allow_null => 0,
 		menus =>[
 			{
+				fields => ["loc_provincia"],
+				hideempy => 1,
+			},
+			{
 				fields => ["loc_concello"],
 				hideempy => 1,
 			},
-			# {
-			# 	fields => ["loc_parroquia"],
-			# 	hideempy => 1,
-			# },		
+					
 		],
 		order => "-date/title",
 		variations => [
