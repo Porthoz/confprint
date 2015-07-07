@@ -1222,4 +1222,54 @@ Natural language terms to describe the content of the item</epp:phrase>
 
     <epp:phrase id="document_typename_slideshow">Presentación</epp:phrase>
 
+    <epp:phrase id="lib/searchexpression:desc_or"> <b>OU</b> </epp:phrase>
+
+    <epp:phrase id="tipo_instrumentos_typename_bombo">Bombo</epp:phrase>
+
+    <epp:phrase id="tipo_instrumentos_typename_caixa">Caixa</epp:phrase>
+
+    <epp:phrase id="tipo_instrumentos_typename_clarinete">Clarinete</epp:phrase>
+
+    <epp:phrase id="tipo_instrumentos_typename_culleres">Culleres</epp:phrase>
+
+    <epp:phrase id="tipo_instrumentos_typename_cunchas">Cunchas</epp:phrase>
+
+    <epp:phrase id="tipo_instrumentos_typename_harmonica">Harmónica</epp:phrase>
+
+    <epp:phrase id="tipo_instrumentos_typename_lata">Lata</epp:phrase>
+
+    <epp:phrase id="tipo_instrumentos_typename_pandeira">Pandeira</epp:phrase>
+
+    <epp:phrase id="tipo_instrumentos_typename_pandeireta">Pandeireta</epp:phrase>
+
+    <epp:phrase id="tipo_instrumentos_typename_tamboril">Tamboril</epp:phrase>
+
+    <epp:phrase id="tipo_instrumentos_typename_violino">Violino</epp:phrase>
+
+    <epp:phrase id="tipo_instrumentos_typename_voces_femininas">Voces femininas</epp:phrase>
+
+    <epp:phrase id="tipo_instrumentos_typename_voces_masculinas">Voces masculinas</epp:phrase>
+
+    <epp:phrase id="tipo_instrumentos_typename_voces_mixtas">Voces mixtas</epp:phrase>
+
+    <epp:phrase id="tipo_instrumentos_typename_voz_feminina">Voz feminina</epp:phrase>
+
+    <epp:phrase id="tipo_instrumentos_typename_voz_masculina">Voz masculina</epp:phrase>
+
+    <epp:phrase id="tipo_instrumentos_typename_﻿gaita">Gaita</epp:phrase>
+
+    <epp:phrase id="tipo_instrumentos_typename_gaita">Gaita</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_loc_provincia">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_loc_provincia">Provincia</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_loc_provincia_coruna">Coruña</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_loc_provincia_lugo">Lugo</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_loc_provincia_ourense">Ourense</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_loc_provincia_pontevedra">Pontevedra</epp:phrase>
+
 </epp:phrases>

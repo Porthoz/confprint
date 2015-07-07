@@ -246,6 +246,20 @@ push @{$c->{fields}->{eprint}},
 	input_rows =>4,
 },
 
+
+{
+	name => 'loc_provincia',
+	type => 'set',
+        multiple => 0,	
+	options => [qw(
+		pontevedra
+		coruna
+		ourense
+		lugo
+	)],
+	# input_style => 'medium',
+},
+
 {
 	name => 'loc_concello',
 	type => 'text',
@@ -467,10 +481,18 @@ push @{$c->{fields}->{eprint}},
 	render_quiet => 1,
 },
 
+# {
+# 	name => 'instrumentos',
+# 	type => 'text',
+# 	multiple => 1,
+# },
+
 {
 	name => 'instrumentos',
-	type => 'text',
+	type => 'namedset',
+	set_name => 'tipo_instrumentos',
 	multiple => 1,
+	# input_style => 'medium',
 },
 
 {
