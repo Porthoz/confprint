@@ -263,7 +263,7 @@ push @{$c->{fields}->{eprint}},
 {
 	name => 'loc_concello',
 	type => 'text',
-	browse_link =>'concello',
+	# browse_link =>'concello',
 },
 
 {

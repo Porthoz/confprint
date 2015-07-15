@@ -54,7 +54,7 @@
 
     <epp:phrase id="eprint_fieldhelp_estudada">Axuda Estudada</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_texto_peza">Transcripción da peza</epp:phrase>
+    <epp:phrase id="eprint_fieldname_texto_peza">Transcrición da peza</epp:phrase>
 
     <epp:phrase id="eprint_fieldhelp_coleccion">Axuda colección</epp:phrase>
 
@@ -950,7 +950,7 @@ Natural language terms to describe the content of the item</epp:phrase>
 
     <epp:phrase id="eprint_fieldname_notas_recolla">Notas da recolla</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_notas_transcripcion">Notas sobre a transcripción</epp:phrase>
+    <epp:phrase id="eprint_fieldname_notas_transcripcion">Notas sobre a transcrición</epp:phrase>
 
     <epp:phrase id="eprint_fieldname_notas_xerais">Notas xerais</epp:phrase>
 

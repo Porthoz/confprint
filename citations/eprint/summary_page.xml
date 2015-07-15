@@ -275,78 +275,26 @@
 
 <epc:if test="type='peza_musical'">
   <table class="table table-condensed table-striped">
-    <tr>
-      <th class="success" >Datos Musicais</th>
-      
+      <tr class="success">
+      <th>Datos Musicais</th>
+      <th>Copla</th>
+      <th>Refrán</th>
     </tr>
 
   <epc:comment>
-    METADATO:Tempo
-  </epc:comment>
-    <epc:if test="is_set(tempo)">
-      <tr>
-        <th align="right"><epc:phrase ref="eprint_fieldname_tempo" />:</th>
-        <td><epc:print expr="tempo"/></td>
-      </tr>  
-    </epc:if>
-
-    <epc:comment>
     METADATO:Título musical
   </epc:comment>
     <epc:if test="is_set(titulo_da_peza)">
       <tr>
         <th align="right"><epc:phrase ref="eprint_fieldname_titulo_da_peza" />:</th>
         <td><epc:print expr="titulo_da_peza"/></td>
+        <td></td>
       </tr>  
     </epc:if>
 
-    <epc:comment>
-    METADATO:Instrumentación
-  </epc:comment>
-    <epc:if test="is_set(instrumentacion)">
-      <tr>
-        <th align="right"><epc:phrase ref="eprint_fieldname_instrumentacion" />:</th>
-        <td><epc:print expr="instrumentacion"/></td>
-      </tr>  
-    </epc:if>
-
-    <epc:comment>
-    METADATO:Xénero
-  </epc:comment>
-    <epc:if test="is_set(xenero)">
-      <tr>
-        <th align="right"><epc:phrase ref="eprint_fieldname_xenero" />:</th>
-        <td><epc:print expr="xenero"/></td>
-      </tr>  
-    </epc:if>
-
-    <epc:comment>
-    METADATO:Modo de interpretación
-  </epc:comment>
-    <epc:if test="is_set(modo_interpretacion)">
-      <tr>
-        <th align="right"><epc:phrase ref="eprint_fieldname_modo_interpretacion" />:</th>
-        <td><epc:print expr="modo_interpretacion"/></td>
-      </tr>  
-    </epc:if>
-
-    <epc:comment>
-    METADATO:instrumentos
-  </epc:comment>
-    <epc:if test="is_set(instrumentos)">
-      <tr>
-        <th align="right"><epc:phrase ref="eprint_fieldname_instrumentos" />:</th>
-        <td><epc:print expr="instrumentos"/></td>
-      </tr>  
-    </epc:if>
-    <tr class="success">
-      <td></td>
-      <th>Copla</th>
-      <th>Refrán</th>
-    </tr>
     <epc:comment>
     METADATO:incipit do texto
-  </epc:comment>
+    </epc:comment>
     <epc:if test="is_set(incipit_do_texto)">
       <tr>
         <th align="right"><epc:phrase ref="eprint_fieldname_incipit_do_texto" />:</th>
@@ -355,9 +303,53 @@
       </tr>  
     </epc:if>
 
-      <epc:comment>
-    METADATO:ambito
+ <epc:comment>
+    METADATO:Xénero
   </epc:comment>
+    <epc:if test="is_set(xenero)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_xenero" />:</th>
+        <td><epc:print expr="xenero"/></td>
+        <td></td>
+      </tr>  
+    </epc:if>
+   
+    <epc:comment>
+    METADATO:Instrumentación
+  </epc:comment>
+    <epc:if test="is_set(instrumentacion)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_instrumentacion" />:</th>
+        <td><epc:print expr="instrumentacion"/></td>
+        <td></td>
+      </tr>  
+    </epc:if>
+  
+  <epc:comment>
+    METADATO:instrumentos
+  </epc:comment>
+    <epc:if test="is_set(instrumentos)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_instrumentos" />:</th>
+        <td><epc:print expr="instrumentos"/></td>
+        <td></td>
+      </tr>  
+    </epc:if>
+
+    <epc:comment>
+    METADATO:cadencias
+    </epc:comment>
+    <epc:if test="is_set(cadencias)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_cadencias" />:</th>
+        <td><epc:print expr="cadencias"/></td>
+        <td><epc:print expr="cadencias_refran"/></td>
+      </tr>  
+    </epc:if>
+    
+    <epc:comment>
+    METADATO:ambito
+    </epc:comment>
     <epc:if test="is_set(ambito)">
       <tr>
         <th align="right"><epc:phrase ref="eprint_fieldname_ambito" />:</th>
@@ -367,30 +359,8 @@
     </epc:if>
 
     <epc:comment>
-    METADATO:cadencias
-  </epc:comment>
-    <epc:if test="is_set(cadencias)">
-      <tr>
-        <th align="right"><epc:phrase ref="eprint_fieldname_cadencias" />:</th>
-        <td><epc:print expr="cadencias"/></td>
-        <td><epc:print expr="cadencias_refran"/></td>
-      </tr>  
-    </epc:if>
-
-     <epc:comment>
-    METADATO:escala
-  </epc:comment>
-    <epc:if test="is_set(escala)">
-      <tr>
-        <th align="right"><epc:phrase ref="eprint_fieldname_escala" />:</th>
-        <td><epc:print expr="escala"/></td>
-        <td><epc:print expr="escala_refran"/></td>
-      </tr>  
-    </epc:if>
-
-     <epc:comment>
     METADATO:Número de silabas
-  </epc:comment>
+    </epc:comment>
     <epc:if test="is_set(numero_de_silabas)">
       <tr>
         <th align="right"><epc:phrase ref="eprint_fieldname_numero_de_silabas" />:</th>
@@ -399,9 +369,20 @@
       </tr>  
     </epc:if>
 
-     <epc:comment>
+    <epc:comment>
+    METADATO:escala
+    </epc:comment>
+    <epc:if test="is_set(escala)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_escala" />:</th>
+        <td><epc:print expr="escala"/></td>
+        <td><epc:print expr="escala_refran"/></td>
+      </tr>  
+    </epc:if>
+
+    <epc:comment>
     METADATO:Forma musical
-  </epc:comment>
+    </epc:comment>
     <epc:if test="is_set(forma_musical)">
       <tr>
         <th align="right"><epc:phrase ref="eprint_fieldname_forma_musical" />:</th>
@@ -410,9 +391,9 @@
       </tr>  
     </epc:if>
 
-     <epc:comment>
+    <epc:comment>
     METADATO:Forma do texto
-  </epc:comment>
+    </epc:comment>
     <epc:if test="is_set(forma_do_texto)">
       <tr>
         <th align="right"><epc:phrase ref="eprint_fieldname_forma_do_texto" />:</th>
@@ -421,9 +402,9 @@
       </tr>  
     </epc:if>
 
-     <epc:comment>
+    <epc:comment>
     METADATO:Incipit melódico
-  </epc:comment>
+    </epc:comment>
     <epc:if test="is_set(incipit_melodico)">
       <tr>
         <th align="right"><epc:phrase ref="eprint_fieldname_incipit_melodico" />:</th>
@@ -432,9 +413,9 @@
       </tr>  
     </epc:if>
 
-     <epc:comment>
-    METADATO:cadencias
-  </epc:comment>
+    <epc:comment>
+    METADATO:compas
+    </epc:comment>
     <epc:if test="is_set(compas)">
       <tr>
         <th align="right"><epc:phrase ref="eprint_fieldname_compas" />:</th>
@@ -442,6 +423,29 @@
         <td><epc:print expr="compas_refran"/></td>
       </tr>  
     </epc:if>
+
+  <epc:comment>
+    METADATO:Tempo
+  </epc:comment>
+    <epc:if test="is_set(tempo)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_tempo" />:</th>
+        <td><epc:print expr="tempo"/></td>
+        <td></td>
+      </tr>  
+    </epc:if>   
+
+    <epc:comment>
+    METADATO:Modo de interpretación
+  </epc:comment>
+    <epc:if test="is_set(modo_interpretacion)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_modo_interpretacion" />:</th>
+        <td><epc:print expr="modo_interpretacion"/></td>
+        <td></td>
+      </tr>  
+    </epc:if>
+
 
   </table>
 </epc:if>

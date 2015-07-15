@@ -109,29 +109,30 @@ Action buttons (Previous/Save/Next) can be shown "top", "bottom" or "both":
 	 <epc:if test="type = 'peza_musical'">
 		<component type="Field::Multi" collapse="yes">
 			<title>Datos Musicais </title>
+			<field ref="cadencias" />
+			<field ref="ambito" />
+			<field ref="numero_de_silabas" />
+			<field ref="escala" />
+			<field ref="forma_musical" />
+			<field ref="forma_do_texto" />
+			<field ref="incipit_melodico" />
+			<field ref="compas" />
 			<field ref="tempo" />
+			<field ref="modo_interpretacion" />
+			<field ref="cadencias_refran" />
+			<field ref="ambito_refran" />
+			<field ref="escala_refran" />
+			<field ref="numero_de_silabas_refran" />
+			<field ref="forma_musical_refran" />
+			<field ref="forma_do_texto_refran" />
+			<field ref="incipit_melodico_refran" />
+			<field ref="compas_refran" />
+			<!-- Non contemplados -->
 			<field ref="titulo_da_peza" />
 			<field ref="incipit_do_texto" />
 			<field ref="incipit_do_texto_refran" />
-			<field ref="ambito" />
-			<field ref="ambito_refran" />
-			<field ref="cadencias" />
-			<field ref="cadencias_refran" />
-			<field ref="escala" />
-			<field ref="escala_refran" />
-			<field ref="numero_de_silabas" />
-			<field ref="numero_de_silabas_refran" />
-			<field ref="forma_musical" />
-			<field ref="forma_musical_refran" />
-			<field ref="forma_do_texto" />
-			<field ref="forma_do_texto_refran" />
-			<field ref="incipit_melodico" />
-			<field ref="incipit_melodico_refran" />
-			<field ref="compas" />
-			<field ref="compas_refran" />
 			<field ref="instrumentacion" />
 			<field ref="xenero" />
-			<field ref="modo_interpretacion" />
 			<field ref="instrumentos" />
 			
 		</component>
