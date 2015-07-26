@@ -944,7 +944,7 @@ Natural language terms to describe the content of the item</epp:phrase>
 
     <epp:phrase id="eprint_fieldname_notas_dixitalizacion">Notas sobre a dixitalización</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_notas_informante">Notas sobre os informates</epp:phrase>
+    <epp:phrase id="eprint_fieldname_notas_informante">Notas sobre os informantes</epp:phrase>
 
     <epp:phrase id="eprint_fieldname_notas_musica">Notas sobre a música</epp:phrase>
 
