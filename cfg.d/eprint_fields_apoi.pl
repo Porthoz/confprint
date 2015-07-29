@@ -53,7 +53,7 @@ push @{$c->{fields}->{eprint}},
 },
 
 ###################################################
-#          Campos suscritos ó estudio etnográfico
+#          Campxeos suscritos ó estudio etnográfico
 ##################################################
 
 # Boleano para ver se a peza foi obxeto de estudo
@@ -507,7 +507,7 @@ push @{$c->{fields}->{eprint}},
 	name => 'xenero',
 	type => 'namedset',
 	set_name => 'tipo_xenero',
-	#multiple => 1,
+	multiple => 1,
 	input_style => 'medium',
 },
 
