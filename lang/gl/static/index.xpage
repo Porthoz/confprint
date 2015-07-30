@@ -34,6 +34,7 @@
 <div class="ep_view_browse_list">
   <ul>
     <li><a href="view/creators/">Compilador</a></li>
+    <li><a href="view/informantes/">Informates</a></li>
     <li><a href="view/concello/">Localizaci&oacute;n</a></li>
     <li><a href="view/subjects/">Materia</a></li>
     <li><a href="view/instrumentos/">Instrumentos</a></li>

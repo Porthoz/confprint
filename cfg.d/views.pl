@@ -8,7 +8,7 @@ $c->{browse_views} = [
 ###################################################
 #          POR COMPILADOR
 ##################################################
-        {
+    {
 		id => "creators",
 		allow_null => 0,
 		hideempty => 1,
@@ -28,7 +28,30 @@ $c->{browse_views} = [
 			"date;truncate=4",
 			"loc_concello",
 		],
-        },
+    },
+
+    {
+		id => "informantes",
+		allow_null => 0,
+		hideempty => 1,
+		menus => [
+			{
+				fields => [ "informantes_name" ],
+				new_column_at => [1, 1],
+				mode => "sections",
+				open_first_section => 1,
+				group_range_function => "EPrints::Update::Views::cluster_ranges_30",
+				grouping_function => "EPrints::Update::Views::group_by_a_to_z",
+			},
+		],
+		order => "-date/title",
+		variations => [
+			"DEFAULT",
+			"creators_name",
+			"loc_concello",
+			"date;truncate=4",
+		],
+    },
 ###################################################
 #          POR CONCELLO
 ##################################################

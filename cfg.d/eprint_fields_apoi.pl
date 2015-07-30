@@ -314,6 +314,8 @@ push @{$c->{fields}->{eprint}},
 	input_boxes => 2,
 },
 
+
+
 ##############################################################
 #           Metadatos suscritos á dixitalización
 ##############################################################
@@ -332,6 +334,39 @@ push @{$c->{fields}->{eprint}},
 	input_style => 'medium',
 },
 
+# Data de dixitalización
+{
+	name => 'data_dixitalizacion',
+	type => 'date',
+	min_resolution => 'year',
+
+},
+
+# Duración do corte
+# {
+# 	name => 'duracion_corte',
+# 	type => 'time',
+# 	render_res=>'hour',
+# },
+
+{
+	name=>'duracion_corte',
+	type=>'compound',
+	fields=> [
+		{
+			sub_name=>'minutos',
+			type=>'int',
+		},
+
+		{
+			sub_name=>'segundos',
+			type=>'int',
+		},
+
+	],
+},
+
+# Dixitalizadores
 {
 	name => 'dixitalizadores',
 	type => 'compound',

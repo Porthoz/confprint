@@ -226,6 +226,36 @@
         <td><epc:print expr="dixitalizadores_name"/></td>
       </tr>  
     </epc:if>
+
+    <epc:comment>
+    METADATO:data_dixitalizacion
+  </epc:comment>
+    <epc:if test="is_set(data_dixitalizacion)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_data_dixitalizacion" />:</th>
+        <td><epc:print expr="data_dixitalizacion"/></td>
+      </tr>  
+    </epc:if>
+
+    <epc:comment>
+    METADATO:duracion_corte
+  </epc:comment>
+    <epc:if test="is_set(duracion_corte)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_duracion_corte" />:</th>
+        <td>
+          <epc:if test="is_set(duracion_corte_minutos)">
+          <epc:print expr="duracion_corte_minutos"/>min
+          </epc:if>
+          <epc:if test="is_set(duracion_corte_minutos) and  is_set(duracion_corte_segundos)">
+          <epc:phrase ref="conjuncion_e" />
+          </epc:if>
+          <epc:if test="is_set(duracion_corte_segundos)">
+          <epc:print expr="duracion_corte_segundos"/>s
+          </epc:if>
+        </td>
+      </tr>  
+    </epc:if>
     
     <epc:comment> 
        Metadatos actualizados automáticamente en eprints_render.pl

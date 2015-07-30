@@ -101,6 +101,8 @@ Action buttons (Previous/Save/Next) can be shown "top", "bottom" or "both":
 		<title>Datos Dixitalización</title>
 		<field ref="ref_soporte" />
 		<field ref="tipo_soporte" />
+		<field ref="duracion_corte" />
+		<field ref="data_dixitalizacion" />
 		<field ref="dixitalizadores"/>
 		<field ref="notas_dixitalizacion" />
 	</component>

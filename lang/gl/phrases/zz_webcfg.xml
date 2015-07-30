@@ -1272,4 +1272,20 @@ Natural language terms to describe the content of the item</epp:phrase>
 
     <epp:phrase id="eprint_fieldopt_loc_provincia_pontevedra">Pontevedra</epp:phrase>
 
+    <epp:phrase id="eprint_fieldhelp_data_dixitalizacion">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_duracion_corte">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_data_dixitalizacion">Data de dixitalización</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_duracion_corte">Duración do corte</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_duracion_corte_minutos">Minutos</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_duracion_corte_segundos">Segundos</epp:phrase>
+
+    <epp:phrase id="conjuncion_e">e</epp:phrase>
+
+    <epp:phrase id="viewname_eprint_informantes">Informantes</epp:phrase>
+
 </epp:phrases>
