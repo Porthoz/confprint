@@ -248,7 +248,7 @@
           <epc:print expr="duracion_corte_minutos"/>min
           </epc:if>
           <epc:if test="is_set(duracion_corte_minutos) and  is_set(duracion_corte_segundos)">
-          <epc:phrase ref="conjuncion_e" />
+          &#160;
           </epc:if>
           <epc:if test="is_set(duracion_corte_segundos)">
           <epc:print expr="duracion_corte_segundos"/>s
