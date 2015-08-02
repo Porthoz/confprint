@@ -129,8 +129,8 @@
       <th align="right">Lugar de Compilación:</th>
       <td>
         <epc:if test="loc_concello"><epc:print expr="loc_concello" opts="dont_link=1"/></epc:if>
-        <epc:if test="loc_parroquia">,&#160;<epc:print expr="loc_parroquia"/></epc:if>
-        <epc:if test="loc_lugar">,&#160;<epc:print expr="loc_lugar"/></epc:if>
+        <epc:if test="loc_parroquia">-&#160;<epc:print expr="loc_parroquia"/></epc:if>
+        <epc:if test="loc_lugar">-&#160;<epc:print expr="loc_lugar"/></epc:if>
       </td> 
     </tr>
   </epc:if>
