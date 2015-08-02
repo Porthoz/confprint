@@ -219,6 +219,7 @@ push @{$c->{fields}->{eprint}},
 {
 	name => 'coleccion',
 	type => 'text',
+	multiple => 1,
 },
 
 # Lugar da recolla / división territorial /Esto quítase
@@ -287,6 +288,14 @@ push @{$c->{fields}->{eprint}},
 	input_rows => 10,
 	render_value => \&render_textarea_field,
         #render_value => 'EPrints::Latex::render_string',
+},
+
+# Data de dixitalización
+{
+	name => 'data_transcricion',
+	type => 'date',
+	min_resolution => 'year',
+
 },
 
 # Transcriptor da peza

@@ -217,6 +217,16 @@
       </tr>  
     </epc:if>
 
+    <epc:comment>
+    METADATO:data_transcricion
+  </epc:comment>
+    <epc:if test="is_set(data_transcricion)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_data_transcricion" />:</th>
+        <td><epc:print expr="data_transcricion"/></td>
+      </tr>  
+    </epc:if>
+
      <epc:comment>
     METADATO:dixitalizadores
   </epc:comment>

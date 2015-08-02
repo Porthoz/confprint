@@ -1288,4 +1288,10 @@ Natural language terms to describe the content of the item</epp:phrase>
 
     <epp:phrase id="viewname_eprint_informantes">Informantes</epp:phrase>
 
+    <epp:phrase id="tipo_modo_interpretacion_typename_poco_rubato">Poco rubato</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_data_transcricion">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_data_transcricion">Data da transcrición</epp:phrase>
+
 </epp:phrases>
