@@ -1294,4 +1294,8 @@ Natural language terms to describe the content of the item</epp:phrase>
 
     <epp:phrase id="eprint_fieldname_data_transcricion">Data da transcrición</epp:phrase>
 
+    <epp:phrase id="eprint_fieldname_realizador_recolla_name">nome</epp:phrase>
+
+    <epp:phrase id="tipo_instrumentos_typename_acordeon">Acordeón</epp:phrase>
+
 </epp:phrases>
