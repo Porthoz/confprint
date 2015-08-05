@@ -24,9 +24,11 @@ $c->{datasets}->{eprint}->{search}->{staff} =
 		"byyear" 	 => "-date/creators_name/title",
 		"byyearoldest"	 => "date/creators_name/title",
 		"byname"  	 => "creators_name/-date/title",
-		"bytitle" 	 => "title/creators_name/-date"
+		"bytitle" 	 => "title/creators_name/-date",
+		"bystamp"	=>  "-datestamp/creators_name/title",
+		"bylastmod"	=>  "-lastmod/creators_name/title"
 	},
-	default_order => "byyear",
+	default_order => "bylastmod",
 	show_zero_results => 1,
 	staff => 1,
 };

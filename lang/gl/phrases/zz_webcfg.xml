@@ -1298,4 +1298,8 @@ Natural language terms to describe the content of the item</epp:phrase>
 
     <epp:phrase id="tipo_instrumentos_typename_acordeon">Acordeón</epp:phrase>
 
+    <epp:phrase id="ordername_eprint_bylastmod">Data da última modificación</epp:phrase>
+
+    <epp:phrase id="ordername_eprint_bystamp">Data de depósito</epp:phrase>
+
 </epp:phrases>
