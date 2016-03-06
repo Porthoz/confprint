@@ -11,7 +11,7 @@
 <xpage:body>
 
 <p class="intro_ppal">
-  Benvidos ao noso Arquivo dixital. Nel podes <a href="{$config{perl_url}}/search/advanced">buscar pezas recopiladas</a> ou <a href="{$config{http_url}}/view/">Navegar</a> porlo seu contido.
+  Benvidos ao noso Arquivo dixital. Nel p&oacute;dese <a href="{$config{perl_url}}/search/advanced">buscar pezas recompiladas</a> ou <a href="{$config{http_url}}/view/">Navegar</a> polo seu contido.
 </p>
 <br />
 <!-- <div class="ep_toolbox"><div class="ep_toolbox_content" >
@@ -34,34 +34,34 @@
 <div class="ep_view_browse_list">
   <ul>
     <li><a href="view/creators/">Compilador</a></li>
-    <li><a href="view/informantes/">Informates</a></li>
+    <li><a href="view/informantes/">Informantes</a></li>
     <li><a href="view/concello/">Localizaci&oacute;n</a></li>
     <li><a href="view/subjects/">Materia</a></li>
     <li><a href="view/instrumentos/">Instrumentos</a></li>
     <li><a href="view/year/">Data</a></li>
-    <li><a href="view/coleccion/">Coleccions</a></li>
+    <li><a href="view/coleccion/">Colecci&oacute;ns</a></li>
   </ul>
   </div>
  </div></div>
 
  <div class="ep_toolbox"><div class="ep_toolbox_content" >
  <a href="{$config{perl_url}}/search/advanced">Busca por campos</a><br /><br />
-Para buscar neste arquivo sobre unha selecci&oacute;n de campos. Use o campo parte superior esquerda para facer unha busca r&aacute;pida
+Para buscar neste arquivo sobre unha selecci&oacute;n de campos. Use o campo na parte superior esquerda para facer unha busca r&aacute;pida
 </div></div>
 
 <div class="ep_toolbox" ><div class="ep_toolbox_content" >
  <a href="{$config{perl_url}}/latest">Novo contido</a><br /><br />
-  &Uacute;ltimos rexitros engadidos &oacute; noso arquivo na &uacute;ltimos sete dias.  
+  &Uacute;ltimos rexistros engadidos &oacute; noso arquivo nos &uacute;ltimos sete d&iacute;as.  
 </div></div>
 
 <div class="ep_toolbox"><div class="ep_toolbox_content" >
  <a href="{$config{base_url}}/information.html">Informaci&oacute;n</a><br /><br />
- Informaci&oacute;n acerca de este arquivo.
+ Informaci&oacute;n acerca deste arquivo.
 </div></div>
 
 <!-- <div class="ep_toolbox"><div class="ep_toolbox_content" >
  <h2><a href="{$config{base_url}}/policies.html">Pol&iacute;ticas</a></h2>
- Pol&iacute;ticas de uso do material de este arquivo.
+ Pol&iacute;ticas de uso do material deste arquivo.
 </div></div>
  -->
 

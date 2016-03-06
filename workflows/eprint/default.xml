@@ -140,8 +140,8 @@ Action buttons (Previous/Save/Next) can be shown "top", "bottom" or "both":
 			
 		</component>
 	</epc:if>
-	<field ref="notas_xerais" />
-    <field ref="keywords"/>
+<component><field ref="notas_xerais" /></component>
+    <component><field ref="keywords"/></component>
   </stage>
 
 <!--Etapa de selección de materias-->
