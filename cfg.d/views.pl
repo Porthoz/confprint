@@ -5,6 +5,28 @@
 # subject or allowing null in this case.
 
 $c->{browse_views} = [
+
+###################################################
+#          POR COLECCIÓN
+##################################################
+	{
+		id => "coleccion",
+		#allow_null => 0,
+		menus =>[
+			{
+				fields => ["coleccion"],
+				hideempy => 1,
+			},		
+		],
+		order => "-date/title",
+		variations => [
+			"DEFAULT",
+			"date;truncate=4",
+			"loc_concello",
+		],
+	},
+
+
 ###################################################
 #          POR COMPILADOR
 ##################################################
@@ -30,6 +52,9 @@ $c->{browse_views} = [
 		],
     },
 
+    ###################################################
+#          POR INFORMANTE
+##################################################
     {
 		id => "informantes",
 		allow_null => 0,
@@ -53,7 +78,7 @@ $c->{browse_views} = [
 		],
     },
 ###################################################
-#          POR CONCELLO
+#          POR LOCALIZACIÓN
 ##################################################
 	{
 		id => "concello",
@@ -78,6 +103,28 @@ $c->{browse_views} = [
 			"creators_name",
 		],
 	},
+
+	###################################################
+#          Vista por data da recolla
+##################################################
+        {
+                id => "year",
+                menus => [
+			{
+				fields => [ "date;res=year" ],
+				reverse_order => 1,
+                		allow_null => 1,
+				new_column_at => [10,10],
+			}
+		],
+                order => "creators_name/title",
+		variations => [
+			"DEFAULT",
+			"loc_concello", 
+			"creators_name",
+			"tipo_peza"
+			],
+        },
 ###################################################
 #          POR MATERIA
 ##################################################
@@ -118,27 +165,7 @@ $c->{browse_views} = [
 			"creators_name",
 		],
 	},
-###################################################
-#          Vista por data da recolla
-##################################################
-        {
-                id => "year",
-                menus => [
-			{
-				fields => [ "date;res=year" ],
-				reverse_order => 1,
-                		allow_null => 1,
-				new_column_at => [10,10],
-			}
-		],
-                order => "creators_name/title",
-		variations => [
-			"DEFAULT",
-			"loc_concello", 
-			"creators_name",
-			"tipo_peza"
-			],
-        },
+
 ###################################################
 #          POR DIVISIÓN TERRITORIAL
 ##################################################
@@ -165,25 +192,7 @@ $c->{browse_views} = [
 # 		],
 #         },
 
-###################################################
-#          POR COLECCIÓN
-##################################################
-	{
-		id => "coleccion",
-		#allow_null => 0,
-		menus =>[
-			{
-				fields => ["coleccion"],
-				hideempy => 1,
-			},		
-		],
-		order => "-date/title",
-		variations => [
-			"DEFAULT",
-			"date;truncate=4",
-			"loc_concello",
-		],
-	},
+
 
 
 ################################################################################

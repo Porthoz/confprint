@@ -4,18 +4,87 @@
 <xpage:title>Sobre este arquivo</xpage:title>
 <xpage:body>
 
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis pellentesque neque, non porttitor purus. Nam non nisi sed elit tincidunt pharetra sit amet nec erat. Integer aliquam leo eget luctus sollicitudin. Vivamus condimentum nisi id lacus luctus porta vel sit amet purus. Morbi euismod eget dolor eu vestibulum. Maecenas venenatis ex mauris, ac malesuada lectus pretium in. Aliquam consequat ipsum et mattis rhoncus. In euismod lobortis leo eget ullamcorper. Sed a egestas orci. Vivamus mollis cursus sem, ornare tincidunt mi sodales quis. Duis scelerisque dignissim imperdiet. Curabitur in ipsum vel lacus consequat blandit ultrices ut ligula.
+<p><h1>Que &eacute; o APOI?</h1>
+O Arquivo do Patrimonio Oral da Identidade (APOI) &eacute; o programa de dixitalizaci&oacute;n, catalogaci&oacute;n, estudo e difusi&oacute;n do patrimonio inmaterial que 
+o Instituto de Estudos das Identidades do Museo do Pobo Galego puxo a andar en abril de 2007. Un arquivo p&uacute;blico e accesible que ofrece gravaci&oacute;ns 
+orais e musicais e os datos necesarios para poñelas no seu contexto cultural.<br></br><br></br>
+Para nos, o patrimonio oral pode potenciar dous dos valores que lle asigna ao conxunto patrimonial o antrop&oacute;logo W.D. Lipe: o valor asociativo, 
+na medida en que se conservan aspectos do imaxinario e valores do grupo, e o valor informativo, en tanto que se converten en documentos aptos 
+para a investigaci&oacute;n hist&oacute;rica, antropol&oacute;xica ou art&iacute;stica, e tam&eacute;n para a difusi&oacute;n cultural de maneira directa ou indirecta.<br></br><br></br>
+Intentamos que a obra dunha instituci&oacute;n poida vivir e medrar por si mesma, porque a fagan medrar os seus usuarios, mais al&oacute; de onde ela mesma 
+poder&iacute;a chegar, e darlle con iso &aacute; propia instituci&oacute;n o maior dos pagos, o de facer o pa&iacute;s polo que ten sentido que exista. O APOI pretende ser 
+un arquivo do pobo galego que teña a ben participar nel.</p>
+
+<p><h1>Por que pensamos que fai falta un arquivo dixital?</h1>
+Malia o camiño andado por instituci&oacute;ns p&uacute;blicas e privadas e por persoas particulares, pensamos que segue sendo necesaria unha recollida e 
+presentaci&oacute;n sistem&aacute;tica de testemuños do noso patrimonio oral, debidamente ordenados e clasificados cuns criterios t&eacute;cnicos que permitan o 
+acceso a investigadores, mestres, xestores, creadores e promotores culturais e a todo tipo e condici&oacute;n de usuarios.<br></br><br></br>
+Un primeiro e grave problema &eacute; o estado de conservaci&oacute;n dos materiais dispoñibles. Dadas as caracter&iacute;sticas t&eacute;cnicas das cintas magn&eacute;ticas nas 
+que a maior parte foron recollidos, o seu deterioro &eacute; grande, e moitas delas non resistir&iacute;an m&aacute;is de unha ou d&uacute;as audici&oacute;ns sen agravarse o seu 
+estado de xeito irreversible; por elo deben ser dixitalizados en canto sexa posible. Un segundo problema &eacute; a necesidade de someter os materiais 
+recollidos "en bruto" a un proceso de edici&oacute;n coa finalidade de trocalos en documentos aptos para a consulta e a divulgaci&oacute;n. O proxecto do APOI 
+abrangue as seguintes etapas:<br></br><br></br>
+ &nbsp;&nbsp;&nbsp;&nbsp; <strong>1.</strong> Dixitalizaci&oacute;n dos materiais orixinais cedidos polos compiladores<br></br><br></br>
+ &nbsp;&nbsp;&nbsp;&nbsp; <strong>2.</strong> Edici&oacute;n das gravaci&oacute;ns.<br></br><br></br>
+ &nbsp;&nbsp;&nbsp;&nbsp; <strong>3.</strong> Transcrici&oacute;n dos materiais. Recompilaci&oacute;n dos datos asociados ao material.<br></br><br></br>
+ &nbsp;&nbsp;&nbsp;&nbsp; <strong>4.</strong> Confecci&oacute;n do arquivo sonoro. Creaci&oacute;n da base de datos referencial e documental 
+ anexa aos rexistros de son.
 </p>
-<p>
-Vivamus at felis elementum leo iaculis porta sit amet vitae mauris. Curabitur sed quam non mi dictum molestie. Duis ipsum nibh, vehicula vitae sem sed, mollis semper odio. Maecenas pharetra rhoncus cursus. Donec non nunc quam. Vivamus porta magna lacinia, facilisis sem sit amet, dictum odio. Duis vehicula mauris accumsan tellus viverra molestie. Nulla non fermentum mi, eget porta justo. Nulla facilisi.
+<p><h1>Que datos han de se incorporar ao arquivo ademais das gravaci&oacute;ns?</h1>
+ Optamos por crear unha ampla base de datos que permitise albergar un gran n&uacute;mero rexistros de interese etnogr&aacute;fico e cultural no sentido mais 
+ xeral. Isto dar&aacute; oportunidade aos usuarios de faceren estudos relacionais e, no seu caso, empregar criterios de busca non habituais. Partimos 
+ da certeza de que os fen&oacute;menos culturais son altamente interdependentes e dificilmente separables nas s&uacute;as manifestaci&oacute;ns e que as abordaxes 
+ interdisciplinarias ser&aacute;n as m&aacute;is enriquecedoras para unha comprensi&oacute;n integrada da nosa historia e a nosa cultura.<br></br><br></br>
+ Organizouse as&iacute; a base de datos incorporando ep&iacute;grafes en relaci&oacute;n con:<br></br><br></br>
+&nbsp;&nbsp;&nbsp;&nbsp; -	Os datos de identificaci&oacute;n e rexistro da peza.<br></br><br></br>
+&nbsp;&nbsp;&nbsp;&nbsp; -	O traballo de campo no que se obtivo: datos do compilador, informante, int&eacute;rprete... ; o entorno xeogr&aacute;fico e temporal e o entorno de uso 
+da peza.<br></br><br></br>
+&nbsp;&nbsp;&nbsp;&nbsp; -	As caracter&iacute;sticas t&eacute;cnicas do rexistro de sonoro: O soporte orixinal, procesado dixital, delimitaci&oacute;n e corte da peza e os datos do 
+t&eacute;cnico dixitalizador.<br></br><br></br>
+&nbsp;&nbsp;&nbsp;&nbsp; -	O traballo de transcrici&oacute;n: datos e caracter&iacute;sticas da peza, texto, m&uacute;sica e letra (de ser o 
+caso) e os datos do transcritor.<br></br><br></br>
+&nbsp;&nbsp;&nbsp;&nbsp; -	O estudo te&oacute;rico da peza: documentos, textos e publicaci&oacute;ns sobre a peza; v&iacute;deos fotograf&iacute;as e outros rexistros dixitais; datos sobre 
+existencia de variantes e mesmo referencias doutros estudos ou publicaci&oacute;ns xa existentes.
 </p>
-Donec nisl ligula, feugiat eget ante at, aliquet molestie metus. Proin sed quam id lorem imperdiet suscipit. Nullam mattis est quis magna consectetur vestibulum. Praesent vulputate diam efficitur pellentesque viverra. In at sapien pellentesque, eleifend enim sit amet, gravida eros. Fusce sit amet dui ullamcorper, tincidunt arcu vitae, aliquet neque. Vestibulum rutrum lectus id dolor malesuada volutpat. Phasellus imperdiet elit ut risus convallis feugiat. Donec finibus tincidunt tellus, vel congue risus consectetur luctus. Ut vulputate metus in eleifend consectetur.
-<p>
-Nullam fringilla congue lectus non efficitur. Phasellus pharetra, dolor et lobortis consequat, ante risus blandit velit, sit amet accumsan enim felis eget enim. Suspendisse vehicula lacus quis purus rutrum imperdiet. Pellentesque eget dignissim tortor. Maecenas rutrum interdum lacus in euismod. Quisque imperdiet arcu ipsum, quis auctor turpis rutrum aliquam. Nullam sollicitudin fringilla nisi quis lacinia. In commodo vestibulum metus eu fringilla. Donec posuere vehicula urna ut pellentesque. Nullam consectetur consequat lorem, sit amet fringilla quam tempus id. Morbi nibh libero, finibus sit amet auctor in, mattis non sapien.
+<p><h1>Cal &eacute; o proceso que segue a informaci&oacute;n recibida no APOI?</h1>
+ Cando unha peza ou conxunto de pezas entra no APOI o cedente a incorpora (asinando en persoa e data a s&uacute;a cesi&oacute;n) para facela p&uacute;blica e 
+ conv&eacute;rtese as&iacute; publicamente en “autor” do seu traballo de recollida. Reciprocamente, a instituci&oacute;n receptora d&aacute; conta por escrito da s&uacute;a 
+ recepci&oacute;n en persoa e data. Cada vez que se amose e publique un rexistro do arquivo, pres&eacute;ntase a peza anexa aos datos de autor&iacute;a de todos 
+ os traballos que leven, tanto os traballos de campo (recollida e compilaci&oacute;n), coma os traballos t&eacute;cnicos (dixitalizaci&oacute;n) ou te&oacute;ricos 
+ (transcrici&oacute;n, an&aacute;lise, estudos varios...). Todos poder&aacute;n utilizalos baixo a condici&oacute;n de citar lexitimamente a fonte coa correspondente 
+ autor&iacute;a. En todo caso, o rexistro de entrada no arquivo dar&aacute; sempre conta da data e persoa que fixo a entrega orixinal e a prelaci&oacute;n temporal 
+ e autor&iacute;a ser&aacute;n derivadas e respectadas.<br></br><br></br>
+ Desde o momento en que os autores cedan ao APOI os seus materiais de calquera car&aacute;cter, pasar&aacute;n, como tales autores, a formar parte dos 
+ fondos do propio arquivo na s&uacute;a condici&oacute;n de compiladores, informantes, transcritores, estudosos,... e figurar&aacute;n nos listados p&uacute;blicos que o 
+ arquivo ofrece para cada condici&oacute;n que puidera ser obxecto de busca. Isto asegurar&aacute; o recoñecemento p&uacute;blico da s&uacute;a autor&iacute;a en relaci&oacute;n co 
+ traballo que figura anexo &aacute; s&uacute;as fichas e far&aacute; posible que, preservando o seu recoñecemento, todo o p&uacute;blico poida aproveitar lexitimamente 
+ os froitos do seu traballo.<br></br><br></br>
+ Os primeiros fondos musicais do APOI foron aportados por Baldomero Iglesias (Mero) e Xos&eacute; Lu&iacute;s Rivas (Mini), quen, cando cederon o seu 
+ arquivo persoal ao Museo do Pobo Galego, fixeron sempre expl&iacute;cita a s&uacute;a firme opci&oacute;n por facer p&uacute;blicas as s&uacute;as gravaci&oacute;ns para que "volvan 
+ ao pobo do que sa&iacute;ron, tal como a xente do pobo llas fixo chegar a eles". Esta entrega xenerosa non constit&uacute;e a s&uacute;a contribuci&oacute;n exclusiva, 
+ sen&oacute;n que manteñen a colaboraci&oacute;n nos traballos de edici&oacute;n e informaci&oacute;n dos materiais.
 </p>
-<p>
-Quisque sed magna eget tellus mattis varius nec vitae lacus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec quis blandit magna. Aenean ut nibh eu dolor condimentum tincidunt. Duis sit amet iaculis ante. Nunc quis diam tellus. Aenean lacinia nunc vel quam pulvinar, id posuere quam lacinia.
+<p><h1>Acerca do repositorio</h1>
+O soporte inform&aacute;tico do APOI est&aacute; baseado na plataforma dixital <strong>ePrints</strong>, un repositorio en acceso aberto desenvolvido pola Universidade de 
+Southampton, que ten como finalidade recompilar, xestionar, difundir e preservar a produci&oacute;n cient&iacute;fica e dixital froito da actividade de 
+investigadores e grupos de investigaci&oacute;n, co fin de favorecer a s&uacute;a visibilidade e impacto.<br></br><br></br>
+O APOI ten subscrita unha licenza <strong>Creative Commons (CC)</strong>, que permite empregar o material dispoñible no repositorio para fins sen &aacute;nimo de 
+lucro, simplemente citando a procedencia. Outro tipo de usos dos seus contidos require a autorizaci&oacute;n expresa do Museo do Pobo Galego.
+</p>
+<p><h1>Equipo de traballo</h1>
+<strong>Instituto de Estudos das Identidades (Museo do Pobo Galego).</strong> Carlos Garc&iacute;a Mart&iacute;nez. Xos&eacute; Manuel Gonz&aacute;lez Reboredo. Mar&iacute;a Xos&eacute; Fern&aacute;ndez 
+Cerviño. Manuel Vilar &Aacute;lvarez.<br></br><br></br>
+<strong>Coordinadora:</strong> Concha Losada V&aacute;zquez<br></br><br></br>
+<strong>Etnomusic&oacute;logo:</strong> Sergio de la Ossa<br></br><br></br>
+<strong>T&eacute;cnicos:</strong> C&eacute;sar Mart&iacute;nez†. Paco Cerdeira. Manuel Varela.<br></br><br></br>
+<strong>Inform&aacute;ticos:</strong> Iv&aacute;n Valladares e Domingo Rodr&iacute;guez (AmaroukStudio)<br></br><br></br>
+<strong>Colaboradores:</strong> Olga Szalay e M&aacute;ria Domokos (Academia H&uacute;ngara das Ciencias). Xabier Groba. Jos&eacute; Lu&iacute;s do Pico. Ramom Almuinha (A Central 
+Folque). 
+</p>
+<p><h1>Patrocinadores:</h1>
+Deputaci&oacute;n de Lugo<br></br><br></br>
+Deputaci&oacute;n de A Coruña<br></br><br></br>
+Xunta de Galicia
 </p>
 
 </xpage:body>
