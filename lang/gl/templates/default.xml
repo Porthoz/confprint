@@ -77,13 +77,18 @@
     </div>
     <div class="ep_tm_footer ep_noprint">
 
+      <div class="ep_tm_eprints_licencia">
+        <img src="{$config{rel_path}}/images/licencia.png"/>
+      </div>
 
       <div class="ep_tm_eprints_logo">
         <a href="http://eprints.org/software/">
           <img alt="EPrints Logo" src="{$config{rel_path}}/images/eprintslogo.gif"/>
         </a>
       </div>
-      <epc:phrase ref="template:about_eprints"/>
+      
+        <epc:phrase ref="template:about_eprints"/>
     </div>
+  
   </body>
 </html>

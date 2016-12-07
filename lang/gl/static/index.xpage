@@ -57,8 +57,10 @@ Para buscar neste arquivo sobre unha selecci&oacute;n de campos. Use o campo na 
 </div></div>
 
 <div class="ep_toolbox"><div class="ep_toolbox_content" >
- <a href="{$config{base_url}}/information.html">Informaci&oacute;n</a><br /><br />
- Informaci&oacute;n acerca deste arquivo.
+ <span style="font-weight:bold;">Forma de cita </span> <br></br><br></br>
+ Museo do Pobo Galego: Arquivo do Patrimonio Oral da Identidade (APOI). Santiago de Compostela. http://apoi.museodopobo.gal . [Consultado: data]
+
+
 </div></div>
 
 <!-- <div class="ep_toolbox"><div class="ep_toolbox_content" >

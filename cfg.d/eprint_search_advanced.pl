@@ -20,6 +20,7 @@ $c->{search}->{advanced} =
 		{ meta_fields => [ "title" ] },
 		{ meta_fields => [ "texto_peza" ] },
 		{ meta_fields => [ "documents.format" ] },
+		{ meta_fields => [ "keywords" ] },
 		{ meta_fields => [ "xenero" ] },
 		{ meta_fields => [ "modo_interpretacion" ] },
 		{ meta_fields => [ "instrumentacion" ] },

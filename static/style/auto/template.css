@@ -169,6 +169,12 @@ background-color: #003B6A;
 .ep_tm_eprints_logo {
         float: right;
         margin-left: 1em;
+        margin-right: 1em;
+}
+
+.ep_tm_eprints_licencia {
+	
+	float: right;
 }
 
 .ep_tm_footer {
