@@ -20,7 +20,7 @@
 
     <epp:phrase id="eprint_fieldopt_tipo_soporte_fotografia">Fotografía</epp:phrase>
 
-    <epp:phrase id="eprint_fieldopt_tipo_soporte_cinta">Cinta Magnetofónica</epp:phrase>
+    <epp:phrase id="eprint_fieldopt_tipo_soporte_cinta">Cinta magnetofónica</epp:phrase>
 
     <epp:phrase id="eprint_fieldname_tipo_soporte">Tipo de soporte</epp:phrase>
 
@@ -40,7 +40,7 @@
 
     <epp:phrase id="eprint_fieldname_estudada">Estudada</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_informantes">Informantes / Intérpretes</epp:phrase>
+    <epp:phrase id="eprint_fieldname_informantes">Informante</epp:phrase>
 
     <epp:phrase id="eprint_fieldname_informantes_id">Email</epp:phrase>
 
@@ -168,9 +168,9 @@
 
     <epp:phrase id="eprint_fieldname_datestamp">Data de depósito</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_eprint_status">Estado do obxeto</epp:phrase>
+    <epp:phrase id="eprint_fieldname_eprint_status">Estado do obxecto</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_eprintid">ID do obxeto</epp:phrase>
+    <epp:phrase id="eprint_fieldname_eprintid">ID do obxecto</epp:phrase>
 
     <epp:phrase id="lib/searchexpression:action_search">Buscar</epp:phrase>
 
@@ -184,9 +184,9 @@
 
     <epp:phrase id="metapage_title_type">Tipo</epp:phrase>
 
-    <epp:phrase id="lib/utils:month_12">Decembro</epp:phrase>
+    <epp:phrase id="lib/utils:month_12">decembro</epp:phrase>
 
-    <epp:phrase id="lib/utils:month_05">Maio</epp:phrase>
+    <epp:phrase id="lib/utils:month_05">maio</epp:phrase>
 
     <epp:phrase id="lib/utils:month_short_05">Maio</epp:phrase>
 
@@ -212,27 +212,27 @@
 
     <epp:phrase id="eprint_fieldname_creators_url">Url</epp:phrase>
 
-    <epp:phrase id="lib/utils:month_00">Sen especificar</epp:phrase>
+    <epp:phrase id="lib/utils:month_00">sen especificar</epp:phrase>
 
-    <epp:phrase id="lib/utils:month_01">Xaneiro</epp:phrase>
+    <epp:phrase id="lib/utils:month_01">xaneiro</epp:phrase>
 
-    <epp:phrase id="lib/utils:month_02">Febreiro</epp:phrase>
+    <epp:phrase id="lib/utils:month_02">febreiro</epp:phrase>
 
-    <epp:phrase id="lib/utils:month_03">Marzo</epp:phrase>
+    <epp:phrase id="lib/utils:month_03">marzo</epp:phrase>
 
-    <epp:phrase id="lib/utils:month_04">Abril</epp:phrase>
+    <epp:phrase id="lib/utils:month_04">abril</epp:phrase>
 
-    <epp:phrase id="lib/utils:month_06">Xuño</epp:phrase>
+    <epp:phrase id="lib/utils:month_06">xuño</epp:phrase>
 
-    <epp:phrase id="lib/utils:month_07">Xullo</epp:phrase>
+    <epp:phrase id="lib/utils:month_07">xullo</epp:phrase>
 
-    <epp:phrase id="lib/utils:month_08">Agosto</epp:phrase>
+    <epp:phrase id="lib/utils:month_08">agosto</epp:phrase>
 
-    <epp:phrase id="lib/utils:month_09">Septembro</epp:phrase>
+    <epp:phrase id="lib/utils:month_09">setembro</epp:phrase>
 
-    <epp:phrase id="lib/utils:month_10">Outubro</epp:phrase>
+    <epp:phrase id="lib/utils:month_10">outubro</epp:phrase>
 
-    <epp:phrase id="lib/utils:month_11">Novembro</epp:phrase>
+    <epp:phrase id="lib/utils:month_11">novembro</epp:phrase>
     
     <epp:phrase id="template/navigation:home">Inicio</epp:phrase>
 	
@@ -250,14 +250,14 @@
 
     <epp:phrase id="lib/searchexpression:all">todas estas condicións</epp:phrase>
 
-    <epp:phrase id="lib/searchexpression:any">algunha de estas condicións</epp:phrase>
+    <epp:phrase id="lib/searchexpression:any">algunha destas condicións</epp:phrase>
 
     <epp:phrase id="ordername_eprint_byname">por nome de autor</epp:phrase>
 
     <epp:phrase id="ordername_eprint_bytitle">por título</epp:phrase>
 
   
-    <epp:phrase id="general:frontpage_link"><p xmlns:epc="http://eprints.org/ep3/control"><a href="{$config{frontpage}}">Ir a páxina principal do <epc:phrase ref="archive_name"/></a></p></epp:phrase>
+    <epp:phrase id="general:frontpage_link"><p xmlns:epc="http://eprints.org/ep3/control"><a href="{$config{frontpage}}">Ir á páxina principal do <epc:phrase ref="archive_name"/></a></p></epp:phrase>
 
     <epp:phrase id="lib/searchfield:help_date">Introduza una data ou un intervalo. 
 <br/>Exemplos:  "<span class="ep_form_example">1985-</span>", 
@@ -274,17 +274,17 @@ Seleccione unha ou varias opcións da lista. A opción por defecto e (calquera)<
 
     <epp:phrase id="archive_name">Arquivo Dixital do Museo do Pobo Galego</epp:phrase>
 
-    <epp:phrase id="lib/searchexpression:new">Nova Búsqueda</epp:phrase>
+    <epp:phrase id="lib/searchexpression:new">Nova Busca</epp:phrase>
 
-    <epp:phrase id="lib/searchexpression:refine">Refinar Búsqueda</epp:phrase>
+    <epp:phrase id="lib/searchexpression:refine">Refinar busca</epp:phrase>
 
-    <epp:phrase id="lib/searchexpression:reorder_button">Reordear</epp:phrase>
+    <epp:phrase id="lib/searchexpression:reorder_button">Reordenar</epp:phrase>
 
-    <epp:phrase id="lib/searchexpression:savesearch">Gardar Búsqueda</epp:phrase>
+    <epp:phrase id="lib/searchexpression:savesearch">Gardar busca</epp:phrase>
 
-    <epp:phrase id="ordername_eprint_byyear">por ano (o mais recente primeiro)</epp:phrase>
+    <epp:phrase id="ordername_eprint_byyear">por ano (o máis recente primeiro)</epp:phrase>
 
-    <epp:phrase id="ordername_eprint_byyearoldest">por ano (o mais antigo primeiro)</epp:phrase>
+    <epp:phrase id="ordername_eprint_byyearoldest">por ano (o máis antigo primeiro)</epp:phrase>
 
     <epp:phrase id="Plugin/Screen/Admin:title">Administrar</epp:phrase>
 
@@ -304,11 +304,11 @@ Seleccione unha ou varias opcións da lista. A opción por defecto e (calquera)<
 
 </epp:phrase>
 
-    <epp:phrase id="lib/searchexpression:results"><div xmlns:epc="http://eprints.org/ep3/control" class="sp_amosando"> Amosando resultados <epc:pin name="from"/> ó <epc:pin name="to"/> de <epc:pin name="n"/>.</div></epp:phrase>
+    <epp:phrase id="lib/searchexpression:results"><div xmlns:epc="http://eprints.org/ep3/control" class="sp_amosando"> Amosando resultados <epc:pin name="from"/> ao <epc:pin name="to"/> de <epc:pin name="n"/>.</div></epp:phrase>
 
     <epp:phrase id="ordername_eprint_byrelevance">por relevancia</epp:phrase>
 
-    <epp:phrase id="cgi/search:simple_search">Búsqueda rápida</epp:phrase>
+    <epp:phrase id="cgi/search:simple_search">Busca simple</epp:phrase>
 
     <epp:phrase id="eprint_fieldhelp_localizacion">--</epp:phrase>
 
@@ -333,7 +333,7 @@ Seleccione unha ou varias opcións da lista. A opción por defecto e (calquera)<
 
     <epp:phrase id="Plugin/Screen/Import:action:import_from:title">Importar</epp:phrase>
 
-    <epp:phrase id="Plugin/Screen/User/SavedSearches:title">Búsquedas salvadas</epp:phrase>
+    <epp:phrase id="Plugin/Screen/User/SavedSearches:title">Buscas gardadas</epp:phrase>
 
     <epp:phrase id="Plugin/Screen/DataSets:title">Xestionar rexistros</epp:phrase>
 
@@ -890,13 +890,13 @@ Natural language terms to describe the content of the item</epp:phrase>
 
     <epp:phrase id="Plugin/InputForm/Component/Upload:help">Aquí pode subir arquivos ó repositorio</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_transcriptores">Transcriptores</epp:phrase>
+    <epp:phrase id="eprint_fieldname_transcriptores">Transcritor</epp:phrase>
 
     <epp:phrase id="eprint_fieldname_transcriptores_id">id</epp:phrase>
 
     <epp:phrase id="eprint_fieldname_dixitalizadores_id">id</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_dixitalizadores">Dixitalizadores</epp:phrase>
+    <epp:phrase id="eprint_fieldname_dixitalizadores">Dixitalizador</epp:phrase>
 
     <epp:phrase id="eprint_fieldhelp_ambito_refran">-</epp:phrase>
 
@@ -998,7 +998,7 @@ Natural language terms to describe the content of the item</epp:phrase>
 
     <epp:phrase id="eprint_fieldname__loc_lugar">Lugar</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_informantes_name">Informantes/Intérpretes</epp:phrase>
+    <epp:phrase id="eprint_fieldname_informantes_name">Informante</epp:phrase>
 
     <epp:phrase id="page:more">mais...</epp:phrase>
 
@@ -1008,7 +1008,7 @@ Natural language terms to describe the content of the item</epp:phrase>
 
     <epp:phrase id="viewname_eprint_concello">Localización</epp:phrase>
 
-    <epp:phrase id="eprint_fieldopt_eprint_status_inbox">Area de usuario</epp:phrase>
+    <epp:phrase id="eprint_fieldopt_eprint_status_inbox">Área de usuario</epp:phrase>
 
     <epp:phrase id="eprint_fieldopt_eprint_status_deletion">Retirado</epp:phrase>
 
@@ -1058,12 +1058,12 @@ Natural language terms to describe the content of the item</epp:phrase>
 
     <epp:phrase id="page:latest_version"><p><em>Esta é a última versión de esta peza.</em></p></epp:phrase>
 
-    <epp:phrase id="cgi/search:preamble"><p><a href="advsearch">Lorem ipsum dolor sit amet.</a></p></epp:phrase>
+    <epp:phrase id="cgi/search:preamble"><p><a href="advsearch">Escriba un termo para facer unha busca de texto en todo o arquivo.</a></p></epp:phrase>
 
     <epp:phrase id="cgi/login:page_layout">
       <epc:pin name="problems"/>
       <div xmlns:epc="http://eprints.org/ep3/control" class="ep_block">
-        <p>Por favor introduza o seu nome de usuario e contrasinal. <epc:pin name="reset_link"/></p>
+        <p>Por favor, introduza o seu nome de usuario e contrasinal. <epc:pin name="reset_link"/></p>
         <table style="margin:auto">
           <tr><td>Usuario:</td><td><epc:pin name="input_username"/></td></tr>
           <tr><td>Contrasinal:</td><td><epc:pin name="input_password"/></td><td><epc:pin name="login_button"/></td></tr>
@@ -1072,7 +1072,7 @@ Natural language terms to describe the content of the item</epp:phrase>
       </div>
     </epp:phrase>
 
-    <epp:phrase id="cgi/login:reset_link">Se non lembra o seu passoword, pode <a href="{$config{perl_url}}/reset_password">reinicialo</a>.</epp:phrase>
+    <epp:phrase id="cgi/login:reset_link">Se non lembra o seu contrasinal, pode solicitar un novo ou <a href="{$config{perl_url}}/reset_password">reinicialo</a>.</epp:phrase>
 
     <epp:phrase id="lib/searchfield:desc_any_in"><epc:pin name="name"/> corresponde con <epc:pin name="value"/></epp:phrase>
 
@@ -1136,7 +1136,7 @@ Natural language terms to describe the content of the item</epp:phrase>
 
     <epp:phrase id="archive:workflow:stage:type:title">Tipo</epp:phrase>
 
-    <epp:phrase id="bin/generate_views:browseintro"><div class="ep_view_browse_intro"> As pezas poden ser visualizadas por os seguintes criterios: </div></epp:phrase>
+    <epp:phrase id="bin/generate_views:browseintro"><div class="ep_view_browse_intro"> As pezas poden ser visualizadas por: </div></epp:phrase>
 
     <epp:phrase id="cachemap_fieldname_created">Data de creación</epp:phrase>
 
@@ -1210,9 +1210,9 @@ Natural language terms to describe the content of the item</epp:phrase>
 
     <epp:phrase id="lib/session:phrase_edit_title">Editando phrases da páxina "<epc:pin name="page_title"/>"</epp:phrase>
 
-    <epp:phrase id="viewintro_localizacion">Seleccione un concello da lista para ver todos rexitros compilados</epp:phrase>
+    <epp:phrase id="viewintro_localizacion">Por favor, seleccione un elemento da lista para navegar.</epp:phrase>
 
-    <epp:phrase id="viewintro_concello">Por favor seleccione un concello da lista para ver todos rexitros compilados</epp:phrase>
+    <epp:phrase id="viewintro_concello">Por favor, seleccione un elemento da lista para ver todos os rexistros compilados.</epp:phrase>
 
     <epp:phrase id="Plugin/Screen/Items:add">Engadir Columna</epp:phrase>
 
@@ -1302,13 +1302,13 @@ Natural language terms to describe the content of the item</epp:phrase>
 
     <epp:phrase id="ordername_eprint_bystamp">Data de depósito</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_xenero">Xénero musical</epp:phrase>
+    <epp:phrase id="eprint_fieldname_xenero">Xénero</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_instrumentacion">Instrumentación musical</epp:phrase>
+    <epp:phrase id="eprint_fieldname_instrumentacion">Instrumentación</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_modo_interpretacion">Modo de interpretación musical</epp:phrase>
+    <epp:phrase id="eprint_fieldname_modo_interpretacion">Modo de interpretación</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_instrumentos">Instrumentos musicais</epp:phrase>
+    <epp:phrase id="eprint_fieldname_instrumentos">Instrumentos</epp:phrase>
 
     <epp:phrase id="tipo_xenero_typename_desafio">Desafío</epp:phrase>
 
@@ -1321,5 +1321,17 @@ Natural language terms to describe the content of the item</epp:phrase>
     <epp:phrase id="lib/searchfield:desc_all_in"><epc:pin name="name"/> coinciden <epc:pin name="value"/></epp:phrase>
 
     <epp:phrase id="template:about_eprints"><div xmlns:epc="http://eprints.org/ep3/control"><epc:phrase ref="archive_name"/> emprega <em><a href="http://eprints.org/software/">EPrints 3</a></em> </div></epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Logout:title">Pechar sesión</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Loggedout:title">Sesión pechada</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Loggedout:success">Sesión correctamente pechada!</epp:phrase>
+
+    <epp:phrase id="page:item_restricted">O acceso ao obxecto está restrinxido neste momento.</epp:phrase>
+
+    <epp:phrase id="bin/generate_views:intro"><div class="ep_view_intro">Por favor, seleccione un elemento da lista para navegar.</div></epp:phrase>
+
+    <epp:phrase id="Update/Views:no_items"><p>Ningún elemento nesta sección.</p></epp:phrase>
 
 </epp:phrases>

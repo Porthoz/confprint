@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE page SYSTEM "entities.dtd" >
+<xpage:page xmlns="http://www.w3.org/1999/xhtml" xmlns:xpage="http://eprints.org/ep3/xpage" xmlns:epc="http://eprints.org/ep3/control">
+<xpage:title>Guías dos campos musicais</xpage:title>
+<xpage:body>
+
+<ul>
+	<li><a href="{$config{http_url}}/documentos/guias/guia_ambito.pdf">Ámbito</a></li>
+	<li><a href="{$config{http_url}}/documentos/guias/guia_cadencias.pdf">Cadencias</a></li>
+	<li><a href="{$config{http_url}}/documentos/guias/guia_compas_tempo.pdf">Tempo e compás</a></li>
+	<li><a href="{$config{http_url}}/documentos/guias/guia_escala.pdf">Escala</a></li>
+	<li><a href="{$config{http_url}}/documentos/guias/guia_incipit_melodico.pdf">Incipit melódico</a></li>
+	<li><a href="{$config{http_url}}/documentos/guias/guia_modo_interpretacion.pdf">Modo de interpretación</a></li>
+	<li><a href="{$config{http_url}}/documentos/guias/guia_n_silabas.pdf">Forma do texto e número de sílabas</a></li>
+	<li><a href="{$config{http_url}}/documentos/guias/guia_signos.pdf">Signos especiais</a></li>
+
+</ul>
+
+</xpage:body>
+
+
+</xpage:page>

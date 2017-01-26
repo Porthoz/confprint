@@ -1,0 +1,126 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE page SYSTEM "entities.dtd" >
+<xpage:page xmlns="http://www.w3.org/1999/xhtml" xmlns:xpage="http://eprints.org/ep3/xpage" xmlns:epc="http://eprints.org/ep3/control">
+<xpage:title>Currículos</xpage:title>
+<xpage:body>
+<h2>Compiladores</h2>
+<ul>
+	<li><a href="{$config{http_url}}/documentos/compiladores/com1.pdf">Anxo González González</a></li>
+	<li><a href="{$config{http_url}}/documentos/compiladores/com2.pdf">Baldomero Iglesias Dobarrio</a></li>
+	<li><a href="{$config{http_url}}/documentos/compiladores/com3.pdf">Xesús Mato Mato</a></li>
+	<li><a href="{$config{http_url}}/documentos/compiladores/com4.pdf">Manuel Montes</a></li>
+	<li><a href="{$config{http_url}}/documentos/compiladores/com5.pdf">Juán José Parga Cervedo</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf46.pdf">Pérez Méndez, Manuel</a></li>
+	<li><a href="{$config{http_url}}/documentos/compiladores/com6.pdf">Dolores Presedo</a></li>
+	<li><a href="{$config{http_url}}/documentos/compiladores/com7.pdf">Xosé Luís Rivas Cruz</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf71.pdf">Xamaraina</a></li>
+
+</ul>
+
+<h2>Informantes </h2>
+
+<ul>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf1.pdf">"Airiños da Antigua"</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf2.pdf">Alvito "de Méndez"
+	</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf3.pdf">Arias Barrera, Esperanza</a></li>	
+	<li><a href="{$config{http_url}}/documentos/informantes/inf4.pdf">Bascoy Pereira, Ramón "do Tiro"</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf5.pdf">Cao Rey, Herminio </a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf6.pdf">Carro Fernández, María</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf7.pdf">Consuelo</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf8.pdf">Cores, Alicia</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf9.pdf">"Corona"</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf10.pdf">Cotón, Nieves</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf11.pdf">Couceiro, José María</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf12.pdf">de la Fuente, Manuela</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf13.pdf">Eliseo</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf14.pdf">Fernández Fernández, Abel "o Pipas"</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf15.pdf">Fernández Rodríguez, Eladio "o Cego de Aldixe"</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf16.pdf">Ferreiro Arias, Eladio "de Freixo"</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf17.pdf">Ferreño Pereiro, Estrella</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf18.pdf">Fonfría Rodríguez, Delmiro</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf19.pdf">García Sánchez, Cesáreo</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf20.pdf">Graña, Ramona</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf21.pdf">José "da Casa de Baixo"</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf22.pdf">Justo Prieto, Avelina</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf23.pdf">Labandeira, Alfonso</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf24.pdf">Lage Morandeira, Lola</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf25.pdf">Lombao, Elías</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf26.pdf">López, Alicia</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf27.pdf">López Fernández, Florencio "o Cego dos Vilares"</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf28.pdf">López López, Manuel "o Poso"</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf29.pdf">López Paz, Enrique</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf30.pdf">López Rodríguez, Gaspar</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf31.pdf">López Vega, Manuel "da Carroceta"</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf32.pdf">Marcelino et al.</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf33.pdf">Marina</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf34.pdf">Martínez Castro, Manuel</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf35.pdf">Martínez, María "a Nova"</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf36.pdf">Méndez, Manuel</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf37.pdf">Méndez, Rafael</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf38.pdf">Montes Justo, Lusinda</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf39.pdf">Montes Justo, María</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf40.pdf">Mosqueira, Xosé</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf41.pdf">Núñez Fernández, Jesús</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf42.pdf">"Os Romanos" de Brates</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf43.pdf">Pardo Pardo, María</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf44.pdf">Pedro "de Cacharrón"</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf45.pdf">Pérez González, Nieves</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf47.pdf">Pilar "do Camiño"</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf48.pdf">Portos, Dolores</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf49.pdf">Quindimil, Maruja</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf50.pdf">Quireza, Benilde</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf51.pdf">Rey, Manuela</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf52.pdf">Río Galán, María "de Ferreiro"</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf53.pdf">Río Montero, Antonio "Ribeira de Louzarela"</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf54.pdf">Rivas Criado, José</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf55.pdf">Rivera Fernández, Magdalena</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf56.pdf">Rodríguez de la Fuente, Gumersinda</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf57.pdf">Rodríguez, Manuela</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf58.pdf">Sánchez, Elvira</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf59.pdf">Sánchez Pardo, Antonio</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf61.pdf">Seoane Cernadas, José</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf62.pdf">Suárez, Jesusa</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf63.pdf">Suárez, Julio</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf64.pdf">Suárez, Rafael</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf65.pdf">Uzal, Mercedes</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf66.pdf">Uzal, Ramiro</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf67.pdf">Varela, Hermitas</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf68.pdf">Vázquez, Isabel</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf69.pdf">Veloso, Álvaro "de Forgas"</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf70.pdf">Veloso, José "Pepe de Forgas"</a></li>
+
+
+
+
+
+
+
+
+
+
+	
+
+
+	
+</ul>
+
+<h2>Transcritores </h2>
+
+<ul>
+	<li><a href="{$config{http_url}}/documentos/transcritores/tra1.pdf">Sergio de la Ossa Jiménez</a></li>
+	
+</ul>
+
+<h2>Dixitalizadores </h2>
+
+<ul>
+	<li><a href="{$config{http_url}}/documentos/dixitalizadores/dix1.pdf">Cesar Martínez Fernández</a></li>
+	<li><a href="{$config{http_url}}/documentos/dixitalizadores/dix2.pdf">Francisco Cerdeira Fernández</a></li>
+
+</ul>
+
+</xpage:body>
+
+
+</xpage:page>

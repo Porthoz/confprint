@@ -23,9 +23,31 @@
           </a>
         </li>
         <li>
-          <a href="{$config{http_url}}/information.html">
+          <a href="{$config{http_url}}/information.html" menu="ep_tm_menu_information">
             <epc:phrase ref="template/navigation:about"/>
           </a>
+
+            <ul id="ep_tm_menu_information" style="display:none;">
+            <li>
+              <a href="{$config{http_url}}/guias.html">
+               Guias musicais
+              </a>
+            </li>
+
+           <li>
+              <a href="{$config{http_url}}/fichas.html">
+               Currículos
+              </a>
+           </li>
+
+           <li>
+              <a href="{$config{http_url}}/colecions.html">
+               Colecións
+              </a>
+           </li>
+            
+            </ul>
+
         </li>
         <li>
           <a href="{$config{perl_url}}/search/advanced" menu="ep_tm_menu_browse">
