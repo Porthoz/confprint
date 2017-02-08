@@ -94,7 +94,7 @@
 
     <epp:phrase id="lib/metafield:year">Ano:</epp:phrase>
 
-    <epp:phrase id="cgi/advsearch:preamble"><p> Tamén podes facer <a href="simple">clic aquí para a busca rápida.</a></p></epp:phrase>
+    <epp:phrase id="cgi/advsearch:preamble"><p> Prema <a href="simple">aquí</a> para acceder á busca simple. </p></epp:phrase>
 
     <epp:phrase id="cgi/advsearch:adv_search">Busca por campos</epp:phrase>
 
@@ -194,7 +194,7 @@
     
     <epp:phrase id="video5">data-setup='{}'</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_abstract">Resumo / Descripción</epp:phrase>
+    <epp:phrase id="eprint_fieldname_abstract">Resumo / Descrición</epp:phrase>
 
     <epp:phrase id="lib/document:preview">Vista previa</epp:phrase>
 
@@ -274,7 +274,7 @@ Seleccione unha ou varias opcións da lista. A opción por defecto e (calquera)<
 
     <epp:phrase id="archive_name">Arquivo Dixital do Museo do Pobo Galego</epp:phrase>
 
-    <epp:phrase id="lib/searchexpression:new">Nova Busca</epp:phrase>
+    <epp:phrase id="lib/searchexpression:new">Nova busca</epp:phrase>
 
     <epp:phrase id="lib/searchexpression:refine">Refinar busca</epp:phrase>
 
@@ -429,7 +429,7 @@ Seleccione unha ou varias opcións da lista. A opción por defecto e (calquera)<
 
     <epp:phrase id="eprint_fieldname_item_issues_comment">Comentarios</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_item_issues_description">Descripción</epp:phrase>
+    <epp:phrase id="eprint_fieldname_item_issues_description">Descrición</epp:phrase>
 
     <epp:phrase id="eprint_fieldname_item_issues_reported_by">Reportado por</epp:phrase>
 
@@ -561,7 +561,7 @@ Seleccione unha ou varias opcións da lista. A opción por defecto e (calquera)<
 
     <epp:phrase id="event_queue_fieldname_action">Acción</epp:phrase>
 
-    <epp:phrase id="event_queue_fieldname_description">Descripción</epp:phrase>
+    <epp:phrase id="event_queue_fieldname_description">Descrición</epp:phrase>
 
     <epp:phrase id="event_queue_fieldname_end_time">Completado</epp:phrase>
 
@@ -617,7 +617,7 @@ Seleccione unha ou varias opcións da lista. A opción por defecto e (calquera)<
 
     <epp:phrase id="import_fieldname_datestamp">Data</epp:phrase>
 
-    <epp:phrase id="import_fieldname_description">Descripción</epp:phrase>
+    <epp:phrase id="import_fieldname_description">Descrición</epp:phrase>
 
     <epp:phrase id="import_fieldname_last_run">Última execución</epp:phrase>
 
@@ -1072,7 +1072,7 @@ Natural language terms to describe the content of the item</epp:phrase>
       </div>
     </epp:phrase>
 
-    <epp:phrase id="cgi/login:reset_link">Se non lembra o seu contrasinal, pode solicitar un novo ou <a href="{$config{perl_url}}/reset_password">reinicialo</a>.</epp:phrase>
+    <epp:phrase id="cgi/login:reset_link">Se non lembra o seu contrasinal, pode <a href="{$config{perl_url}}/reset_password">reinicialo</a>.</epp:phrase>
 
     <epp:phrase id="lib/searchfield:desc_any_in"><epc:pin name="name"/> corresponde con <epc:pin name="value"/></epp:phrase>
 
@@ -1333,5 +1333,13 @@ Natural language terms to describe the content of the item</epp:phrase>
     <epp:phrase id="bin/generate_views:intro"><div class="ep_view_intro">Por favor, seleccione un elemento da lista para navegar.</div></epp:phrase>
 
     <epp:phrase id="Update/Views:no_items"><p>Ningún elemento nesta sección.</p></epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Login/Internal:title">Iniciar sesión</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_loc_provincia_galicia_exterior">Galicia exterior</epp:phrase>
+
+    <epp:phrase id="tipo_instrumentos_typename_brindos">Brindos</epp:phrase>
+
+    <epp:phrase id="tipo_xenero_typename_brindos">Brindos</epp:phrase>
 
 </epp:phrases>

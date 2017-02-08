@@ -257,6 +257,7 @@ push @{$c->{fields}->{eprint}},
 		coruna
 		ourense
 		lugo
+		galicia_exterior
 	)],
 	# input_style => 'medium',
 },

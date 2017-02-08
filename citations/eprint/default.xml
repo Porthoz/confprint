@@ -8,6 +8,8 @@
 
 <!-- Enlace á peza -->
 <!-- Data de compilación -->
+
+<!--
 <choose>
   <when test="is_set( creators )">
     <print expr="creators_name"/>
@@ -16,8 +18,10 @@
     <phrase ref="eprint_citation_compilador_desconecido"/>
   </otherwise>
 </choose>
+-->
+<if test="is_set(coleccion)"> <print expr="coleccion"/> </if>
 <if test="is_set(date)">(<print expr="date" opts="res=year"/>)</if>
- <if test="is_set(loc_concello)">(<print expr="loc_concello"/>).</if>
+<if test="is_set(loc_concello)">(<print expr="loc_concello"/>).</if>
 
 <cite:linkhere><xhtml:em class="enlace_peza" style="font-weight:bold;"><print expr="title" opts="magicstop"/></xhtml:em></cite:linkhere>
 <if test="is_set(tipo_peza)">[<print expr="tipo_peza"/>]</if>

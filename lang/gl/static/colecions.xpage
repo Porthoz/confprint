@@ -1,10 +1,19 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE page SYSTEM "entities.dtd" >
 <xpage:page xmlns="http://www.w3.org/1999/xhtml" xmlns:xpage="http://eprints.org/ep3/xpage" xmlns:epc="http://eprints.org/ep3/control">
-<xpage:title>Colecións</xpage:title>
+<xpage:title>Fichas das coleccións</xpage:title>
 <xpage:body>
 
-<p>lorem ipsum...</p>
+<ul>
+	<li><a href="{$config{http_url}}/documentos/coleccions/01_COLECCION_BALDOMERO_IGLESIAS_(MERO).pdf">Colección Baldomero Iglesias (Mero)</a></li>
+	<li><a href="{$config{http_url}}/documentos/coleccions/02_COLECCION_XOSE_LUIS_RIVAS (MINI).pdf"> Colección Xosé Luís Rivas (Mini)</a></li>
+	<li><a href="{$config{http_url}}/documentos/coleccions/03_COLECCION_XESUS_MATO.pdf">Colección Xesús Mato</a></li>
+	<li><a href="{$config{http_url}}/documentos/coleccions/04_COLECCION_JUAN_PARGA.pdf">Colección Juan Parga </a></li>
+	<li><a href="{$config{http_url}}/documentos/coleccions/05_COLECCION_ASOCIACION_DE_GAITEIROS_GALEGOS.pdf">Colección Asociación de Gaiteiros Galegos</a></li>
+	<li><a href="{$config{http_url}}/documentos/coleccions/07_COLECCION_SCHUBARTH-SANTAMARINA.pdf">Colección Schubarth-Santamarina</a></li>
+	<li><a href="{$config{http_url}}/documentos/coleccions/11_COLECCION_HENNINGSEN.pdf">Colección Henningsen</a></li>
+	
+</ul>
 
 </xpage:body>
 

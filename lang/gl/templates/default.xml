@@ -30,28 +30,27 @@
             <ul id="ep_tm_menu_information" style="display:none;">
             <li>
               <a href="{$config{http_url}}/guias.html">
-               Guias musicais
+               Gu&iacute;as
               </a>
             </li>
 
-           <li>
-              <a href="{$config{http_url}}/fichas.html">
-               Currículos
+            <li>
+              <a href="{$config{http_url}}/colecions.html">
+               Fichas das coleccións
               </a>
            </li>
 
            <li>
-              <a href="{$config{http_url}}/colecions.html">
-               Colecións
+              <a href="{$config{http_url}}/fichas.html">
+               Biografías
               </a>
            </li>
-            
-            </ul>
+           </ul>
 
         </li>
         <li>
           <a href="{$config{perl_url}}/search/advanced" menu="ep_tm_menu_browse">
-            Busca
+            Buscar
           </a>
         </li>
         <li>
@@ -72,7 +71,7 @@
             <div class="buscar_form">
                 <form method="get" accept-charset="utf-8" action="{$config{http_cgiurl}}/search" style="display:inline">
               <input class="ep_tm_searchbarbox" size="20" type="text" name="q"/>
-              <input class="ep_tm_searchbarbutton" value="{phrase('lib/searchexpression:action_search')}" type="submit" name="_action_search"/>
+              <input class="ep_tm_searchbarbutton" value="Atopar" type="submit" name="_action_search"/>
               <input type="hidden" name="_action_search" value="Search"/>
               <input type="hidden" name="_order" value="bytitle"/>
               <input type="hidden" name="basic_srchtype" value="ALL"/>

@@ -1,18 +1,18 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE page SYSTEM "entities.dtd" >
 <xpage:page xmlns="http://www.w3.org/1999/xhtml" xmlns:xpage="http://eprints.org/ep3/xpage" xmlns:epc="http://eprints.org/ep3/control">
-<xpage:title>Currículos</xpage:title>
+<xpage:title>Biografías</xpage:title>
 <xpage:body>
 <h2>Compiladores</h2>
 <ul>
-	<li><a href="{$config{http_url}}/documentos/compiladores/com1.pdf">Anxo González González</a></li>
-	<li><a href="{$config{http_url}}/documentos/compiladores/com2.pdf">Baldomero Iglesias Dobarrio</a></li>
-	<li><a href="{$config{http_url}}/documentos/compiladores/com3.pdf">Xesús Mato Mato</a></li>
-	<li><a href="{$config{http_url}}/documentos/compiladores/com4.pdf">Manuel Montes</a></li>
-	<li><a href="{$config{http_url}}/documentos/compiladores/com5.pdf">Juán José Parga Cervedo</a></li>
-	<li><a href="{$config{http_url}}/documentos/informantes/inf46.pdf">Pérez Méndez, Manuel</a></li>
-	<li><a href="{$config{http_url}}/documentos/compiladores/com6.pdf">Dolores Presedo</a></li>
-	<li><a href="{$config{http_url}}/documentos/compiladores/com7.pdf">Xosé Luís Rivas Cruz</a></li>
+	<li><a href="{$config{http_url}}/documentos/compiladores/com1.pdf">González, Anxo</a></li>
+	<li><a href="{$config{http_url}}/documentos/compiladores/com2.pdf"> Iglesias, Baldomero</a></li>
+	<li><a href="{$config{http_url}}/documentos/compiladores/com3.pdf">Mato, Xesús</a></li>
+	<li><a href="{$config{http_url}}/documentos/compiladores/com4.pdf">Montes, Manuel </a></li>
+	<li><a href="{$config{http_url}}/documentos/compiladores/com5.pdf">Parga, Juan</a></li>
+	<li><a href="{$config{http_url}}/documentos/informantes/inf46.pdf">Pérez, Manuel</a></li>
+	<li><a href="{$config{http_url}}/documentos/compiladores/com6.pdf">Presedo, Dolores</a></li>
+	<li><a href="{$config{http_url}}/documentos/compiladores/com7.pdf">Rivas, Xosé Luís</a></li>
 	<li><a href="{$config{http_url}}/documentos/informantes/inf71.pdf">Xamaraina</a></li>
 
 </ul>
@@ -108,15 +108,15 @@
 <h2>Transcritores </h2>
 
 <ul>
-	<li><a href="{$config{http_url}}/documentos/transcritores/tra1.pdf">Sergio de la Ossa Jiménez</a></li>
+	<li><a href="{$config{http_url}}/documentos/transcritores/tra1.pdf">Sergio de la Ossa</a></li>
 	
 </ul>
 
 <h2>Dixitalizadores </h2>
 
 <ul>
-	<li><a href="{$config{http_url}}/documentos/dixitalizadores/dix1.pdf">Cesar Martínez Fernández</a></li>
-	<li><a href="{$config{http_url}}/documentos/dixitalizadores/dix2.pdf">Francisco Cerdeira Fernández</a></li>
+	<li><a href="{$config{http_url}}/documentos/dixitalizadores/dix1.pdf">Cesar Martínez</a></li>
+	<li><a href="{$config{http_url}}/documentos/dixitalizadores/dix2.pdf">Francisco Cerdeira</a></li>
 
 </ul>
 

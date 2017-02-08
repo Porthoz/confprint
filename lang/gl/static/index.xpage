@@ -10,10 +10,27 @@
 <xpage:title> <epc:phrase ref="archive_name" /> </xpage:title>
 <xpage:body>
 
+
 <p class="intro_ppal">
-  Benvidos ao noso Arquivo dixital. Nel p&oacute;dese <a href="{$config{perl_url}}/search/advanced">buscar pezas recompiladas</a> ou <a href="{$config{http_url}}/view/">Navegar</a> polo seu contido.
+ D&aacute;moslle a benvida ao repositorio dixital do Arquivo do Patrimonio Oral da Identidade (APOI) do Museo do Pobo Galego. Aqu&iacute; pode atopar rexistros sonoros e audiovisuais procedentes das colecci&oacute;ns de patrimonio inmaterial do Museo.
 </p>
 <br />
+<div class="ep_toolbox" ><div class="ep_toolbox_content" >
+<span style="font-weight:bold;">Gu&iacute;a de navegaci&oacute;n b&aacute;sica </span>
+<br /><br />
+<p class="intro_ppal">
+Para ordenar unha busca de texto sinxela en todo o arquivo, empregue o recadro situado na esquina superior dereita e prema <a href="{$config{perl_url}}/search/simple"> Atopar</a>.
+</p>
+<p class="intro_ppal">
+A pestana <a href="{$config{http_url}}/view"> Explorar</a> permite visualizar o contido do APOI a trav&eacute;s dos seus campos principais.
+</p>
+<p class="intro_ppal">
+Pode tam&eacute;n premer a pestana <a href="{$config{perl_url}}/search/advanced"> Buscar</a> para efectuar procuras combinadas ou acoutar as buscas de texto a campos concretos.
+</p>
+<p class="intro_ppal">
+A pestana <a href="{$config{http_url}}/information.html">Informaci&oacute;n</a> cont&eacute;n datos xerais sobre o Arquivo. Ao situarse sobre ela aparecer&aacute;n outras tres pestanas: unha con <a href="{$config{http_url}}/guias.html"> gu&iacute;as</a> t&eacute;cnicas de axuda, outra con <a href="{$config{http_url}}/colecions.html"> descrici&oacute;ns das colecci&oacute;ns</a> que conforman o APOI, e unha &uacute;ltima con  <a href="{$config{http_url}}/fichas.html"> datos biogr&aacute;ficos</a> de compiladores, informantes, transcritores e dixitalizadores. 
+</p>
+</div></div>
 <!-- <div class="ep_toolbox"><div class="ep_toolbox_content" >
  <div style="font-size:150%">
 <form method="get" accept-charset="utf-8" action="{$config{http_cgiurl}}/search" style="display:inline">
@@ -26,7 +43,7 @@
             </form>
       <a href="{$config{perl_url}}/search/advanced" style="font-size:70%">Busca avanzada</a>
 </div>
-</div></div> -->
+</div></div> 
 
 <div class="ep_toolbox" >
   <div class="ep_toolbox_content" >
@@ -49,11 +66,11 @@
  <div class="ep_toolbox"><div class="ep_toolbox_content" >
  <a href="{$config{perl_url}}/search/advanced">Busca por campos</a><br /><br />
 Para buscar neste arquivo sobre unha selecci&oacute;n de campos. Use o campo na parte superior esquerda para facer unha busca r&aacute;pida
-</div></div>
+</div></div>-->
 
 <div class="ep_toolbox" ><div class="ep_toolbox_content" >
- <a href="{$config{perl_url}}/latest">Novo contido</a><br /><br />
-  Prema para ver os &uacute;ltimos rexistros engadidos &oacute; noso arquivo nos &uacute;ltimos sete d&iacute;as.  
+ <span style="font-weight:bold;">Novo contido</span><br /><br />
+  Prema <a href="{$config{perl_url}}/latest">aqu&iacute;</a> para ver os &uacute;ltimos rexistros engadidos ao arquivo nos &uacute;ltimos sete d&iacute;as.  
 </div></div>
 
 <div class="ep_toolbox"><div class="ep_toolbox_content" >

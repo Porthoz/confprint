@@ -541,7 +541,7 @@
   
   <epc:if test="notas_xerais">
     <h2 class="bold"><epc:phrase ref="eprint_fieldname_notas_xerais"/></h2>
-    <p style="text-align: left; margin: 1em auto 0em auto"><epc:print expr="notas_xeraris" /></p>
+    <p style="text-align: left; margin: 1em auto 0em auto"><epc:print expr="notas_xerais" /></p>
   </epc:if>
 
 
