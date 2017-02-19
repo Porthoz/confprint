@@ -126,7 +126,7 @@
   </epc:comment>
   <epc:if test="is_set(loc_concello)">
     <tr>
-      <th align="right">Lugar de Compilación:</th>
+      <th align="right">Lugar de compilación:</th>
       <td>
         <epc:if test="loc_concello"><epc:print expr="loc_concello" opts="dont_link=1"/></epc:if>
         <epc:if test="loc_parroquia">-&#160;<epc:print expr="loc_parroquia"/></epc:if>
@@ -316,7 +316,7 @@
 <epc:if test="type='peza_musical'">
   <table class="table table-condensed table-striped">
       <tr class="success">
-      <th>Datos Musicais</th>
+      <th>Datos musicais</th>
       <th>Copla</th>
       <th>Refrán</th>
     </tr>

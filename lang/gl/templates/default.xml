@@ -58,6 +58,11 @@
             <epc:phrase ref="template/navigation:browse"/>
           </a>
         </li>
+        <li>
+              <a href="{$config{http_url}}/contact.html">
+               Contactar
+              </a>
+           </li>
       </ul>
 
       <table class="ep_tm_searchbar">
@@ -96,20 +101,53 @@
         <epc:pin ref="page"/>
       </div>
     </div>
+
     <div class="ep_tm_footer ep_noprint">
+		
 
-      <div class="ep_tm_eprints_licencia">
-        <img src="{$config{rel_path}}/images/licencia.png"/>
+		<div class="footer_sup">
+		    
+        <div class="ep_tm_eprints_patrocinadores">
+              <img alt="EPrints Logo" src="{$config{rel_path}}/images/patrocinadores_pie.jpg"/>
+        </div>
+      <div class="ep_tm_eprints_correo">
+        <a href="mailto:apoi@museodopobo.gal"> apoi@museodopobo.gal</a>
       </div>
 
-      <div class="ep_tm_eprints_logo">
-        <a href="http://eprints.org/software/">
-          <img alt="EPrints Logo" src="{$config{rel_path}}/images/eprintslogo.gif"/>
-        </a>
-      </div>
-      
-        <epc:phrase ref="template:about_eprints"/>
+        <div class="ep_tm_eprints_licencia">
+		    	<img src="{$config{rel_path}}/images/licencia.png"/>
+		    </div>
+
+	 </div>
+
+    	<div class="footer_med">
+    	
+    	</div>
+    	
+    	<div class="footer_inf">
+
+    		<div style="float:left; padding-top:12px">
+		  	
+          <epc:phrase ref="template:about_eprints"/>
+    		</div>
+    		
+        <div class="ep_tm_eprints_logo">
+		        <a href="http://eprints.org/software/">
+		          <img alt="EPrints Logo" src="{$config{rel_path}}/images/eprintslogo.gif"/>
+		        </a>
+		    </div>
+
+        <div class="ep_tm_eprints_amarouk">
+              <img src="{$config{rel_path}}/images/marca_as_pie.png"/>
+        </div>
+
+
+    		
+    	</div>
+
     </div>
+    
+
   
   </body>
 </html>

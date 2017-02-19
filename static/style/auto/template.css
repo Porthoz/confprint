@@ -14,7 +14,7 @@ ul.ep_tm_menu a:hover {
 }
 /* deprecated in 3.3 */
 .ep_tm_logo img {
-	float: right;
+	float: left;
 	padding: 4px;
 	border-style: none;
 }
@@ -167,12 +167,28 @@ background-color: #003B6A;
 }
 
 .ep_tm_eprints_logo {
-        float: right;
-        margin-left: 1em;
-        margin-right: 1em;
-}
+        float: left;
+        margin-left: 15px;
+        padding-top: 5px;
+ }
 
 .ep_tm_eprints_licencia {
+	
+	float: right;
+	padding-top: 10px;
+}
+.ep_tm_eprints_patrocinadores {
+	
+	float: left;
+}
+.ep_tm_eprints_correo {
+	
+	float: left;
+	padding-top:20px;
+	padding-left: 45px;
+}
+
+.ep_tm_eprints_amarouk {
 	
 	float: right;
 }
@@ -183,8 +199,32 @@ background-color: #003B6A;
 	font-size: 80%;
 	border-top-width: 2px;
 	border-top-style: solid;
-	padding: 10px 10px 0px 10px;
+	/*padding: 10px 10px 0px 10px;*/
 }
+.footer_sup {
+	width: 770px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.footer_med {
+	background-image: url("/images/barra_pie.jpg");
+	width: 770px;
+	height: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+
+}
+
+.footer_inf {
+	width: 770px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:2px;
+}
+
 .ep_tm_footer hr {
 	display: none;
 }
