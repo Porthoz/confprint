@@ -1,9 +1,14 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE page SYSTEM "entities.dtd" >
 <xpage:page xmlns="http://www.w3.org/1999/xhtml" xmlns:xpage="http://eprints.org/ep3/xpage" xmlns:epc="http://eprints.org/ep3/control">
-<xpage:title>Guías dos campos musicais</xpage:title>
+<xpage:title>Guías</xpage:title>
 <xpage:body>
 
+<h2>Guía de uso da páxina de busca</h2>
+<ul>
+	<li><a href="{$config{http_url}}/documentos/guias/guia_busca.pdf"> Páxina de busca</a></li>
+</ul>
+<h2>Guías dos campos musicais</h2>
 <ul>
 	<li><a href="{$config{http_url}}/documentos/guias/guia_ambito.pdf">Ámbito</a></li>
 	<li><a href="{$config{http_url}}/documentos/guias/guia_cadencias.pdf">Cadencias</a></li>

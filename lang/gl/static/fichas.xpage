@@ -5,15 +5,23 @@
 <xpage:body>
 <h2>Compiladores</h2>
 <ul>
+	<li><a href="{$config{http_url}}/documentos/compiladores/Garcia-Orellan_Rosa.pdf">García-Orellán, Rosa</a></li>
 	<li><a href="{$config{http_url}}/documentos/compiladores/com1.pdf">González, Anxo</a></li>
+	<li><a href="{$config{http_url}}/documentos/compiladores/Gonzalez_Reboredo_Xose_Manuel.pdf">González Reboredo, Xosé Manuel</a></li>
 	<li><a href="{$config{http_url}}/documentos/compiladores/com2.pdf"> Iglesias, Baldomero</a></li>
+	<li><a href="{$config{http_url}}/documentos/compiladores/Mariño_Ferro_Xose_Ramon.pdf">Mariño Ferro, Xosé Ramón</a></li>
 	<li><a href="{$config{http_url}}/documentos/compiladores/com3.pdf">Mato, Xesús</a></li>
 	<li><a href="{$config{http_url}}/documentos/compiladores/com4.pdf">Montes, Manuel </a></li>
 	<li><a href="{$config{http_url}}/documentos/compiladores/com5.pdf">Parga, Juan</a></li>
-	<li><a href="{$config{http_url}}/documentos/informantes/inf46.pdf">Pérez, Manuel</a></li>
+	<li><a href="{$config{http_url}}/documentos/compiladores/Manuel_Perez_Mendez.pdf">Pérez, Manuel</a></li>
 	<li><a href="{$config{http_url}}/documentos/compiladores/com6.pdf">Presedo, Dolores</a></li>
 	<li><a href="{$config{http_url}}/documentos/compiladores/com7.pdf">Rivas, Xosé Luís</a></li>
-	<li><a href="{$config{http_url}}/documentos/informantes/inf71.pdf">Xamaraina</a></li>
+	<li><a href="{$config{http_url}}/documentos/compiladores/Vilar_Alvarez_Manuel.pdf">Vilar Álvarez, Manuel</a></li>
+	<li><a href="{$config{http_url}}/documentos/compiladores/Xamaraina.pdf">Xamaraina</a></li>
+
+	
+
+
 
 </ul>
 
@@ -90,18 +98,6 @@
 	<li><a href="{$config{http_url}}/documentos/informantes/inf69.pdf">Veloso, Álvaro "de Forgas"</a></li>
 	<li><a href="{$config{http_url}}/documentos/informantes/inf70.pdf">Veloso, José "Pepe de Forgas"</a></li>
 
-
-
-
-
-
-
-
-
-
-	
-
-
 	
 </ul>
 
@@ -117,6 +113,7 @@
 <ul>
 	<li><a href="{$config{http_url}}/documentos/dixitalizadores/dix1.pdf">Cesar Martínez</a></li>
 	<li><a href="{$config{http_url}}/documentos/dixitalizadores/dix2.pdf">Francisco Cerdeira</a></li>
+	<li><a href="{$config{http_url}}/documentos/dixitalizadores/Dixitalizador_Manuel_Varela.pdf">Manuel Varela</a></li>
 
 </ul>
 

@@ -1,9 +1,9 @@
 # types for document 
 
-text
-slideshow
-image
-video
 audio
+video
+text
+image
+slideshow
 archive
 other

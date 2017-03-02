@@ -24,8 +24,14 @@
 <if test="is_set(loc_concello)">(<print expr="loc_concello"/>).</if>
 
 <cite:linkhere><xhtml:em class="enlace_peza" style="font-weight:bold;"><print expr="title" opts="magicstop"/></xhtml:em></cite:linkhere>
-<if test="is_set(tipo_peza)">[<print expr="tipo_peza"/>]</if>
- 
+
+<if test="is_set(informantes)">
+
+	<foreach expr="informantes_name" iterator="name">
+ 		[<print expr="$name"/>]
+ 	</foreach>
+
+</if>
 
 
 <if test=" ! type.one_of( 'patent','thesis' )">

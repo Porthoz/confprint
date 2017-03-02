@@ -91,7 +91,8 @@
   <table class="table table-striped" style="margin-bottom: 1em; margin-top: 1em;" cellpadding="3">
 
   <epc:comment>
-    METADATO:Tipo /non aparece
+    METADATO:Tipo de rexistro
+   </epc:comment>
  
     <tr>
       <th align="right"><epc:phrase ref="eprint_fieldname_type" />:</th>
@@ -99,10 +100,9 @@
         <epc:print expr="type" />
       </td>
     </tr>
-   </epc:comment>
 
     <epc:comment>
-    METADATO:Tipo de peza
+    METADATO:Feito rexistrado
   </epc:comment>
     <epc:if test="is_set(tipo_peza)">
       <tr>
@@ -110,6 +110,26 @@
         <td><epc:print expr="tipo_peza"/></td>
       </tr>  
     </epc:if>
+
+  <epc:comment>
+    METADATO:Materias
+  </epc:comment>
+    <epc:if test="is_set(subjects)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_subjects" />:</th>
+        <td><epc:print expr="subjects"/></td>
+      </tr>  
+    </epc:if>
+
+  <epc:comment>
+    METADATO:Colección
+  </epc:comment>
+    <epc:if test="is_set(coleccion)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_coleccion" />:</th>
+        <td><epc:print expr="coleccion"/></td>
+      </tr>  
+    </epc:if>  
 
   <epc:comment>
     METADATO:Compilador
@@ -120,7 +140,36 @@
         <td><epc:print expr="creators_name"/></td>
       </tr>  
     </epc:if>
-    
+
+  <epc:comment>
+    METADATO:realizador_recolla
+  </epc:comment>
+    <epc:if test="is_set(realizador_recolla_name)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_realizador_recolla" />:</th>
+        <td><epc:print expr="realizador_recolla_name"/></td>
+      </tr>  
+    </epc:if>
+<epc:comment>
+    METADATO:Informantes
+  </epc:comment>
+    <epc:if test="is_set(informantes_name)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_informantes" />:</th>
+        <td><epc:print expr="informantes_name"/></td>
+      </tr>  
+    </epc:if>
+
+    <epc:comment>
+    METADATO:Grupo
+  </epc:comment>
+    <epc:if test="is_set(informante_grupo_nome)">
+      <tr>
+        <th align="right">Informantes&#32;/&#32;<epc:phrase ref="eprint_fieldname_informante_grupo_nome" />:</th>
+        <td><epc:print expr="informante_grupo_nome"/></td>
+      </tr>  
+    </epc:if>
+
   <epc:comment>
     METADATO:Lugar de compilación
   </epc:comment>
@@ -145,109 +194,7 @@
       </tr>  
     </epc:if>
 
-      <epc:comment>
-    METADATO:realizador_recolla
-  </epc:comment>
-    <epc:if test="is_set(realizador_recolla_name)">
-      <tr>
-        <th align="right"><epc:phrase ref="eprint_fieldname_realizador_recolla" />:</th>
-        <td><epc:print expr="realizador_recolla_name"/></td>
-      </tr>  
-    </epc:if>
-
-    <epc:comment>
-    METADATO:Colección
-  </epc:comment>
-    <epc:if test="is_set(coleccion)">
-      <tr>
-        <th align="right"><epc:phrase ref="eprint_fieldname_coleccion" />:</th>
-        <td><epc:print expr="coleccion"/></td>
-      </tr>  
-    </epc:if>
-
-
-    <epc:comment>
-    METADATO:Materias
-  </epc:comment>
-    <epc:if test="is_set(subjects)">
-      <tr>
-        <th align="right"><epc:phrase ref="eprint_fieldname_subjects" />:</th>
-        <td><epc:print expr="subjects"/></td>
-      </tr>  
-    </epc:if>
-
-    <epc:comment>
-    METADATO:Tipo de soporte
-  </epc:comment>
-    <epc:if test="is_set(tipo_soporte)">
-      <tr>
-        <th align="right"><epc:phrase ref="eprint_fieldname_tipo_soporte" />:</th>
-        <td><epc:print expr="tipo_soporte"/></td>
-      </tr>  
-    </epc:if>
-
-
-    <epc:comment>
-    METADATO:Informantes
-  </epc:comment>
-    <epc:if test="is_set(informantes_name)">
-      <tr>
-        <th align="right"><epc:phrase ref="eprint_fieldname_informantes" />:</th>
-        <td><epc:print expr="informantes_name"/></td>
-      </tr>  
-    </epc:if>
-
-    <epc:comment>
-    METADATO:Grupo
-  </epc:comment>
-    <epc:if test="is_set(informante_grupo_nome)">
-      <tr>
-        <th align="right">Informantes&#32;/&#32;<epc:phrase ref="eprint_fieldname_informante_grupo_nome" />:</th>
-        <td><epc:print expr="informante_grupo_nome"/></td>
-      </tr>  
-    </epc:if>
-
-    <epc:comment>
-    METADATO:transcriptores
-  </epc:comment>
-    <epc:if test="is_set(transcriptores_name)">
-      <tr>
-        <th align="right"><epc:phrase ref="eprint_fieldname_transcriptores" />:</th>
-        <td><epc:print expr="transcriptores_name"/></td>
-      </tr>  
-    </epc:if>
-
-    <epc:comment>
-    METADATO:data_transcricion
-  </epc:comment>
-    <epc:if test="is_set(data_transcricion)">
-      <tr>
-        <th align="right"><epc:phrase ref="eprint_fieldname_data_transcricion" />:</th>
-        <td><epc:print expr="data_transcricion"/></td>
-      </tr>  
-    </epc:if>
-
      <epc:comment>
-    METADATO:dixitalizadores
-  </epc:comment>
-    <epc:if test="is_set(dixitalizadores_name)">
-      <tr>
-        <th align="right"><epc:phrase ref="eprint_fieldname_dixitalizadores" />:</th>
-        <td><epc:print expr="dixitalizadores_name"/></td>
-      </tr>  
-    </epc:if>
-
-    <epc:comment>
-    METADATO:data_dixitalizacion
-  </epc:comment>
-    <epc:if test="is_set(data_dixitalizacion)">
-      <tr>
-        <th align="right"><epc:phrase ref="eprint_fieldname_data_dixitalizacion" />:</th>
-        <td><epc:print expr="data_dixitalizacion"/></td>
-      </tr>  
-    </epc:if>
-
-    <epc:comment>
     METADATO:duracion_corte
   </epc:comment>
     <epc:if test="is_set(duracion_corte)">
@@ -266,7 +213,67 @@
         </td>
       </tr>  
     </epc:if>
+
+    <epc:comment>
+    METADATO:Tipo de soporte
+  </epc:comment>
+    <epc:if test="is_set(tipo_soporte)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_tipo_soporte" />:</th>
+        <td><epc:print expr="tipo_soporte"/></td>
+      </tr>  
+    </epc:if>
+
+    <epc:comment>
+    METADATO:data_dixitalizacion
+  </epc:comment>
+    <epc:if test="is_set(data_dixitalizacion)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_data_dixitalizacion" />:</th>
+        <td><epc:print expr="data_dixitalizacion"/></td>
+      </tr>  
+    </epc:if>
+
+    <epc:comment>
+    METADATO:dixitalizadores
+  </epc:comment>
+    <epc:if test="is_set(dixitalizadores_name)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_dixitalizadores" />:</th>
+        <td><epc:print expr="dixitalizadores_name"/></td>
+      </tr>  
+    </epc:if>
+
+    <epc:comment>
+    METADATO:data_transcricion
+  </epc:comment>
+    <epc:if test="is_set(data_transcricion)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_data_transcricion" />:</th>
+        <td><epc:print expr="data_transcricion"/></td>
+      </tr>  
+    </epc:if>
     
+    <epc:comment>
+    METADATO:transcriptores
+  </epc:comment>
+    <epc:if test="is_set(transcriptores_name)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_transcriptores" />:</th>
+        <td><epc:print expr="transcriptores_name"/></td>
+      </tr>  
+    </epc:if>
+
+     <epc:comment>
+    METADATO:referencia do arquivo principal
+  </epc:comment>
+    <epc:if test="is_set(ref_soporte)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_ref_soporte" />:</th>
+        <td><epc:print expr="ref_soporte"/></td>
+      </tr>  
+    </epc:if>
+       
     <epc:comment> 
        Metadatos actualizados automáticamente en eprints_render.pl
     </epc:comment>
@@ -508,6 +515,15 @@
     <p style="text-align: left; margin: 1em auto 0em auto"><epc:print expr="notas_informante" /></p>
   </epc:if>
 
+    <epc:comment>
+    METADATO:notas_dixitalizacion
+  </epc:comment>
+  
+  <epc:if test="notas_dixitalizacion">
+    <h2 class="bold"><epc:phrase ref="eprint_fieldname_notas_dixitalizacion"/></h2>
+    <p style="text-align: left; margin: 1em auto 0em auto"><epc:print expr="notas_dixitalizacion" /></p>
+  </epc:if>
+
   <epc:comment>
     METADATO:notas_musica
   </epc:comment>
@@ -515,15 +531,6 @@
   <epc:if test="notas_musica">
     <h2 class="bold"><epc:phrase ref="eprint_fieldname_notas_musica"/></h2>
     <p style="text-align: left; margin: 1em auto 0em auto"><epc:print expr="notas_musica" /></p>
-  </epc:if>
-
-  <epc:comment>
-    METADATO:notas_dixitalizacion
-  </epc:comment>
-  
-  <epc:if test="notas_dixitalizacion">
-    <h2 class="bold"><epc:phrase ref="eprint_fieldname_notas_dixitalizacion"/></h2>
-    <p style="text-align: left; margin: 1em auto 0em auto"><epc:print expr="notas_dixitalizacion" /></p>
   </epc:if>
 
     <epc:comment>

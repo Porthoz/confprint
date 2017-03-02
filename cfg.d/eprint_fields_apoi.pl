@@ -19,7 +19,7 @@ push @{$c->{fields}->{eprint}},
 {
 	name => 'ref_soporte',
 	type => 'text',
-        render_value => 'EPrints::Extras::render_preformatted_field',
+       # render_value => 'EPrints::Extras::render_preformatted_field',
 },
 
 # Título descriptivo da peza

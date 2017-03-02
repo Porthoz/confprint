@@ -22,7 +22,7 @@
 
     <epp:phrase id="eprint_fieldopt_tipo_soporte_cinta">Cinta magnetofónica</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_tipo_soporte">Tipo de soporte</epp:phrase>
+    <epp:phrase id="eprint_fieldname_tipo_soporte">Soporte orixinal</epp:phrase>
 
     <epp:phrase id="eprint_fieldhelp_tipo_soporte">Axuda tipo de soporte</epp:phrase>
 
@@ -44,7 +44,7 @@
 
     <epp:phrase id="eprint_fieldname_informantes_id">Email</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_ref_soporte">Referencia do soporte orixinal</epp:phrase>
+    <epp:phrase id="eprint_fieldname_ref_soporte">Referencia do arquivo principal</epp:phrase>
 
     <epp:phrase id="eprint_radio_estudada">Peza estudada</epp:phrase>
 
@@ -54,7 +54,7 @@
 
     <epp:phrase id="eprint_fieldhelp_estudada">Axuda Estudada</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_texto_peza">Transcrición da peza</epp:phrase>
+    <epp:phrase id="eprint_fieldname_texto_peza">Transcrición do texto</epp:phrase>
 
     <epp:phrase id="eprint_fieldhelp_coleccion">Axuda colección</epp:phrase>
 
@@ -68,7 +68,7 @@
 
     <epp:phrase id="eprint_fieldname_coleccion">Colección</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_tipo_peza">Tipo de rexistro</epp:phrase>
+    <epp:phrase id="eprint_fieldname_tipo_peza">Feito rexistrado</epp:phrase>
 
     <epp:phrase id="eprint_fieldopt_tipo_peza_coleccions">Colección</epp:phrase>
 
@@ -76,7 +76,7 @@
 
     <epp:phrase id="eprint_fieldopt_tipo_peza_relato">Relato</epp:phrase>
 
-    <epp:phrase id="eprint_fieldopt_tipo_peza_rexistro">Gravación en vivo</epp:phrase>
+    <epp:phrase id="eprint_fieldopt_tipo_peza_rexistro">Evento</epp:phrase>
 
     <epp:phrase id="eprint_typename_other">Outro</epp:phrase>
 
@@ -94,7 +94,7 @@
 
     <epp:phrase id="lib/metafield:year">Ano:</epp:phrase>
 
-    <epp:phrase id="cgi/advsearch:preamble"><p> Prema <a href="simple">aquí</a> para acceder á busca simple. </p></epp:phrase>
+    <epp:phrase id="cgi/advsearch:preamble"><p> Prema <a href="{$config{http_url}}/documentos/guias/guia_busca.pdf">aquí</a> para consultar a guía de uso da páxina de busca. </p></epp:phrase>
 
     <epp:phrase id="cgi/advsearch:adv_search">Busca por campos</epp:phrase>
 
@@ -178,7 +178,7 @@
 
     <epp:phrase id="Plugin/Screen/Admin:admin_actions_system">Ferramentas do sistema</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_type">Tipo</epp:phrase>
+    <epp:phrase id="eprint_fieldname_type">Tipo de rexistro</epp:phrase>
 
     <epp:phrase id="metapage_title_files">Subir</epp:phrase>
 
@@ -244,9 +244,9 @@
 
     <epp:phrase id="lib/searchexpression:action_reset">Limpar o formulario</epp:phrase>
 
-    <epp:phrase id="document_typename_archive">Arquivo</epp:phrase>
+    <epp:phrase id="document_typename_archive">Arquivo comprimido</epp:phrase>
 
-    <epp:phrase id="document_typename_other">Outro</epp:phrase>
+    <epp:phrase id="document_typename_other">Outros</epp:phrase>
 
     <epp:phrase id="lib/searchexpression:all">todas estas condicións</epp:phrase>
 
@@ -417,7 +417,7 @@ Seleccione unha ou varias opcións da lista. A opción por defecto e (calquera)<
 
     <epp:phrase id="eprint_fieldname_edit_lock">Pechar</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_documents">Documentos</epp:phrase>
+    <epp:phrase id="eprint_fieldname_documents">Texto nos documentos</epp:phrase>
 
     <epp:phrase id="eprint_fieldname_contact_email">Dirección de email de contacto</epp:phrase>
 
@@ -853,7 +853,7 @@ Seleccione unha ou varias opcións da lista. A opción por defecto e (calquera)<
 
     <epp:phrase id="Plugin/InputForm/Component/Documents:update">Actualizar metadato</epp:phrase>
 
-    <epp:phrase id="eprint_typename_rexistro_etnografico">Rexistro etnográfico xeral</epp:phrase>
+    <epp:phrase id="eprint_typename_rexistro_etnografico">Etnográfico xeral</epp:phrase>
 
     <epp:phrase id="eprint_fieldname_tempo">Tempo</epp:phrase>
 
@@ -867,7 +867,7 @@ Seleccione unha ou varias opcións da lista. A opción por defecto e (calquera)<
 
     <epp:phrase id="document_fieldopt_creador_archivo_tipo_transcriptor">Transcriptor</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_keywords">Palabras Chave</epp:phrase>
+    <epp:phrase id="eprint_fieldname_keywords">Palabras chave</epp:phrase>
 
     <epp:phrase id="eprint_fieldhelp_keywords">Palabras que describan o contido do rexistro
 Natural language terms to describe the content of the item</epp:phrase>
@@ -1341,5 +1341,41 @@ Natural language terms to describe the content of the item</epp:phrase>
     <epp:phrase id="tipo_instrumentos_typename_brindos">Brindos</epp:phrase>
 
     <epp:phrase id="tipo_xenero_typename_brindos">Brindos</epp:phrase>
+
+    <epp:phrase id="eprint_typename_peza_musical">Musical</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_titulo_da_peza">Título</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_incipit_do_texto">Íncipit textual</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_incipit_do_texto">Axuda íncipit do texto</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_incipit_melodico">Axuda íncipit melódico</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_incipit_do_texto_copla">Íncipit da copla</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_incipit_do_texto_refran">Íncipit do Refrán</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_incipit_melodico">Íncipit melódico</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_incipit_melodico_refran">Íncipit melódico (Refrán)</epp:phrase>
+
+    <epp:phrase id="viewtitle_eprint_informantes_list">Rexistros onde o Informante é "<epc:pin name="value1"/>"</epp:phrase>
+
+    <epp:phrase id="bin/generate_views:blurb"><div xmlns:epc="http://eprints.org/ep3/control" class="ep_view_blurb">Número de resultados: <strong><epc:pin name="n"/></strong>.</div></epp:phrase>
+
+    <epp:phrase id="bin/generate_views:subject_blurb"><div xmlns:epc="http://eprints.org/ep3/control" class="ep_view_blurb">Número de resultados a este nivel: <strong><epc:pin name="n"/></strong>.</div></epp:phrase>
+
+    <epp:phrase id="tipo_xenero_typename_alborada">Alborada</epp:phrase>
+
+    <epp:phrase id="tipo_xenero_typename_pasacorredoiras">Pasacorredoiras</epp:phrase>
+
+    <epp:phrase id="tipo_xenero_typename_preludio">Preludio</epp:phrase>
+
+    <epp:phrase id="tipo_xenero_typename_rumba">Rumba </epp:phrase>
+
+    <epp:phrase id="loc_estado_typename_estados_unidos">Estados Unidos</epp:phrase>
+
+    <epp:phrase id="loc_estado_typename_uruguai">Uruguai</epp:phrase>
 
 </epp:phrases>

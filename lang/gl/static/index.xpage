@@ -28,7 +28,7 @@ A pestana <a href="{$config{http_url}}/view"> Explorar</a> permite visualizar o 
 Pode tam&eacute;n premer a pestana <a href="{$config{perl_url}}/search/advanced"> Buscar</a> para efectuar procuras combinadas ou acoutar as buscas de texto a campos concretos.
 </p>
 <p class="intro_ppal">
-A pestana <a href="{$config{http_url}}/information.html">Informaci&oacute;n</a> cont&eacute;n datos xerais sobre o Arquivo. Ao situarse sobre ela aparecer&aacute;n outras tres pestanas: unha con <a href="{$config{http_url}}/guias.html"> gu&iacute;as</a> t&eacute;cnicas de axuda, outra con <a href="{$config{http_url}}/colecions.html"> descrici&oacute;ns das colecci&oacute;ns</a> que conforman o APOI, e unha &uacute;ltima con  <a href="{$config{http_url}}/fichas.html"> datos biogr&aacute;ficos</a> de compiladores, informantes, transcritores e dixitalizadores. 
+A pestana <a href="{$config{http_url}}/information.html">Informaci&oacute;n</a> cont&eacute;n datos xerais sobre o Arquivo. Ao situarse sobre ela aparecer&aacute;n outras tres pestanas: unha con <a href="{$config{http_url}}/guias.html"> gu&iacute;as</a> t&eacute;cnicas de axuda, outra con <a href="{$config{http_url}}/coleccions.html"> descrici&oacute;ns das colecci&oacute;ns</a> que conforman o APOI, e unha &uacute;ltima con  <a href="{$config{http_url}}/fichas.html"> datos biogr&aacute;ficos</a> de compiladores, informantes, transcritores e dixitalizadores. 
 </p>
 </div></div>
 <!-- <div class="ep_toolbox"><div class="ep_toolbox_content" >

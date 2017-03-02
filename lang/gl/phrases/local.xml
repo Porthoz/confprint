@@ -145,9 +145,10 @@ Views
 <epp:phrase id="descargar">Descargar</epp:phrase>
 
 <!--Vistas-->
- <epp:phrase id="viewtitle_eprint_divisions_menu_1">Navegar por localización</epp:phrase>
-     <epp:phrase id="viewtitle_eprint_divisions_menu_2"> Navegar por localización</epp:phrase>
-    <epp:phrase id="viewtitle_eprint_divisions_list">Rexitros compilados en "<epc:pin name="value1"/>"</epp:phrase>
+    <epp:phrase id="viewtitle_eprint_concello_menu_1">Explorar por localización</epp:phrase>
+    <epp:phrase id="viewtitle_eprint_concello_menu_2">Rexistros compilados na provincia: "<epc:pin name="value1"/>" </epp:phrase>
+    <epp:phrase id="viewtitle_eprint_concello_list">Rexistros compilados no concello: "<epc:pin name="value2"/> (<epc:pin name="value1"/>)"</epp:phrase>
+    
     <epp:phrase id="viewtitle_eprint_creators_list">Rexistros onde o Compilador é "<epc:pin name="value1"/>"</epp:phrase>
     <epp:phrase id="viewtitle_eprint_creators_menu_1">Explorar por Compilador</epp:phrase>
     <epp:phrase id="viewtitle_eprint_subjects_list">Rexistros que pertencen a "<epc:pin name="value1"/>"</epp:phrase>

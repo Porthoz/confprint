@@ -35,7 +35,7 @@
             </li>
 
             <li>
-              <a href="{$config{http_url}}/colecions.html">
+              <a href="{$config{http_url}}/coleccions.html">
                Fichas das coleccións
               </a>
            </li>

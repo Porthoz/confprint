@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE page SYSTEM "entities.dtd" >
+<xpage:page xmlns="http://www.w3.org/1999/xhtml" xmlns:xpage="http://eprints.org/ep3/xpage" xmlns:epc="http://eprints.org/ep3/control">
+<xpage:title>Fichas das coleccións</xpage:title>
+<xpage:body>
+
+<ul>
+	<li><a href="{$config{http_url}}/documentos/coleccions/01_COLECCION_BALDOMERO_IGLESIAS_(MERO).pdf">Colección Baldomero Iglesias (Mero)</a></li>
+	<li><a href="{$config{http_url}}/documentos/coleccions/02_COLECCION_XOSE_LUIS_RIVAS (MINI).pdf"> Colección Xosé Luís Rivas (Mini)</a></li>
+	<li><a href="{$config{http_url}}/documentos/coleccions/03_COLECCION_XESUS_MATO.pdf">Colección Xesús Mato</a></li>
+	<li><a href="{$config{http_url}}/documentos/coleccions/04_COLECCION_JUAN_PARGA.pdf">Colección Juan Parga </a></li>
+	<li><a href="{$config{http_url}}/documentos/coleccions/05_COLECCION_ASOCIACION_DE_GAITEIROS_GALEGOS.pdf">Colección Asociación de Gaiteiros Galegos</a></li>
+	<li><a href="{$config{http_url}}/documentos/coleccions/07_COLECCION_SCHUBARTH-SANTAMARINA.pdf">Colección Schubarth-Santamarina</a></li>
+	<li><a href="{$config{http_url}}/documentos/coleccions/08_COLECCION_XOSE_MANUEL_GONZALEZ_REBOREDO.pdf">Colección Xosé Manuel González Reboredo </a></li>
+	<li><a href="{$config{http_url}}/documentos/coleccions/09_COLECCION_MANUEL_VILAR.pdf">Colección Manuel Vilar</a></li>
+	<li><a href="{$config{http_url}}/documentos/coleccions/10_COLECCION_ROSA_GARCIA-ORELLAN.pdf">Colección Rosa García-Orellán</a></li>
+	<li><a href="{$config{http_url}}/documentos/coleccions/11_COLECCION_HENNINGSEN.pdf">Colección Henningsen</a></li>
+	
+</ul>
+
+</xpage:body>
+
+<!-- **************************************************
+
+This page, by default, only has the email address of 
+the site administrator ( taken from the primary XML
+file in opt/eprints3/archives/ ) 
+
+We suggest adding other contact information such as
+subject-editors, user-support and policy makers 
+emails, etc, as appropriate.
+
+It's handy having all the contact details on one 
+and only one page - it means that when they change
+you didn't forget to update them somewhere else.
+
+*************************************************** -->
+
+</xpage:page>
