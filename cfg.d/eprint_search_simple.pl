@@ -5,6 +5,7 @@ $c->{search}->{simple} =
 			id => "q",
 			meta_fields => [
 				"title",
+				"eprintid",
 				"abstract",
 				"ref_soporte",
 				"documents",

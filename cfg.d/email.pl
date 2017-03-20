@@ -8,7 +8,7 @@
 # repository   string   utf8   utf8      utf8      DOM    DOM   string    utf8
 #
 
-# $c->{send_email} = \&EPrints::Email::send_mail_via_sendmail;
+#$c->{send_email} = \&EPrints::Email::send_mail_via_sendmail;
 # $c->{send_email} = \&some_function;
 
 # Uses the smtp_server specified in SystemSettings
