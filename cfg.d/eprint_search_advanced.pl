@@ -2,6 +2,7 @@
 $c->{search}->{advanced} = 
 {
 	search_fields => [
+		{ meta_fields => [qw( eprintid )] },
 		{ meta_fields => [ "type" ] },
 		{ meta_fields => [ "tipo_peza" ] },
 		{ meta_fields => [ "documents.format" ] },

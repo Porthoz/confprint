@@ -93,8 +93,12 @@ Action buttons (Previous/Save/Next) can be shown "top", "bottom" or "both":
 		<field ref="texto_peza"/>
 		<field ref="transcriptores"/> 
 		<field ref="data_transcricion"/> 
+		<field ref="notas_texto" />
+		<field ref="notas_trans_texto" />
+		<field ref="transc_musica"/> 
+		<field ref="data_trans_musica"/>
 		<field ref="notas_musica" />
-		<field ref="notas_transcripcion" />
+		<field ref="notas_trans_musica" />
 	</component>
 
 	<!-- Metadatos suscritos á dixitalización -->

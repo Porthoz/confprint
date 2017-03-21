@@ -291,7 +291,7 @@ push @{$c->{fields}->{eprint}},
         #render_value => 'EPrints::Latex::render_string',
 },
 
-# Data de dixitalización
+# Data de transcripción do texto
 {
 	name => 'data_transcricion',
 	type => 'date',
@@ -299,7 +299,7 @@ push @{$c->{fields}->{eprint}},
 
 },
 
-# Transcriptor da peza
+# Transcriptor do texto
 {
 	name => 'transcriptores',
 	type => 'compound',
@@ -324,6 +324,38 @@ push @{$c->{fields}->{eprint}},
 	input_boxes => 2,
 },
 
+# Data de transcripción da música
+{
+	name => 'data_trans_musica',
+	type => 'date',
+	min_resolution => 'year',
+
+},
+
+# Transcriptor da música
+{
+	name => 'transc_musica',
+	type => 'compound',
+	multiple => 1,
+	render_value => \&render_lista_url,
+	fields => [
+		{
+			sub_name => 'name',
+			type => 'name',
+			hide_honourific => 1,
+			hide_lineage => 1,
+			family_first => 1,
+		},
+		
+		{
+			sub_name => 'id',
+			type => 'text',
+			input_cols => 5,
+			allow_null => 1,
+		},
+	],
+	input_boxes => 2,
+},
 
 
 ##############################################################
@@ -336,9 +368,11 @@ push @{$c->{fields}->{eprint}},
 	type => 'set',
 	multiple => 1,	
 	options => [qw(
+		casete
 		papel
 		cinta
 		fotografia
+		videocasete
 		otros
 	)],
 	input_style => 'medium',
@@ -590,6 +624,13 @@ push @{$c->{fields}->{eprint}},
 	render_value => 'EPrints::Latex::render_string',
 	input_rows => 3,
 },
+# notas sobre o texto
+{
+	name => 'notas_texto',
+	type => 'longtext',
+	render_value => 'EPrints::Latex::render_string',
+	input_rows => 3,
+},
 # notas sobre a dixitalización
 {
 	name => 'notas_dixitalizacion',
@@ -597,13 +638,22 @@ push @{$c->{fields}->{eprint}},
 	render_value => 'EPrints::Latex::render_string',
 	input_rows => 3,
 },
-# notas sobre a transcripción
+# notas sobre a transcripción do texto
 {
-	name => 'notas_transcripcion',
+	name => 'notas_trans_texto',
 	type => 'longtext',
 	render_value => 'EPrints::Latex::render_string',
 	input_rows => 3,
 },
+
+# notas sobre a transcripción da musica
+{
+	name => 'notas_trans_musica',
+	type => 'longtext',
+	render_value => 'EPrints::Latex::render_string',
+	input_rows => 3,
+},
+
 # notas xerais
 {
 	name => 'notas_xerais',

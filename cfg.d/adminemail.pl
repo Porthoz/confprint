@@ -1,1 +1,1 @@
-$c->{adminemail} = 'domingo@amaroukstudio.com';
+$c->{adminemail} = 'info@amaroukstudio.com';

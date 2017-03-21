@@ -91,6 +91,16 @@
   <table class="table table-striped" style="margin-bottom: 1em; margin-top: 1em;" cellpadding="3">
 
   <epc:comment>
+    METADATO:Palabras clave
+   </epc:comment>
+     <epc:if test="is_set(keywords)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_keywords" />:</th>
+        <td><epc:print expr="keywords"/></td>
+      </tr>  
+    </epc:if>
+
+  <epc:comment>
     METADATO:Tipo de rexistro
    </epc:comment>
  
@@ -245,7 +255,7 @@
     </epc:if>
 
     <epc:comment>
-    METADATO:data_transcricion
+    METADATO:data_transcricion do texto
   </epc:comment>
     <epc:if test="is_set(data_transcricion)">
       <tr>
@@ -255,12 +265,32 @@
     </epc:if>
     
     <epc:comment>
-    METADATO:transcriptores
+    METADATO:transcriptores do texto
   </epc:comment>
     <epc:if test="is_set(transcriptores_name)">
       <tr>
         <th align="right"><epc:phrase ref="eprint_fieldname_transcriptores" />:</th>
         <td><epc:print expr="transcriptores_name"/></td>
+      </tr>  
+    </epc:if>
+
+<epc:comment>
+    METADATO:data_transcricion da musica
+  </epc:comment>
+    <epc:if test="is_set(data_trans_musica)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_data_trans_musica" />:</th>
+        <td><epc:print expr="data_trans_musica"/></td>
+      </tr>  
+    </epc:if>
+<epc:comment>
+
+    METADATO:transcriptor da musica
+  </epc:comment>
+    <epc:if test="is_set(transc_musica_name)">
+      <tr>
+        <th align="right"><epc:phrase ref="eprint_fieldname_transc_musica_name" />:</th>
+        <td><epc:print expr="transc_musica_name"/></td>
       </tr>  
     </epc:if>
 
@@ -324,7 +354,7 @@
   <table class="table table-condensed table-striped">
       <tr class="success">
       <th>Datos musicais</th>
-      <th>Copla</th>
+      <th></th>
       <th>Refrán</th>
     </tr>
 
@@ -525,6 +555,33 @@
   </epc:if>
 
   <epc:comment>
+    METADATO:notas_texto
+  </epc:comment>
+  
+  <epc:if test="notas_texto">
+    <h2 class="bold"><epc:phrase ref="eprint_fieldname_notas_texto"/></h2>
+    <p style="text-align: left; margin: 1em auto 0em auto"><epc:print expr="notas_texto" /></p>
+  </epc:if>
+
+  <epc:comment>
+    METADATO:notas_transcripcion texto
+  </epc:comment>
+  
+  <epc:if test="notas_trans_texto">
+    <h2 class="bold"><epc:phrase ref="eprint_fieldname_notas_trans_texto"/></h2>
+    <p style="text-align: left; margin: 1em auto 0em auto"><epc:print expr="notas_trans_texto" /></p>
+  </epc:if>
+
+  <epc:comment>
+    METADATO:notas_transcripcion musica
+  </epc:comment>
+  
+  <epc:if test="notas_trans_musica">
+    <h2 class="bold"><epc:phrase ref="eprint_fieldname_notas_trans_musica"/></h2>
+    <p style="text-align: left; margin: 1em auto 0em auto"><epc:print expr="notas_trans_musica" /></p>
+  </epc:if>
+
+  <epc:comment>
     METADATO:notas_musica
   </epc:comment>
   
@@ -533,14 +590,7 @@
     <p style="text-align: left; margin: 1em auto 0em auto"><epc:print expr="notas_musica" /></p>
   </epc:if>
 
-    <epc:comment>
-    METADATO:notas_transcripcion
-  </epc:comment>
-  
-  <epc:if test="notas_transcripcion">
-    <h2 class="bold"><epc:phrase ref="eprint_fieldname_notas_transcripcion"/></h2>
-    <p style="text-align: left; margin: 1em auto 0em auto"><epc:print expr="notas_transcripcion" /></p>
-  </epc:if>
+    
 
     <epc:comment>
     METADATO:notas_xerais

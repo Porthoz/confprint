@@ -20,7 +20,7 @@
 
     <epp:phrase id="eprint_fieldopt_tipo_soporte_fotografia">Fotografía</epp:phrase>
 
-    <epp:phrase id="eprint_fieldopt_tipo_soporte_cinta">Cinta magnetofónica</epp:phrase>
+    <epp:phrase id="eprint_fieldopt_tipo_soporte_cinta">Carrete cinta magnetofónica</epp:phrase>
 
     <epp:phrase id="eprint_fieldname_tipo_soporte">Soporte orixinal</epp:phrase>
 
@@ -40,7 +40,7 @@
 
     <epp:phrase id="eprint_fieldname_estudada">Estudada</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_informantes">Informante</epp:phrase>
+    <epp:phrase id="eprint_fieldname_informantes">Informante / Grupo</epp:phrase>
 
     <epp:phrase id="eprint_fieldname_informantes_id">Email</epp:phrase>
 
@@ -170,7 +170,7 @@
 
     <epp:phrase id="eprint_fieldname_eprint_status">Estado do obxecto</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_eprintid">ID do obxecto</epp:phrase>
+    <epp:phrase id="eprint_fieldname_eprintid">ID do rexistro</epp:phrase>
 
     <epp:phrase id="lib/searchexpression:action_search">Buscar</epp:phrase>
 
@@ -890,7 +890,7 @@ Natural language terms to describe the content of the item</epp:phrase>
 
     <epp:phrase id="Plugin/InputForm/Component/Upload:help">Aquí pode subir arquivos ó repositorio</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_transcriptores">Transcritor</epp:phrase>
+    <epp:phrase id="eprint_fieldname_transcriptores">Transcritor do texto</epp:phrase>
 
     <epp:phrase id="eprint_fieldname_transcriptores_id">id</epp:phrase>
 
@@ -974,7 +974,7 @@ Natural language terms to describe the content of the item</epp:phrase>
 
     <epp:phrase id="eprint_fieldname_loc_parroquia">Parroquia</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_transcriptores_name">Transcriptor</epp:phrase>
+    <epp:phrase id="eprint_fieldname_transcriptores_name">Transcritor do texto</epp:phrase>
 
     <epp:phrase id="eprint_fieldopt_linguaxe_castelan">Castelán</epp:phrase>
 
@@ -998,7 +998,7 @@ Natural language terms to describe the content of the item</epp:phrase>
 
     <epp:phrase id="eprint_fieldname__loc_lugar">Lugar</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_informantes_name">Informante</epp:phrase>
+    <epp:phrase id="eprint_fieldname_informantes_name">Informante / Grupo</epp:phrase>
 
     <epp:phrase id="page:more">mais...</epp:phrase>
 
@@ -1156,7 +1156,7 @@ Natural language terms to describe the content of the item</epp:phrase>
 
     <epp:phrase id="eprint_fieldhelp_informante_grupo">-</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_informante_grupo">Informante/Grupo</epp:phrase>
+    <epp:phrase id="eprint_fieldname_informante_grupo">Informante / Grupo</epp:phrase>
 
     <epp:phrase id="eprint_fieldname_informante_grupo_id">ID</epp:phrase>
 
@@ -1292,7 +1292,7 @@ Natural language terms to describe the content of the item</epp:phrase>
 
     <epp:phrase id="eprint_fieldhelp_data_transcricion">-</epp:phrase>
 
-    <epp:phrase id="eprint_fieldname_data_transcricion">Data da transcrición</epp:phrase>
+    <epp:phrase id="eprint_fieldname_data_transcricion">Data da transcrición do texto</epp:phrase>
 
     <epp:phrase id="eprint_fieldname_realizador_recolla_name">nome</epp:phrase>
 
@@ -1377,5 +1377,23 @@ Natural language terms to describe the content of the item</epp:phrase>
     <epp:phrase id="loc_estado_typename_estados_unidos">Estados Unidos</epp:phrase>
 
     <epp:phrase id="loc_estado_typename_uruguai">Uruguai</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_notas_texto">Notas sobre o texto</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_notas_trans_musica">Notas sobre a transcrición da música</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_notas_trans_texto">Notas sobre a transcrición do texto</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_data_trans_musica">Data da transcrición da música</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_transc_musica">Transcritor da música</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_transc_musica_id">url</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_transc_musica_name">Transcritor da música</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_tipo_soporte_videocasete">Videocasete (VHS)</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_tipo_soporte_casete">Casete</epp:phrase>
 
 </epp:phrases>
