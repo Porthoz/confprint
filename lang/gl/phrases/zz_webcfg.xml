@@ -20,7 +20,7 @@
 
     <epp:phrase id="eprint_fieldopt_tipo_soporte_fotografia">Fotografía</epp:phrase>
 
-    <epp:phrase id="eprint_fieldopt_tipo_soporte_cinta">Carrete cinta magnetofónica</epp:phrase>
+    <epp:phrase id="eprint_fieldopt_tipo_soporte_cinta">Carrete de cinta magnetofónica</epp:phrase>
 
     <epp:phrase id="eprint_fieldname_tipo_soporte">Soporte orixinal</epp:phrase>
 
