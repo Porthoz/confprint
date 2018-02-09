@@ -9,6 +9,8 @@
 	<li><a href="{$config{http_url}}/documentos/compiladores/com1.pdf">González, Anxo</a></li>
 	<li><a href="{$config{http_url}}/documentos/compiladores/Gonzalez_Reboredo_Xose_Manuel.pdf">González Reboredo, Xosé Manuel</a></li>
 	<li><a href="{$config{http_url}}/documentos/compiladores/com2.pdf"> Iglesias, Baldomero</a></li>
+        <li><a href="{$config{http_url}}/documentos/compiladores/Manteiga_Rodriguez_Francisco.pdf"> Manteiga Rodríguez, Francisco</a></li>
+        <li><a href="{$config{http_url}}/documentos/compiladores/Marcos_Cives_Ismael.pdf"> Marcos Cives, Ismael</a></li>
 	<li><a href="{$config{http_url}}/documentos/compiladores/Mariño_Ferro_Xose_Ramon.pdf">Mariño Ferro, Xosé Ramón</a></li>
 	<li><a href="{$config{http_url}}/documentos/compiladores/com3.pdf">Mato, Xesús</a></li>
 	<li><a href="{$config{http_url}}/documentos/compiladores/com4.pdf">Montes, Manuel </a></li>

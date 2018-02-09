@@ -70,7 +70,7 @@ Para buscar neste arquivo sobre unha selecci&oacute;n de campos. Use o campo na 
 
 <div class="ep_toolbox" ><div class="ep_toolbox_content" >
  <span style="font-weight:bold;">Novo contido</span><br /><br />
-  Prema <a href="{$config{perl_url}}/latest">aqu&iacute;</a> para ver os &uacute;ltimos rexistros engadidos ao arquivo nos &uacute;ltimos sete d&iacute;as.  
+  Prema <span style="font-weight:bold;"><a href="{$config{perl_url}}/latest">aqu&iacute;</a> </span>para ver os &uacute;ltimos rexistros engadidos ao arquivo nos &uacute;ltimos sete d&iacute;as.  
 </div></div>
 
 <div class="ep_toolbox"><div class="ep_toolbox_content" >
