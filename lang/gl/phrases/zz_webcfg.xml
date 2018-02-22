@@ -631,7 +631,7 @@ Seleccione unha ou varias opcións da lista. A opción por defecto e (calquera)<
 
     <epp:phrase id="subject_fieldname_name_name">Nome</epp:phrase>
 
-    <epp:phrase id="subject_fieldname_subjectid">Áreas de coñecemento ID String</epp:phrase>
+    <epp:phrase id="subject_fieldname_subjectid">ID da nova materia (sen espazos)</epp:phrase>
 
     <epp:phrase id="Plugin/Screen/Review:title">Revisión</epp:phrase>
 
@@ -1170,7 +1170,7 @@ Natural language terms to describe the content of the item</epp:phrase>
 
     <epp:phrase id="eprint_fieldname_realizador_recolla_url">url</epp:phrase>
 
-    <epp:phrase id="Plugin/Screen/Subject/Edit:children">Fillo</epp:phrase>
+    <epp:phrase id="Plugin/Screen/Subject/Edit:children">Fillos desta materia</epp:phrase>
 
     <epp:phrase id="lib/session:edit_page">Editar páxina</epp:phrase>
 
@@ -1395,5 +1395,11 @@ Natural language terms to describe the content of the item</epp:phrase>
     <epp:phrase id="eprint_fieldopt_tipo_soporte_videocasete">Videocasete (VHS)</epp:phrase>
 
     <epp:phrase id="eprint_fieldopt_tipo_soporte_casete">Casete</epp:phrase>
+
+    <epp:phrase id="lib/submissionform:action_create">Crear</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Subject/Edit:existing">Enlazar coa materia</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Subject/Edit:eprints">Nº Rexistros</epp:phrase>
 
 </epp:phrases>
