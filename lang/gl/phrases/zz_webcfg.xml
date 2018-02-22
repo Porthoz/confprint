@@ -1402,4 +1402,51 @@ Natural language terms to describe the content of the item</epp:phrase>
 
     <epp:phrase id="Plugin/Screen/Subject/Edit:eprints">Nº Rexistros</epp:phrase>
 
+    <epp:phrase id="Plugin/Screen/Subject/Edit:added">Creada a nova materia con ID "<epc:pin name="newchild"/>". Por favor introduza agora o nome da materia e estableza se é unha meteria na que se poden depositar rexistros.
+</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Subject/Edit:confirm_form">Desenlazar esta materia provacará a sua eliminación permanente. Esta seguro? <epc:pin name="form"/></epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Subject/Edit:exists">
+Xa existe unha materia con este ID</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Subject/Edit:linked">Enlazado el nodo de materia existente "<epc:pin name="newchild"/>" como fillo deste nodo de materia
+
+</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Subject/Edit:loop">Unha referencia circular foi detectada con <b xmlns:epc="http://eprints.org/ep3/control"><epc:pin name="id"/></b>.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Subject/Edit:no_such_subject">Non existe a materia: <epc:pin name="id"/>.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Subject/Edit:problem_noid">Non existe ID Para o novo fillo</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Subject/Edit:removed">
+Materia eliminada. Este nodo de materia foi eliminado</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Subject/Edit:saved">Cambios gardados</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Subject/Edit:subjectid"><p xmlns:epc="http://eprints.org/ep3/control">ID materia: <epc:pin name="id"/></p></epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Subject/Edit:unlinked">
+Materia desenlazada. Este nodo de materia inda existe noutros lugares da árbore de materias</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/User/Edit:description">
+Edita a sua información de conta</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/User/Edit:next">Seguinte</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/User/Edit:prev">Anterior</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/User/Edit:save">Gardar</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/User/Edit:stop">Cancelar</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/User/Edit:title">Modificar perfil</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Subject/Edit:problem_ancestor">O novo fillo e o ancestro desta materia (Esto podería causar un bucle)</epp:phrase>
+
+    <epp:phrase id="subject_radio_depositable">
+
+<label xmlns:epc="http://eprints.org/ep3/control"><epc:pin name="true"/>Si, os usuarios poderán engadir rexitros a esta materia</label><br/><label xmlns:epc="http://eprints.org/ep3/control"><epc:pin name="false"/>No. (Probablemente esta materia teña algún fillo).</label></epp:phrase>
+
 </epp:phrases>
